@@ -149,13 +149,13 @@ Os recursos do jogo estão organizados em pastas para facilitar o desenvolviment
   </tr>
   <tr>
     <td align="center" valign="top">
-      <sub>Desenvolvedor e designer gráfico</sub>
+      <sub>Desenvolvedor e Designer Gráfico</sub>
     </td>
     <td align="center" valign="top">
       <sub>Desenvolvedor</sub>
     </td>
     <td align="center" valign="top">
-      <sub>Game Designer Educacional e roteirista</sub>
+      <sub>Game Designer Educacional e Roteirista</sub>
     </td>
     <td align="center" valign="top">
       <sub>Game Designer Educacional</sub>
