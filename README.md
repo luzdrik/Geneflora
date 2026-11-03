@@ -132,13 +132,13 @@ Os recursos do jogo estão organizados em pastas para facilitar o desenvolviment
       </a>
     </td>
     <td align="center" width="25%">
-      <img src="https://via.placeholder.com/100" width="100" alt="Lucas Toshio" />
+      <img src="https://avatars.githubusercontent.com/u/101885085?v=4" width="100" alt="Lucas Toshio" />
     </td>
     <td align="center" width="25%">
       <img src="https://avatars.githubusercontent.com/u/107573009?v=4" width="100" alt="Sarah Lima" />
     </td>
     <td align="center" width="25%">
-      <img src="https://via.placeholder.com/100" width="100" alt="Vanessa Alves" />
+      <img src="https://avatars.githubusercontent.com/u/89167041?v=4" width="100" alt="Vanessa Alves" />
     </td>
   </tr>
   <tr>
