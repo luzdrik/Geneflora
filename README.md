@@ -5,15 +5,15 @@
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-darkviolet?style=for-the-badge)
 
-<table align="center">
+<table align="center" border="0" style="border: none;">
   <tr>
-    <td align="center">
+    <td align="center" style="border: none;">
       <img src="https://i.imgur.com/kwIVc2t.png" width="350" />
     </td>
-    <td align="center">
+    <td align="center" style="border: none;">
       <img src="Projeto-Geneflora/docs/logo-geneflora.png" alt="Logo Geneflora" width="300" />
     </td>
-    <td align="center">
+    <td align="center" style="border: none;">
       <img src="https://i.imgur.com/kwIVc2t.png" width="350" />
     </td>
   </tr>
