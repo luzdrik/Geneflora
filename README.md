@@ -1,5 +1,5 @@
 <h1 align="left">
-  <img src="https://media.tenor.com/hcI3W7YppHEAAAAj/flowers-glitter.gif" width="35" align="center" />
+  <img src="https://media.tenor.com/hcI3W7YppHEAAAAj/flowers-glitter.gif" width="35" align="absmiddle" />
   Geneflora
 </h1>
 
@@ -11,7 +11,7 @@
       <img src="https://i.imgur.com/kwIVc2t.png" width="350" />
     </td>
     <td align="center">
-      <img src="Docs/logo-geneflora.png" alt="Logo Geneflora" width="300" />
+      <img src="Projeto-Geneflora/Docs/logo-geneflora.png" alt="Logo Geneflora" width="300" />
     </td>
     <td align="center">
       <img src="https://i.imgur.com/kwIVc2t.png" width="350" />
@@ -149,13 +149,13 @@ Os recursos do jogo estão organizados em pastas para facilitar o desenvolviment
   </tr>
   <tr>
     <td align="center" valign="top">
-      <sub>Desenvolvedor e designer gráfico</sub>
+      <sub>Desenvolvedor <br />e designer gráfico</sub>
     </td>
     <td align="center" valign="top">
       <sub>Desenvolvedor</sub>
     </td>
     <td align="center" valign="top">
-      <sub>Game Designer Educacional e roteirista</sub>
+      <sub>Game Designer Educacional<br />e roteirista</sub>
     </td>
     <td align="center" valign="top">
       <sub>Game Designer Educacional</sub>
