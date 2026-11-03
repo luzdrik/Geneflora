@@ -11,7 +11,7 @@
       <img src="https://i.imgur.com/kwIVc2t.png" width="350" />
     </td>
     <td align="center">
-      <img src="Projeto-Geneflora/Docs/logo-geneflora.png" alt="Logo Geneflora" width="300" />
+      <img src="Projeto-Geneflora/docs/logo-geneflora.png" alt="Logo Geneflora" width="300" />
     </td>
     <td align="center">
       <img src="https://i.imgur.com/kwIVc2t.png" width="350" />
