@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 286,
+    "build": 287,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -65,7 +65,7 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/Elementos Floricultura/Balcão Inicial.png",
+        "file": "assets/Atendimento/Balcão Inicial.png",
         "kind": "image",
         "metadata": "",
         "name": "Balcão.png",
@@ -73,7 +73,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Computador.png",
+        "file": "assets/Atendimento/Computador.png",
         "kind": "image",
         "metadata": "",
         "name": "Computador.png",
@@ -81,15 +81,15 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cenários/1.png",
+        "file": "assets/Cenários/Atendimento/1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Fundo.png",
+        "name": "Fundo Atendimento.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Maquininha.png",
+        "file": "assets/Atendimento/Maquininha.png",
         "kind": "image",
         "metadata": "",
         "name": "Maquininha.png",
@@ -97,7 +97,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Flor Suspensa 1.png",
+        "file": "assets/Atendimento/Flor Suspensa 1.png",
         "kind": "image",
         "metadata": "",
         "name": "Flor Suspensa 1.png",
@@ -105,7 +105,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Flor Suspensa 2.png",
+        "file": "assets/Atendimento/Flor Suspensa 2.png",
         "kind": "image",
         "metadata": "",
         "name": "Flor Suspensa 2.png",
@@ -113,7 +113,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Entrada Deco.png",
+        "file": "assets/Atendimento/Entrada Deco.png",
         "kind": "image",
         "metadata": "",
         "name": "Entrada Deco.png",
@@ -121,7 +121,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Parede Deco 1.png",
+        "file": "assets/Atendimento/Parede Deco 1.png",
         "kind": "image",
         "metadata": "",
         "name": "Parede Deco 1.png",
@@ -129,47 +129,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Quadro Deco 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Quadro Deco 2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Elementos Floricultura/Regador.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Regador.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Elementos Floricultura/Girassol Deco.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Girassol Deco.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Elementos Floricultura/Balcão Deco.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Balcão Deco.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Elementos Floricultura/Prateleira.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Prateleira.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Elementos Floricultura/Quadro Deco 1.png",
+        "file": "assets/Atendimento/Quadro Deco 1.png",
         "kind": "image",
         "metadata": "",
         "name": "Quadro Deco 1.png",
@@ -177,7 +137,47 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Buquê.png",
+        "file": "assets/Atendimento/Quadro Deco 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Quadro Deco 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Atendimento/Regador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Regador.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Atendimento/Girassol Deco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Girassol Deco.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Atendimento/Balcão Deco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Balcão Deco.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Atendimento/Prateleira.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Prateleira.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Atendimento/Buquê.png",
         "kind": "image",
         "metadata": "",
         "name": "Buquê.png",
@@ -219,7 +219,7 @@
         "file": "assets/IU/SímboloAceitar.png",
         "kind": "image",
         "metadata": "",
-        "name": "SímboloAceitar.png",
+        "name": "Símbolo Aceitar.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -227,7 +227,7 @@
         "file": "assets/IU/SímboloRecusar.png",
         "kind": "image",
         "metadata": "",
-        "name": "SímboloRecusar.png",
+        "name": "Símbolo Recusar.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -235,7 +235,7 @@
         "file": "assets/IU/Botão1.png",
         "kind": "image",
         "metadata": "",
-        "name": "BotãoVerde.png",
+        "name": "Botão Verde.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -243,7 +243,7 @@
         "file": "assets/IU/Botão2.png",
         "kind": "image",
         "metadata": "",
-        "name": "BotãoVermelho.png",
+        "name": "Botão Vermelho.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -251,7 +251,7 @@
         "file": "assets/IU/AceitarBotão.png",
         "kind": "image",
         "metadata": "",
-        "name": "AceitarBotão.png",
+        "name": "Aceitar Botão.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -259,7 +259,7 @@
         "file": "assets/IU/RecusarBotão.png",
         "kind": "image",
         "metadata": "",
-        "name": "RecusarBotão.png",
+        "name": "Recusar Botão.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -274,7 +274,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Elementos Floricultura/Campainha Dourada.png",
+        "file": "assets/Atendimento/Campainha Dourada.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Elementos Floricultura/Campainha Dourada.png",
@@ -293,39 +293,111 @@
         "file": "assets/IU/AtendimentoBotao.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/IU/AtendimentoBotão.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IU/Cultivo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/IU/Cultivo.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IU/AtendimentoBotão1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/IU/AtendimentoBotão1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IU/AtendimentoBotão2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/IU/AtendimentoBotão2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IU/AtendimentoBotao.png",
-        "kind": "image",
-        "metadata": "",
         "name": "assets/IU/AtendimentoBotao.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/CaixaTerra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Caixa com Terra.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/Balcão.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Balcão Cultivo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cenários/Cultivo/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fundo Cultivo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Vasos/Vaso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Vasos/Vaso.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Ferramentas/Pá.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Ferramentas/Pá.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/aaaaaa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/aaaaaa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/FrenteCaixaTerra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/FrenteCaixaTerra.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Ferramentas/RegadorInicial.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Ferramentas/RegadorInicial.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_AA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_AA.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_Aa (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_Aa (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Insumos/Sementes/SementesLilás_aa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Insumos/Sementes/SementesLilás_aa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Insumos/Adubos/Adubo Dominante.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Insumos/Adubos/Adubo Dominante.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Insumos/Adubos/Adubo Recessivo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Insumos/Adubos/Adubo Recessivo.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -872,7 +944,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Fundo.png",
+                      "image": "Fundo Atendimento.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2021,7 +2093,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "AceitarBotão.png",
+                      "image": "Aceitar Botão.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3037,7 +3109,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3389693172845372,
+        "zoomFactor": 0.4335774304702418,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3056,7 +3128,247 @@
           "width": 99,
           "x": 1124,
           "y": 243,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 603,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Balcao",
+          "persistentUuid": "9a12c15a-cd8a-4e38-a3f5-5030c1f60faa",
+          "width": 923,
+          "x": 164,
+          "y": 320,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 743,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Fundo",
+          "persistentUuid": "83aff60f-692b-4efc-be37-3dab4c67c430",
+          "width": 1315,
+          "x": -14,
+          "y": -12,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 190,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CaixaTerra",
+          "persistentUuid": "c208fd62-06b5-43d9-a512-02c4b7b953ac",
+          "width": 229,
+          "x": 904,
+          "y": 141,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Vaso1",
+          "persistentUuid": "f481c580-b467-4262-b563-2428de82a03f",
+          "width": 220,
+          "x": 260,
+          "y": 399,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "locked": true,
+          "name": "Vaso1",
+          "persistentUuid": "3dd30ff3-a625-43c4-ab08-dc8f3d33cd2c",
+          "width": 220,
+          "x": 517,
+          "y": 399,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "locked": true,
+          "name": "Vaso2",
+          "persistentUuid": "e7a24b76-ac87-40b3-8b2c-60ddd2977b5c",
+          "width": 220,
+          "x": 772,
+          "y": 399,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 339,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pa",
+          "persistentUuid": "1a920a03-259f-4468-89ff-9c303a346371",
+          "width": 100,
+          "x": 970,
+          "y": 137,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Terra",
+          "persistentUuid": "a08066f8-f425-43a1-b662-6ece6057038b",
+          "width": 164,
+          "x": 936,
+          "y": 203,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Regador",
+          "persistentUuid": "2960207d-d9cf-4bc9-ac06-2d0ca8be4980",
+          "width": 154,
+          "x": 1050,
+          "y": 558,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SementesAmarelo_AA",
+          "persistentUuid": "23706959-35fa-4b43-b2d3-f49fb5d01c52",
+          "width": 107,
+          "x": 8,
+          "y": 20,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SementesAmarelo_Aa",
+          "persistentUuid": "3b3a9774-2b5e-48b8-bc05-b3ded091ba45",
+          "width": 107,
+          "x": 128,
+          "y": 20,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SementesLilas_aa",
+          "persistentUuid": "4dcb2150-9472-4d82-b735-ad5981648bfc",
+          "width": 107,
+          "x": 248,
+          "y": 20,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AduboDominante",
+          "persistentUuid": "50b4426a-e8ae-4b27-917f-d238c67fdccf",
+          "width": 107,
+          "x": 368,
+          "y": 20,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AduboRecessivo",
+          "persistentUuid": "2dac2a6a-6a0a-4488-a52a-855466430211",
+          "width": 109,
+          "x": 488,
+          "y": 20,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3123,17 +3435,1055 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fundo",
+          "persistentUuid": "1d9d87cb-baca-4ab4-825d-90ebea440040",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fundo Cultivo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 941
+                          },
+                          {
+                            "x": 0,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Balcao",
+          "persistentUuid": "9c054614-9b6d-4412-bae8-c09de1b51792",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Balcão Cultivo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 871
+                          },
+                          {
+                            "x": 98,
+                            "y": 871
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CaixaTerra",
+          "persistentUuid": "a5309f9f-ad7a-4750-9b6f-1d63206ccc66",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Caixa com Terra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 43,
+                            "y": 110
+                          },
+                          {
+                            "x": 728,
+                            "y": 110
+                          },
+                          {
+                            "x": 728,
+                            "y": 442
+                          },
+                          {
+                            "x": 43,
+                            "y": 442
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Vaso1",
+          "persistentUuid": "73423a94-4eda-41e7-b4e1-4688d823557a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Vaso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 93,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 560
+                          },
+                          {
+                            "x": 93,
+                            "y": 560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Vaso2",
+          "persistentUuid": "d930cd22-0acd-43dd-b893-5fcd823641f5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Vaso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 93,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 560
+                          },
+                          {
+                            "x": 93,
+                            "y": 560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Vaso3",
+          "persistentUuid": "3688ef2a-6308-4d8b-818e-dbc0019b96c7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Vaso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 93,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 560
+                          },
+                          {
+                            "x": 93,
+                            "y": 560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Pa",
+          "persistentUuid": "59fa0116-3576-4d23-877b-183cd7396f23",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ferramentas/Pá.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 8
+                          },
+                          {
+                            "x": 1271,
+                            "y": 8
+                          },
+                          {
+                            "x": 1271,
+                            "y": 1213
+                          },
+                          {
+                            "x": 81,
+                            "y": 1213
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Terra",
+          "persistentUuid": "a0ca806d-fb91-43a7-8949-b38ae7d746fe",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/aaaaaa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 343,
+                            "y": 0
+                          },
+                          {
+                            "x": 343,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Regador",
+          "persistentUuid": "a6fafdda-58b4-4e11-8b5a-82821d43217b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "4b974bf4-e7b4-44e3-8da9-e9e3b4b0cabb",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "272a8216-9065-435c-980c-8014c15f2629",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ferramentas/RegadorInicial.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 6
+                          },
+                          {
+                            "x": 344,
+                            "y": 6
+                          },
+                          {
+                            "x": 344,
+                            "y": 274
+                          },
+                          {
+                            "x": 4,
+                            "y": 274
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SementesAmarelo_AA",
+          "persistentUuid": "88ffb7cc-25b3-407f-8098-100f3703774f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "6a387437-49e8-4d8c-8ba5-d5f1d88a93ce",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "886fe1e8-e46e-4a7f-a1cf-f5ef252df9cc",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_AA.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 30
+                          },
+                          {
+                            "x": 274,
+                            "y": 30
+                          },
+                          {
+                            "x": 274,
+                            "y": 285
+                          },
+                          {
+                            "x": 41,
+                            "y": 285
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SementesAmarelo_Aa",
+          "persistentUuid": "235ddf84-8610-44c4-934d-e3d37d55a7cd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "d9cd64d6-f14d-4007-908c-af8e3f9ad6b9",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "3ea5e260-4c5e-48c3-b4c0-7f028d37b830",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_Aa (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 287
+                          },
+                          {
+                            "x": 41,
+                            "y": 287
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SementesLilas_aa",
+          "persistentUuid": "555a0b04-69a5-4799-98c6-d9a7922a1013",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "abfcb3de-65c7-4437-8f20-2ae4c5a33334",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "77b0ab0c-c952-417a-aae1-f22df16fdf7d",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Sementes/SementesLilás_aa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 287
+                          },
+                          {
+                            "x": 41,
+                            "y": 287
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AduboDominante",
+          "persistentUuid": "69949573-1377-453e-9ce7-42b74cb5aafd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "aa09ab7b-4ac3-4187-ade3-dff1cd859480",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "e52227dd-0a50-4a36-9cae-a592e5c7dd95",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Adubos/Adubo Dominante.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 37,
+                            "y": 19
+                          },
+                          {
+                            "x": 278,
+                            "y": 19
+                          },
+                          {
+                            "x": 278,
+                            "y": 295
+                          },
+                          {
+                            "x": 37,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AduboRecessivo",
+          "persistentUuid": "d667f5a7-baa2-4c12-b56f-6dde63cc282a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "fb72fbce-e38d-49aa-b151-faf8bf20abf2",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "d6469bf2-4e41-46c9-b1a9-d84213db0e27",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Adubos/Adubo Recessivo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 51,
+                            "y": 35
+                          },
+                          {
+                            "x": 262,
+                            "y": 35
+                          },
+                          {
+                            "x": 262,
+                            "y": 286
+                          },
+                          {
+                            "x": 51,
+                            "y": 286
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
+            "objectName": "Fundo"
+          },
+          {
+            "objectName": "Balcao"
+          },
+          {
             "objectName": "AreaAtendimento"
+          },
+          {
+            "objectName": "CaixaTerra"
+          },
+          {
+            "objectName": "Terra"
+          },
+          {
+            "objectName": "Pa"
+          },
+          {
+            "objectName": "Vaso1"
+          },
+          {
+            "objectName": "Vaso2"
+          },
+          {
+            "objectName": "Vaso3"
+          },
+          {
+            "objectName": "Regador"
+          },
+          {
+            "objectName": "SementesAmarelo_AA"
+          },
+          {
+            "objectName": "SementesAmarelo_Aa"
+          },
+          {
+            "objectName": "SementesLilas_aa"
+          },
+          {
+            "objectName": "AduboDominante"
+          },
+          {
+            "objectName": "AduboRecessivo"
           }
         ]
       },
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Retorno a cena de Atendimento",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -3170,6 +4520,788 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Arraste e Retorno da Pá",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Pa",
+                "PosicaoX",
+                "=",
+                "Pa.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Pa",
+                "PosicaoY",
+                "=",
+                "Pa.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Pa",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Pa",
+                "=",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "Pa",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Pa",
+                "=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Pa",
+                "=",
+                "Pa.Variable(PosicaoX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Pa",
+                "=",
+                "Pa.Variable(PosicaoY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Arraste e Retorno do Regador",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Regador",
+                "PosicaoX",
+                "=",
+                "Regador.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Regador",
+                "PosicaoY",
+                "=",
+                "Regador.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Regador",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Regador",
+                "=",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "Regador",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Regador",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Regador",
+                "=",
+                "Regador.Variable(PosicaoX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Regador",
+                "=",
+                "Regador.Variable(PosicaoY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Arraste e Retorno das Sementes",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "PosicaoX",
+                "=",
+                "SementesAmarelo_AA.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "PosicaoY",
+                "=",
+                "SementesAmarelo_AA.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "PosicaoX",
+                "=",
+                "SementesAmarelo_Aa.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "PosicaoY",
+                "=",
+                "SementesAmarelo_Aa.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "PosicaoX",
+                "=",
+                "SementesLilas_aa.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "PosicaoY",
+                "=",
+                "SementesLilas_aa.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "=",
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "=",
+                "SementesAmarelo_AA.Variable(PosicaoX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "SementesAmarelo_AA",
+                "=",
+                "SementesAmarelo_AA.Variable(PosicaoY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "=",
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "=",
+                "11"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "=",
+                "SementesAmarelo_Aa.Variable(PosicaoX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "SementesAmarelo_Aa",
+                "=",
+                "SementesAmarelo_Aa.Variable(PosicaoY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "=",
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "=",
+                "12"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "=",
+                "SementesLilas_aa.Variable(PosicaoX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "SementesLilas_aa",
+                "=",
+                "SementesLilas_aa.Variable(PosicaoY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Arraste e Retorno dos Adubos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "AduboDominante",
+                "PosicaoX",
+                "=",
+                "AduboDominante.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "AduboDominante",
+                "PosicaoY",
+                "=",
+                "AduboDominante.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "PosicaoX",
+                "=",
+                "AduboRecessivo.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "PosicaoY",
+                "=",
+                "AduboRecessivo.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "AduboDominante",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "AduboDominante",
+                "=",
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "AduboDominante",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "AduboDominante",
+                "=",
+                "13"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "AduboDominante",
+                "=",
+                "AduboDominante.Variable(PosicaoX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "AduboDominante",
+                "=",
+                "AduboDominante.Variable(PosicaoY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "=",
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "=",
+                "14"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "=",
+                "AduboRecessivo.Variable(PosicaoX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "AduboRecessivo",
+                "=",
+                "AduboRecessivo.Variable(PosicaoY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -7278,6 +9410,440 @@
           "variants": []
         }
       ]
+    },
+    {
+      "author": "D8H",
+      "category": "User interface",
+      "dimension": "",
+      "extensionNamespace": "",
+      "fullName": "Cancellable draggable object",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXN0ZXAtYmFja3dhcmQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTksNVYxOUgxNlY1TTE0LDVWMTlMMywxMiIgLz48L3N2Zz4=",
+      "name": "CancellableDraggable",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/step-backward.svg",
+      "shortDescription": "Cancel drag and smoothly tween object back to original position.",
+      "version": "0.2.0",
+      "description": [
+        "Add this behavior on an object with the Draggable behavior and the Tween behavior. ",
+        "Use then the action to cancel the drag, and the behavior will smoothly animate the object back to its original position, using a tween animation."
+      ],
+      "origin": {
+        "identifier": "CancellableDraggable",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "drag",
+        "drop"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allow to cancel the drag of an object and make it smoothly return to its original position (with a tween).",
+          "fullName": "Cancellable Draggable object",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "CancellableDraggable",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Save the object position to be able to revert the dragging."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dragged"
+                      },
+                      "parameters": [
+                        "Object",
+                        "DraggableBehavior"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OriginalX",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OriginalY",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Enable back the Draggable behavior when the object comes back to its position before it was dragged."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CancellableDraggable::CancellableDraggable::DraggingIsCancelled"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Object",
+                        "DraggableBehavior",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__CancellableDraggable\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "CancellableDraggable::CancellableDraggable",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Cancel last drag.",
+              "fullName": "Cancel drag (deprecated)",
+              "functionType": "Action",
+              "name": "CancelLastDragging",
+              "private": true,
+              "sentence": "Cancel last dragging of _PARAM0_ in _PARAM2_ ms with easing _PARAM3_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "CancellableDraggable::CancellableDraggable::CancelLastDraggingS"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Duration / 1000",
+                        "Easing",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "CancellableDraggable::CancellableDraggable",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration in milliseconds",
+                  "name": "Duration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Easing",
+                  "name": "Easing",
+                  "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Cancel last drag.",
+              "fullName": "Cancel drag",
+              "functionType": "Action",
+              "name": "CancelLastDraggingS",
+              "sentence": "Cancel last dragging of _PARAM0_  with easing _PARAM3_ in _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Move the object back to its position before it was dragged.\nDisable the Draggable behavior to avoid it to be caught on the fly."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "DraggableBehavior::Dragged"
+                      },
+                      "parameters": [
+                        "Object",
+                        "DraggableBehavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__CancellableDraggable\"",
+                        "OriginalX",
+                        "OriginalY",
+                        "Easing",
+                        "Duration",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Object",
+                        "DraggableBehavior",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "CancellableDraggable::CancellableDraggable",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration in seconds",
+                  "name": "Duration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Easing",
+                  "name": "Easing",
+                  "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Dragging is cancelled, the object is returning to its original position.",
+              "fullName": "Dragging is cancelled",
+              "functionType": "Condition",
+              "name": "DraggingIsCancelled",
+              "sentence": "_PARAM0_ dragging is cancelled",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__CancellableDraggable\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "CancellableDraggable::CancellableDraggable",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "CancelLastDragging"
+              },
+              {
+                "functionName": "CancelLastDraggingS"
+              },
+              {
+                "functionName": "DraggingIsCancelled"
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Draggable behavior",
+              "extraInformation": [
+                "DraggableBehavior::Draggable"
+              ],
+              "choices": [],
+              "name": "DraggableBehavior"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Tween behavior",
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
+              "choices": [],
+              "name": "TweenBehavior"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Original X",
+              "hidden": true,
+              "name": "OriginalX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Original Y",
+              "hidden": true,
+              "name": "OriginalY"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "DraggableBehavior"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "OriginalX"
+              },
+              {
+                "propertyName": "OriginalY"
+              }
+            ]
+          }
+        }
+      ],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": [],
