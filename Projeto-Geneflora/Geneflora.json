@@ -3157,7 +3157,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156947,
+        "zoomFactor": 0.5653158055126425,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3167,13 +3167,7 @@
           "name": "Vasos",
           "objects": [
             {
-              "name": "Vaso1"
-            },
-            {
-              "name": "Vaso2"
-            },
-            {
-              "name": "Vaso3"
+              "name": "Vaso"
             }
           ]
         },
@@ -3195,22 +3189,10 @@
           "name": "RepresentacoesVaso",
           "objects": [
             {
-              "name": "Vaso1Semente1"
+              "name": "Semente1"
             },
             {
-              "name": "Vaso2Semente1"
-            },
-            {
-              "name": "Vaso3Semente1"
-            },
-            {
-              "name": "Vaso1Sementes2"
-            },
-            {
-              "name": "Vaso2Sementes2"
-            },
-            {
-              "name": "Vaso3Sementes2"
+              "name": "Semente2"
             }
           ]
         }
@@ -3309,25 +3291,6 @@
           "x": 904,
           "y": 141,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 202,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso1",
-          "persistentUuid": "f481c580-b467-4262-b563-2428de82a03f",
-          "sealed": true,
-          "width": 220,
-          "x": 260,
-          "y": 399,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3465,156 +3428,6 @@
           "x": 488,
           "y": 20,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 213,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso1Semente1",
-          "persistentUuid": "f0bdd5af-099d-4aa7-a107-90783685e888",
-          "sealed": true,
-          "width": 221,
-          "x": 260,
-          "y": 387,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 202,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso2",
-          "persistentUuid": "0dd4608a-2460-4d2b-b867-186ff97c1ae0",
-          "sealed": true,
-          "width": 220,
-          "x": 517,
-          "y": 399,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 213,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso2Semente1",
-          "persistentUuid": "b89abe1f-9289-4a14-b625-d84cffe3e579",
-          "sealed": true,
-          "width": 221,
-          "x": 517,
-          "y": 387,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 202,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso3",
-          "persistentUuid": "7e98ad9b-1eaf-4fa4-8e43-3484d8677f23",
-          "sealed": true,
-          "width": 220,
-          "x": 772,
-          "y": 399,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 213,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso3Semente1",
-          "persistentUuid": "468406ad-c4f9-4613-b781-417a38135667",
-          "sealed": true,
-          "width": 221,
-          "x": 772,
-          "y": 387,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 208,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso1Sementes2",
-          "persistentUuid": "418eeff8-28f7-4d64-92a0-ada573e68c1c",
-          "sealed": true,
-          "width": 215,
-          "x": 263,
-          "y": 390,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 208,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso2Sementes2",
-          "persistentUuid": "25424568-179e-4dab-a9b4-75affed89a4e",
-          "sealed": true,
-          "width": 215,
-          "x": 519,
-          "y": 390,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 208,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Vaso3Sementes2",
-          "persistentUuid": "a82ab8ee-8acf-4483-a1bf-fa0fb8618022",
-          "sealed": true,
-          "width": 215,
-          "x": 775,
-          "y": 390,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3770,6 +3583,211 @@
           "initialVariables": [
             {
               "name": "IdVaso",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "name": "Vaso",
+          "persistentUuid": "005215b0-ffa4-4c12-99f9-b28f9c1f0d23",
+          "width": 220,
+          "x": 260,
+          "y": 399,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "name": "Vaso",
+          "persistentUuid": "f4848786-16a5-430f-b31e-65463fd2430d",
+          "width": 220,
+          "x": 517,
+          "y": 399,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "name": "Vaso",
+          "persistentUuid": "8777968c-2ed7-4fd6-96b5-6329cd76b1aa",
+          "width": 220,
+          "x": 772,
+          "y": 399,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 213,
+          "layer": "",
+          "locked": true,
+          "name": "Semente1",
+          "persistentUuid": "0f8f1b0b-c14c-4a0d-ac67-7c8be36c6fcd",
+          "sealed": true,
+          "width": 221,
+          "x": 260,
+          "y": 387,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 213,
+          "layer": "",
+          "locked": true,
+          "name": "Semente1",
+          "persistentUuid": "5a9edab3-d2eb-41e1-8b32-1b0f0cf3e3af",
+          "sealed": true,
+          "width": 221,
+          "x": 517,
+          "y": 387,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 213,
+          "layer": "",
+          "locked": true,
+          "name": "Semente1",
+          "persistentUuid": "7ac490cf-8a46-47ce-89ab-79bad179c08c",
+          "sealed": true,
+          "width": 221,
+          "x": 772,
+          "y": 387,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 208,
+          "layer": "",
+          "locked": true,
+          "name": "Semente2",
+          "persistentUuid": "0f6fd98e-2cfe-4bdd-9c2e-34cb7b757a0e",
+          "sealed": true,
+          "width": 215,
+          "x": 263,
+          "y": 390,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 208,
+          "layer": "",
+          "locked": true,
+          "name": "Semente2",
+          "persistentUuid": "f47f08a5-ea40-41ab-918c-ebdd6d7b596e",
+          "sealed": true,
+          "width": 215,
+          "x": 519,
+          "y": 390,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 208,
+          "layer": "",
+          "locked": true,
+          "name": "Semente2",
+          "persistentUuid": "626644a1-aa3b-4194-9a9e-29092d6e465e",
+          "sealed": true,
+          "width": 215,
+          "x": 775,
+          "y": 390,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
               "type": "number",
               "value": 3
             }
@@ -4024,7 +4042,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Vaso1",
+          "name": "Vaso",
           "persistentUuid": "73423a94-4eda-41e7-b4e1-4688d823557a",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -4064,202 +4082,6 @@
               "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
               "type": "number",
               "value": 1
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 93,
-                            "y": 59
-                          },
-                          {
-                            "x": 561,
-                            "y": 59
-                          },
-                          {
-                            "x": 561,
-                            "y": 560
-                          },
-                          {
-                            "x": 93,
-                            "y": 560
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Vaso2",
-          "persistentUuid": "d930cd22-0acd-43dd-b893-5fcd823641f5",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "FlorGenotipo",
-              "persistentUuid": "71b85511-1fdf-488c-adc6-214fb7b6720d",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "TemFlor",
-              "persistentUuid": "88730cd2-7717-4ab5-b50b-bc2db0bdf4de",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "name": "Slot2",
-              "persistentUuid": "71e79cf7-d8d6-4e00-9146-006ea696a973",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "Slot1",
-              "persistentUuid": "416fc27e-736d-4d6d-b8ab-738c848f8da8",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "Conte",
-              "persistentUuid": "3d8aeb05-572e-4e41-9cfd-a4c447363ca6",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "IdVaso",
-              "persistentUuid": "2af0ca92-4a60-40de-b017-cd81cdf7933d",
-              "type": "number",
-              "value": 2
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 93,
-                            "y": 59
-                          },
-                          {
-                            "x": 561,
-                            "y": 59
-                          },
-                          {
-                            "x": 561,
-                            "y": 560
-                          },
-                          {
-                            "x": 93,
-                            "y": 560
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Vaso3",
-          "persistentUuid": "3688ef2a-6308-4d8b-818e-dbc0019b96c7",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "FlorGenotipo",
-              "persistentUuid": "8f939624-5aac-4d8a-bae8-1253b3b8da46",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "TemFlor",
-              "persistentUuid": "f9a628cf-7653-4a61-a3f1-fa342e8ee16c",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "name": "Slot2",
-              "persistentUuid": "8f8cd2d4-9d74-42c2-ba8f-2b902b22e0bf",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "Slot1",
-              "persistentUuid": "791ed03c-96bc-4b99-b75e-ee592f1cbd50",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "Conte",
-              "persistentUuid": "f4872881-91ac-4153-aba5-5502706f4719",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "IdVaso",
-              "persistentUuid": "92e2d0e9-b453-4ce7-95a1-1962e2c20f82",
-              "type": "number",
-              "value": 3
             }
           ],
           "effects": [],
@@ -4955,7 +4777,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Vaso1Semente1",
+          "name": "Semente1",
           "persistentUuid": "84a6b549-cad4-4b8b-8db0-c4aab2cd5bb6",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5023,143 +4845,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Vaso2Semente1",
-          "persistentUuid": "6308a987-c97d-44aa-bd76-83f299ced073",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "2bdc6274-da67-47d6-813f-93667bfee807",
-              "type": "number",
-              "value": 2
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso 1 semente.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 90,
-                            "y": 90
-                          },
-                          {
-                            "x": 561,
-                            "y": 90
-                          },
-                          {
-                            "x": 561,
-                            "y": 564
-                          },
-                          {
-                            "x": 90,
-                            "y": 564
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Vaso3Semente1",
-          "persistentUuid": "12180c36-f6c4-446c-b02d-760b6b64d92c",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "e806f95f-c963-4fdd-94e0-cb552467c1fa",
-              "type": "number",
-              "value": 3
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso 1 semente.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 90,
-                            "y": 90
-                          },
-                          {
-                            "x": 561,
-                            "y": 90
-                          },
-                          {
-                            "x": 561,
-                            "y": 564
-                          },
-                          {
-                            "x": 90,
-                            "y": 564
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Vaso1Sementes2",
+          "name": "Semente2",
           "persistentUuid": "8d4a7fe7-400f-41e0-8c09-12d35ed429ef",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5225,142 +4911,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Vaso2Sementes2",
-          "persistentUuid": "e1164f52-e5e8-45f5-ae65-90367d82869e",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "e5d64788-2368-4d8f-b2ce-791eb897fdb4",
-              "type": "number",
-              "value": 2
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso 2 sementes.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 82,
-                            "y": 82
-                          },
-                          {
-                            "x": 572,
-                            "y": 82
-                          },
-                          {
-                            "x": 572,
-                            "y": 573
-                          },
-                          {
-                            "x": 82,
-                            "y": 573
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Vaso3Sementes2",
-          "persistentUuid": "bec7e908-965f-4971-b5be-04d70aefa9b0",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "a9013e03-8f01-4bc8-b7ed-ef5749666d75",
-              "type": "number",
-              "value": 3
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso 2 sementes.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 82,
-                            "y": 82
-                          },
-                          {
-                            "x": 572,
-                            "y": 82
-                          },
-                          {
-                            "x": 572,
-                            "y": 573
-                          },
-                          {
-                            "x": 82,
-                            "y": 573
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Flor_AA_Aa",
@@ -5370,6 +4920,7 @@
           "variables": [
             {
               "name": "IdVaso",
+              "persistentUuid": "17c35af8-49ed-451c-ad54-26e28d8b025e",
               "type": "number",
               "value": 1
             }
@@ -6317,37 +5868,19 @@
             "objectName": "Pa"
           },
           {
-            "objectName": "Vaso1"
+            "objectName": "Vaso"
           },
           {
-            "objectName": "Vaso2"
+            "objectName": "Semente1"
           },
           {
-            "objectName": "Vaso3"
+            "objectName": "Semente2"
           },
           {
             "objectName": "Regador"
           },
           {
             "objectName": "SementesAmarelo_AA"
-          },
-          {
-            "objectName": "Vaso1Semente1"
-          },
-          {
-            "objectName": "Vaso2Semente1"
-          },
-          {
-            "objectName": "Vaso3Semente1"
-          },
-          {
-            "objectName": "Vaso1Sementes2"
-          },
-          {
-            "objectName": "Vaso2Sementes2"
-          },
-          {
-            "objectName": "Vaso3Sementes2"
           },
           {
             "objectName": "SementesAmarelo_Aa"
@@ -6428,6 +5961,37 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Semente1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Semente2"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -6556,7 +6120,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso1Semente1",
+                            "Semente1",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -6569,86 +6133,8 @@
                             "value": "Show"
                           },
                           "parameters": [
-                            "Vaso1Semente1",
+                            "Semente1",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso2Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso2Semente1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso2"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso3Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso3Semente1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso3"
                           ]
                         }
                       ]
@@ -6713,7 +6199,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso1Sementes2",
+                            "Semente2",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -6726,16 +6212,8 @@
                             "value": "Show"
                           },
                           "parameters": [
-                            "Vaso1Sementes2",
+                            "Semente2",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso1Semente1"
                           ]
                         }
                       ]
@@ -6748,7 +6226,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso2Sementes2",
+                            "Semente1",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -6758,54 +6236,10 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso2Sementes2",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "Hide"
                           },
                           "parameters": [
-                            "Vaso2Semente1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso3Sementes2",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso3Sementes2",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso3Semente1"
+                            "Semente1"
                           ]
                         }
                       ]
@@ -6942,7 +6376,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso2Semente1",
+                            "Semente1",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -6955,86 +6389,8 @@
                             "value": "Show"
                           },
                           "parameters": [
-                            "Vaso2Semente1",
+                            "Semente1",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso2"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso3Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso3Semente1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso3"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso1Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso1Semente1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso1"
                           ]
                         }
                       ]
@@ -7099,7 +6455,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso2Sementes2",
+                            "Semente2",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -7112,86 +6468,36 @@
                             "value": "Show"
                           },
                           "parameters": [
-                            "Vaso2Sementes2",
+                            "Semente2",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso2Semente1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso3Sementes2",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
                           ]
                         }
                       ],
-                      "actions": [
+                      "events": [
                         {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso3Sementes2",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso3Semente1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso1Sementes2",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso1Sementes2",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso1Semente1"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Semente1",
+                                "IdVaso",
+                                "=",
+                                "Variable(Vaso_Selecionado)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Hide"
+                              },
+                              "parameters": [
+                                "Semente1"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -7328,7 +6634,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso3Semente1",
+                            "Semente1",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -7341,86 +6647,8 @@
                             "value": "Show"
                           },
                           "parameters": [
-                            "Vaso3Semente1",
+                            "Semente1",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso3"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso2Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso2Semente1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso2"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso1Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso1Semente1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso1"
                           ]
                         }
                       ]
@@ -7485,7 +6713,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso3Sementes2",
+                            "Semente2",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -7498,16 +6726,8 @@
                             "value": "Show"
                           },
                           "parameters": [
-                            "Vaso3Sementes2",
+                            "Semente2",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso3Semente1"
                           ]
                         }
                       ]
@@ -7520,7 +6740,7 @@
                             "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "Vaso2Sementes2",
+                            "Semente1",
                             "IdVaso",
                             "=",
                             "Variable(Vaso_Selecionado)"
@@ -7530,62 +6750,13 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso2Sementes2",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "Hide"
                           },
                           "parameters": [
-                            "Vaso2Semente1"
+                            "Semente1"
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Vaso1Sementes2",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Vaso1Sementes2",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Vaso1Semente1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
                     }
                   ]
                 }
@@ -7873,6 +7044,51 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Semente1",
+                        "IdVaso",
+                        "=",
+                        "Vasos.Variable(IdVaso)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Semente2",
+                        "IdVaso",
+                        "=",
+                        "Vasos.Variable(IdVaso)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Semente1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Semente2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "StringObjectVariable"
                       },
                       "parameters": [
@@ -8070,22 +7286,10 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Mendel - Pa (remover flor / recuperar sementes)",
+          "name": "Remover Flor e Recuperar Sementes do Vaso com a Pá",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Pá na flor pronta = remove a flor e esvazia o vaso. Pá com 1-2 sementes (sem flor) = devolve 1 semente ao estoque por uso."
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8123,6 +7327,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Vaso_Selecionado",
+                    "=",
+                    "Vasos.Variable(IdVaso)"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetBooleanObjectVariable"
@@ -8176,6 +7390,112 @@
                     "Slot2",
                     "=",
                     "\"\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Flor_AA_Aa",
+                        "IdVaso",
+                        "=",
+                        "Vaso_Selecionado"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Flor_AA_Aa"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Flor_aa",
+                        "IdVaso",
+                        "=",
+                        "Vaso_Selecionado"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Flor_aa"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Semente1",
+                        "IdVaso",
+                        "=",
+                        "Vaso_Selecionado"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Semente1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Semente2",
+                        "IdVaso",
+                        "=",
+                        "Vaso_Selecionado"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Semente2"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -9320,63 +8640,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300,
-                "shadowDistance": 2000,
-                "shadowNormalBias": 1
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "shadowRenderingMode": "fittedToCameraView",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Camada das Flores",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
