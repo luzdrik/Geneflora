@@ -464,6 +464,64 @@
         "name": "assets/Cultivo/Vasos/Genótipos/Broto2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/IU/Barra de Progresso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barra de Progresso.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Barra Amarela.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barra Amarela.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Barra Verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barra Verde.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Barra Vermelha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barra Vermelha.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Marcador da Barra de Progresso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Marcador.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Icone Regador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icone Regador da Barra.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sons/regando.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sons/regando.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -516,7 +574,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311633,
+        "zoomFactor": 0.6897782140104661,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3173,7 +3231,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101673924,
+        "zoomFactor": 0.47893418845354163,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3237,6 +3295,36 @@
           "persistentUuid": "3bbac18d-bf83-42e8-ab35-7f663cfb1acb",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Regando",
+          "persistentUuid": "d57296ca-eb07-45a0-a139-dea9c3b3b06d",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "NivelAgua",
+          "persistentUuid": "13880d7c-2cd3-4db9-87c2-ac134400cdeb",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RegouCorretamente",
+          "persistentUuid": "4e045e63-b6e8-4b8e-b6a2-250999a0bbfd",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ResultadoRegagem",
+          "persistentUuid": "fe3bb90f-d45a-4493-8a91-9b8e5fc101eb",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MinigameRegadorAtivo",
+          "persistentUuid": "10c8f4e1-07f6-487d-9979-42916e47b218",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -3368,10 +3456,13 @@
           "customSize": true,
           "depth": 1,
           "height": 115,
+          "hidden": true,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "SementesAmarelo_AA",
           "persistentUuid": "23706959-35fa-4b43-b2d3-f49fb5d01c52",
+          "sealed": true,
           "width": 107,
           "x": 8,
           "y": 20,
@@ -3385,10 +3476,13 @@
           "customSize": true,
           "depth": 1,
           "height": 115,
+          "hidden": true,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "SementesAmarelo_Aa",
           "persistentUuid": "3b3a9774-2b5e-48b8-bc05-b3ded091ba45",
+          "sealed": true,
           "width": 107,
           "x": 128,
           "y": 20,
@@ -3402,10 +3496,13 @@
           "customSize": true,
           "depth": 1,
           "height": 115,
+          "hidden": true,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "SementesLilas_aa",
           "persistentUuid": "4dcb2150-9472-4d82-b735-ad5981648bfc",
+          "sealed": true,
           "width": 107,
           "x": 248,
           "y": 20,
@@ -3419,10 +3516,13 @@
           "customSize": true,
           "depth": 1,
           "height": 115,
+          "hidden": true,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "AduboDominante",
           "persistentUuid": "50b4426a-e8ae-4b27-917f-d238c67fdccf",
+          "sealed": true,
           "width": 107,
           "x": 368,
           "y": 20,
@@ -3436,10 +3536,13 @@
           "customSize": true,
           "depth": 1,
           "height": 113,
+          "hidden": true,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "AduboRecessivo",
           "persistentUuid": "2dac2a6a-6a0a-4488-a52a-855466430211",
+          "sealed": true,
           "width": 109,
           "x": 488,
           "y": 20,
@@ -3814,6 +3917,141 @@
               "value": 3
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 195,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Barra_Vazia",
+          "persistentUuid": "e77fe593-f7d9-4ae7-a80f-e5148e7c20cf",
+          "sealed": true,
+          "width": 585,
+          "x": 336,
+          "y": 549,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 132,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Progresso_Amarelo",
+          "persistentUuid": "a544fa11-04dc-4b7f-80eb-c465de2b350b",
+          "sealed": true,
+          "width": 499,
+          "x": 376,
+          "y": 603,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Icone_BarraRegador",
+          "persistentUuid": "0bf302b5-29e0-4eaf-8c30-88b1356e0701",
+          "width": 154,
+          "x": 352,
+          "y": 572,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 129,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Progresso_Verde",
+          "persistentUuid": "4ff7c54e-db0b-484a-809d-8dd58f120f08",
+          "sealed": true,
+          "width": 0,
+          "x": 376,
+          "y": 605,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 128,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Progresso_Vermelho",
+          "persistentUuid": "3c2af788-c2de-4364-89cf-d16ef491f167",
+          "sealed": true,
+          "width": 0,
+          "x": 376,
+          "y": 603,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Marcador_Barra",
+          "persistentUuid": "bee8c1d2-3cb7-4ae4-b246-7126dabd5b14",
+          "width": 21,
+          "x": 705,
+          "y": 626,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Marcador_Barra",
+          "persistentUuid": "b8401239-df3d-4fe7-acb5-25bbc1e74e0c",
+          "width": 21,
+          "x": 770,
+          "y": 627,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6751,6 +6989,372 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Barra_Vazia",
+          "persistentUuid": "1325191f-44a5-40fd-838b-a6ceec7f1e54",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra de Progresso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39,
+                            "y": 63
+                          },
+                          {
+                            "x": 1071,
+                            "y": 63
+                          },
+                          {
+                            "x": 1071,
+                            "y": 290
+                          },
+                          {
+                            "x": 39,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Progresso_Amarelo",
+          "persistentUuid": "567e83c1-6c4d-4f99-89d0-27fc2616ea74",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra Amarela.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 107
+                          },
+                          {
+                            "x": 1055,
+                            "y": 107
+                          },
+                          {
+                            "x": 1055,
+                            "y": 240
+                          },
+                          {
+                            "x": 31,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Progresso_Verde",
+          "persistentUuid": "166a862c-1e97-4948-951c-e36eabd750d6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra Verde.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 105
+                          },
+                          {
+                            "x": 1052,
+                            "y": 105
+                          },
+                          {
+                            "x": 1052,
+                            "y": 240
+                          },
+                          {
+                            "x": 34,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Progresso_Vermelho",
+          "persistentUuid": "b0e4a402-238d-4bdc-be76-1d4a4340856d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra Vermelha.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 26,
+                            "y": 109
+                          },
+                          {
+                            "x": 1060,
+                            "y": 109
+                          },
+                          {
+                            "x": 1060,
+                            "y": 245
+                          },
+                          {
+                            "x": 26,
+                            "y": 245
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Marcador_Barra",
+          "persistentUuid": "1b42d0c3-199c-4570-8b0f-0b2391c123f0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Marcador.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 228,
+                            "y": 3
+                          },
+                          {
+                            "x": 315,
+                            "y": 3
+                          },
+                          {
+                            "x": 315,
+                            "y": 171
+                          },
+                          {
+                            "x": 228,
+                            "y": 171
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Icone_BarraRegador",
+          "persistentUuid": "c4747550-593f-4313-96f9-39074184cb5d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Icone Regador da Barra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 20
+                          },
+                          {
+                            "x": 267,
+                            "y": 20
+                          },
+                          {
+                            "x": 267,
+                            "y": 240
+                          },
+                          {
+                            "x": 9,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6806,6 +7410,24 @@
           },
           {
             "objectName": "Flor_aa"
+          },
+          {
+            "objectName": "Barra_Vazia"
+          },
+          {
+            "objectName": "Marcador_Barra"
+          },
+          {
+            "objectName": "Icone_BarraRegador"
+          },
+          {
+            "objectName": "Progresso_Amarelo"
+          },
+          {
+            "objectName": "Progresso_Verde"
+          },
+          {
+            "objectName": "Progresso_Vermelho"
           }
         ]
       },
@@ -7666,6 +8288,880 @@
                         }
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Minigame: Barra de Hidratação usando o Regador",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Sons/regando.wav"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Vasos",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Vaso_Selecionado",
+                    "=",
+                    "Vasos.Variable(IdVaso)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Regando",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Amarelo",
+                    "Resizable",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Verde",
+                    "Resizable",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Vermelho",
+                    "Resizable",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Barra_Vazia",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Icone_BarraRegador",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Marcador_Barra",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Progresso_Amarelo",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Progresso_Vermelho"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Progresso_Verde"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Regando",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Vasos",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SoundStopped"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Sons/regando.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Regando",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    "<",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Vasos",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    "+",
+                    "40 * TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Regando",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    "<",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Vasos",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Amarelo",
+                    "Resizable",
+                    "=",
+                    "NivelAgua * 5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    ">=",
+                    "100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Amarelo",
+                    "Resizable",
+                    "=",
+                    "500"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Evento de pouca água"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    "<",
+                    "70"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Regando",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Progresso_Amarelo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Progresso_Vermelho",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoResultado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Vermelho",
+                    "Resizable",
+                    "=",
+                    "NivelAgua * 4.95"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Evento de hidratação ideal"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    ">=",
+                    "70"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    "<=",
+                    "85"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Regando",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Progresso_Amarelo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Progresso_Verde",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoResultado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Verde",
+                    "Resizable",
+                    "=",
+                    "NivelAgua * 5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Evento de água em excesso"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NivelAgua",
+                    ">",
+                    "85"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Regando",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Progresso_Amarelo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Progresso_Vermelho",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoResultado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Progresso_Vermelho",
+                    "Resizable",
+                    "=",
+                    "NivelAgua * 4.95"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Evento de encerramento pelo temporizador"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoResultado\"",
+                    ">",
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Barra_Vazia"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Icone_BarraRegador"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Marcador_Barra"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Progresso_Verde"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Progresso_Vermelho"
                   ]
                 }
               ]
@@ -9738,10 +11234,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
