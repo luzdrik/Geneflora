@@ -713,6 +713,30 @@
         "name": "Botão Resetar.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "roleta (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "roleta (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Aceitar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Aceitar.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -16038,6 +16062,6202 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Cultivo2",
+      "name": "Cultivo2",
+      "r": 247,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5653158055126322,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [
+        {
+          "name": "Vasos",
+          "objects": [
+            {
+              "name": "Vaso"
+            }
+          ]
+        },
+        {
+          "name": "Sementes",
+          "objects": [
+            {
+              "name": "SementesAmarelo_AA"
+            },
+            {
+              "name": "SementesAmarelo_Aa"
+            },
+            {
+              "name": "SementesLilas_aa"
+            }
+          ]
+        },
+        {
+          "name": "RepresentacoesVaso",
+          "objects": [
+            {
+              "name": "Semente1"
+            },
+            {
+              "name": "Semente2"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "roleta_girando",
+          "persistentUuid": "8913f2a0-2a96-48b7-abf2-8403c6534025",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 105,
+          "layer": "",
+          "locked": true,
+          "name": "AreaAtendimento",
+          "persistentUuid": "798cd977-9f74-4319-b7fa-0944f372f42e",
+          "sealed": true,
+          "width": 99,
+          "x": 1124,
+          "y": 243,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 603,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Balcao",
+          "persistentUuid": "9a12c15a-cd8a-4e38-a3f5-5030c1f60faa",
+          "sealed": true,
+          "width": 923,
+          "x": 164,
+          "y": 320,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 743,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Fundo",
+          "persistentUuid": "83aff60f-692b-4efc-be37-3dab4c67c430",
+          "sealed": true,
+          "width": 1315,
+          "x": -14,
+          "y": -12,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 110,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Regador",
+          "persistentUuid": "2960207d-d9cf-4bc9-ac06-2d0ca8be4980",
+          "width": 127,
+          "x": 1125,
+          "y": 532,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SementesAmarelo_AA",
+          "persistentUuid": "23706959-35fa-4b43-b2d3-f49fb5d01c52",
+          "width": 107,
+          "x": 32,
+          "y": 600,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SementesAmarelo_Aa",
+          "persistentUuid": "3b3a9774-2b5e-48b8-bc05-b3ded091ba45",
+          "width": 107,
+          "x": 28,
+          "y": 473,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SementesLilas_aa",
+          "persistentUuid": "4dcb2150-9472-4d82-b735-ad5981648bfc",
+          "width": 107,
+          "x": 30,
+          "y": 343,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AduboDominante",
+          "persistentUuid": "50b4426a-e8ae-4b27-917f-d238c67fdccf",
+          "width": 107,
+          "x": 29,
+          "y": 212,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AduboRecessivo",
+          "persistentUuid": "2dac2a6a-6a0a-4488-a52a-855466430211",
+          "width": 109,
+          "x": 30,
+          "y": 82,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 455,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Flor_AA_Aa",
+          "persistentUuid": "eb4c1ac0-4aea-4a88-abc8-b6fd7da09304",
+          "sealed": true,
+          "width": 368,
+          "x": 543,
+          "y": 474,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 455,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Flor_AA_Aa",
+          "persistentUuid": "ba1fe176-d411-49eb-9a7a-c8b5097d0e28",
+          "sealed": true,
+          "width": 368,
+          "x": 291,
+          "y": 474,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 452,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Flor_aa",
+          "persistentUuid": "3ee9559c-7fba-431f-98ec-8c59e7155e30",
+          "sealed": true,
+          "width": 381,
+          "x": 181,
+          "y": 142,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 455,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Flor_AA_Aa",
+          "persistentUuid": "9a9fe228-6b89-46e3-9480-5149ea519cf1",
+          "sealed": true,
+          "width": 368,
+          "x": 803,
+          "y": 474,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 452,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Flor_aa",
+          "persistentUuid": "ca68dea5-f428-412d-a3c4-637a1abf3baa",
+          "sealed": true,
+          "width": 381,
+          "x": 433,
+          "y": 142,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 452,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Flor_aa",
+          "persistentUuid": "ec188f02-2775-4eda-96b1-5688e1b756ea",
+          "sealed": true,
+          "width": 381,
+          "x": 693,
+          "y": 142,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "locked": true,
+          "name": "Vaso",
+          "persistentUuid": "005215b0-ffa4-4c12-99f9-b28f9c1f0d23",
+          "sealed": true,
+          "width": 220,
+          "x": 260,
+          "y": 399,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "locked": true,
+          "name": "Vaso",
+          "persistentUuid": "f4848786-16a5-430f-b31e-65463fd2430d",
+          "sealed": true,
+          "width": 220,
+          "x": 517,
+          "y": 399,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 202,
+          "layer": "",
+          "locked": true,
+          "name": "Vaso",
+          "persistentUuid": "8777968c-2ed7-4fd6-96b5-6329cd76b1aa",
+          "sealed": true,
+          "width": 220,
+          "x": 772,
+          "y": 399,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 213,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Semente1",
+          "persistentUuid": "0f8f1b0b-c14c-4a0d-ac67-7c8be36c6fcd",
+          "sealed": true,
+          "width": 221,
+          "x": 260,
+          "y": 387,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 213,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Semente1",
+          "persistentUuid": "5a9edab3-d2eb-41e1-8b32-1b0f0cf3e3af",
+          "sealed": true,
+          "width": 221,
+          "x": 517,
+          "y": 387,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 213,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Semente1",
+          "persistentUuid": "7ac490cf-8a46-47ce-89ab-79bad179c08c",
+          "sealed": true,
+          "width": 221,
+          "x": 772,
+          "y": 387,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 208,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Semente2",
+          "persistentUuid": "0f6fd98e-2cfe-4bdd-9c2e-34cb7b757a0e",
+          "sealed": true,
+          "width": 215,
+          "x": 263,
+          "y": 390,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 208,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Semente2",
+          "persistentUuid": "f47f08a5-ea40-41ab-918c-ebdd6d7b596e",
+          "sealed": true,
+          "width": 215,
+          "x": 519,
+          "y": 390,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 208,
+          "hidden": true,
+          "layer": "",
+          "locked": true,
+          "name": "Semente2",
+          "persistentUuid": "626644a1-aa3b-4194-9a9e-29092d6e465e",
+          "sealed": true,
+          "width": 215,
+          "x": 775,
+          "y": 390,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 195,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Minigame do Regador",
+          "locked": true,
+          "name": "Barra_Vazia",
+          "persistentUuid": "e77fe593-f7d9-4ae7-a80f-e5148e7c20cf",
+          "sealed": true,
+          "width": 585,
+          "x": 336,
+          "y": 549,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 132,
+          "hidden": true,
+          "layer": "Minigame do Regador",
+          "locked": true,
+          "name": "Progresso_Amarelo",
+          "persistentUuid": "a544fa11-04dc-4b7f-80eb-c465de2b350b",
+          "sealed": true,
+          "width": 499,
+          "x": 376,
+          "y": 603,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Minigame do Regador",
+          "locked": true,
+          "name": "Icone_BarraRegador",
+          "persistentUuid": "0bf302b5-29e0-4eaf-8c30-88b1356e0701",
+          "width": 154,
+          "x": 352,
+          "y": 572,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 129,
+          "hidden": true,
+          "layer": "Minigame do Regador",
+          "locked": true,
+          "name": "Progresso_Verde",
+          "persistentUuid": "4ff7c54e-db0b-484a-809d-8dd58f120f08",
+          "sealed": true,
+          "width": 0,
+          "x": 376,
+          "y": 605,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 128,
+          "hidden": true,
+          "layer": "Minigame do Regador",
+          "locked": true,
+          "name": "Progresso_Vermelho",
+          "persistentUuid": "3c2af788-c2de-4364-89cf-d16ef491f167",
+          "sealed": true,
+          "width": 0,
+          "x": 376,
+          "y": 603,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Minigame do Regador",
+          "name": "Marcador_Barra",
+          "persistentUuid": "bee8c1d2-3cb7-4ae4-b246-7126dabd5b14",
+          "width": 21,
+          "x": 705,
+          "y": 626,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Minigame do Regador",
+          "name": "Marcador_Barra",
+          "persistentUuid": "b8401239-df3d-4fe7-acb5-25bbc1e74e0c",
+          "width": 21,
+          "x": 770,
+          "y": 627,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PincelMagico",
+          "persistentUuid": "43284207-359f-462d-8606-2a66bc13a9f7",
+          "width": 117,
+          "x": 1000,
+          "y": 546,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 291,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "MesaFerramentas",
+          "persistentUuid": "4d322c73-5a32-4cdf-9c36-e766a4f9ad3a",
+          "sealed": true,
+          "width": 488,
+          "x": 874,
+          "y": 534,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 306,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CaixaTerra",
+          "persistentUuid": "76c9ad9e-1ec4-4b0e-9341-bb068a89809a",
+          "width": 458,
+          "x": 397,
+          "y": 98,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 139,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ancestral_AA",
+          "persistentUuid": "ff65f12c-d133-45ce-8114-84da6cd829e8",
+          "width": 128,
+          "x": 479,
+          "y": 112,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.670157068063,
+          "height": 139,
+          "layer": "",
+          "name": "Ancestral_Aa",
+          "persistentUuid": "4b4073a3-44df-4940-a27c-bb78a5976376",
+          "width": 128,
+          "x": 644,
+          "y": 112,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 118,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "BotaoPolinizar",
+          "persistentUuid": "4dbd4e7b-8af1-43b4-aa98-f47d53ac14c1",
+          "sealed": true,
+          "width": 348,
+          "x": 268,
+          "y": 500,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 323,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Janela_Cruzamento",
+          "persistentUuid": "a15deede-7fad-45e3-8edb-3f83a39fe728",
+          "sealed": true,
+          "width": 853,
+          "x": 202,
+          "y": 296,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "BotaoResetar",
+          "persistentUuid": "8e4f88b9-272a-4e32-a402-f3633305efc6",
+          "sealed": true,
+          "width": 355,
+          "x": 640,
+          "y": 504,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Texto_Genótipo1",
+          "persistentUuid": "8ac41f28-75e0-4a01-bbbf-66b2cbd2825a",
+          "sealed": true,
+          "width": 0,
+          "x": 350,
+          "y": 390,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Texto_Genótipo2",
+          "persistentUuid": "adc0212e-0551-460e-99bf-695110e2c143",
+          "sealed": true,
+          "width": 0,
+          "x": 570,
+          "y": 390,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Texto_Resultado",
+          "persistentUuid": "c67e6f8f-a2d8-40c1-a95f-2c42a88d3891",
+          "sealed": true,
+          "width": 0,
+          "x": 795,
+          "y": 390,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "locked": true,
+          "name": "TextoAncestral1",
+          "persistentUuid": "475d9cfb-4096-4514-9444-85f8c909ac3c",
+          "sealed": true,
+          "width": 110,
+          "x": 350,
+          "y": 437,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "AncestralFilho",
+          "persistentUuid": "736396d6-eb01-4956-a687-f8cc85f035f0",
+          "sealed": true,
+          "width": 110,
+          "x": 800,
+          "y": 437,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "locked": true,
+          "name": "TextoAncestral2",
+          "persistentUuid": "cbe9cb0e-80cd-4eba-9675-f339de50e20d",
+          "sealed": true,
+          "width": 110,
+          "x": 575,
+          "y": 437,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 72,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BotaoFechar",
+          "persistentUuid": "23f4849a-82ec-496b-9263-46791dca9c20",
+          "width": 71,
+          "x": 902,
+          "y": 206,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 356,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roleta_",
+          "persistentUuid": "2df5586a-cc87-4dec-b59f-8900ca12f041",
+          "width": 374,
+          "x": 440,
+          "y": 136,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 195,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pino_roleta",
+          "persistentUuid": "77c69185-7bd3-45dc-88e7-cd5b2d1fbe66",
+          "width": 202,
+          "x": 531,
+          "y": 49,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 81,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roldar_roleta",
+          "persistentUuid": "f0be967c-671e-4ed2-8974-18fd5fe2857c",
+          "width": 83,
+          "x": 893,
+          "y": 119,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AreaAtendimento",
+          "persistentUuid": "2551b278-508b-47e6-9289-b8fccbd8d540",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/AtendimentoBotao.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 21
+                          },
+                          {
+                            "x": 194,
+                            "y": 21
+                          },
+                          {
+                            "x": 194,
+                            "y": 192
+                          },
+                          {
+                            "x": 20,
+                            "y": 192
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fundo",
+          "persistentUuid": "1d9d87cb-baca-4ab4-825d-90ebea440040",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fundo Cultivo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 941
+                          },
+                          {
+                            "x": 0,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Balcao",
+          "persistentUuid": "9c054614-9b6d-4412-bae8-c09de1b51792",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Balcão Cultivo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 871
+                          },
+                          {
+                            "x": 98,
+                            "y": 871
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Vaso",
+          "persistentUuid": "73423a94-4eda-41e7-b4e1-4688d823557a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FlorGenotipo",
+              "persistentUuid": "a5489950-1ec3-4123-9861-56e795dc1af6",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "TemFlor",
+              "persistentUuid": "fc1c5a49-f4f0-4687-a712-b584a94e86af",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Slot2",
+              "persistentUuid": "04159bf1-8a9a-4f49-8b91-1478f7a501b4",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Slot1",
+              "persistentUuid": "3c6665c8-aec9-42f2-8468-fe357089cd05",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Conte",
+              "persistentUuid": "51de1daa-4ce4-4f3e-b40a-ef059d6ab358",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "IdVaso",
+              "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Vaso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 93,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 560
+                          },
+                          {
+                            "x": 93,
+                            "y": 560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Regador",
+          "persistentUuid": "a6fafdda-58b4-4e11-8b5a-82821d43217b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "4b974bf4-e7b4-44e3-8da9-e9e3b4b0cabb",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "272a8216-9065-435c-980c-8014c15f2629",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ferramentas/Regador Inicial.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 6
+                          },
+                          {
+                            "x": 344,
+                            "y": 6
+                          },
+                          {
+                            "x": 344,
+                            "y": 274
+                          },
+                          {
+                            "x": 4,
+                            "y": 274
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SementesAmarelo_AA",
+          "persistentUuid": "88ffb7cc-25b3-407f-8098-100f3703774f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Genotipo",
+              "persistentUuid": "ab0a09e3-fe11-47ca-841b-6c2dfe045447",
+              "type": "string",
+              "value": "AA"
+            },
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "6a387437-49e8-4d8c-8ba5-d5f1d88a93ce",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "886fe1e8-e46e-4a7f-a1cf-f5ef252df9cc",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_AA.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 30
+                          },
+                          {
+                            "x": 274,
+                            "y": 30
+                          },
+                          {
+                            "x": 274,
+                            "y": 285
+                          },
+                          {
+                            "x": 41,
+                            "y": 285
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SementesAmarelo_Aa",
+          "persistentUuid": "235ddf84-8610-44c4-934d-e3d37d55a7cd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Genotipo",
+              "persistentUuid": "19e616a0-b9ac-491f-80f9-8b9afe87662b",
+              "type": "string",
+              "value": "Aa"
+            },
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "d9cd64d6-f14d-4007-908c-af8e3f9ad6b9",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "3ea5e260-4c5e-48c3-b4c0-7f028d37b830",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Sementes/SementesAmarelo_Aa (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 287
+                          },
+                          {
+                            "x": 41,
+                            "y": 287
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SementesLilas_aa",
+          "persistentUuid": "555a0b04-69a5-4799-98c6-d9a7922a1013",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Genotipo",
+              "persistentUuid": "a053d3ca-2349-4d03-ae3c-748f8ddd5594",
+              "type": "string",
+              "value": "aa"
+            },
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "abfcb3de-65c7-4437-8f20-2ae4c5a33334",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "77b0ab0c-c952-417a-aae1-f22df16fdf7d",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Sementes/SementesLilás_aa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 27
+                          },
+                          {
+                            "x": 275,
+                            "y": 287
+                          },
+                          {
+                            "x": 41,
+                            "y": 287
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AduboDominante",
+          "persistentUuid": "69949573-1377-453e-9ce7-42b74cb5aafd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "aa09ab7b-4ac3-4187-ade3-dff1cd859480",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "e52227dd-0a50-4a36-9cae-a592e5c7dd95",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Adubos/Adubo Dominante.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 37,
+                            "y": 19
+                          },
+                          {
+                            "x": 278,
+                            "y": 19
+                          },
+                          {
+                            "x": 278,
+                            "y": 295
+                          },
+                          {
+                            "x": 37,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AduboRecessivo",
+          "persistentUuid": "d667f5a7-baa2-4c12-b56f-6dde63cc282a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "fb72fbce-e38d-49aa-b151-faf8bf20abf2",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "d6469bf2-4e41-46c9-b1a9-d84213db0e27",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Insumos/Adubos/Adubo Recessivo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 51,
+                            "y": 35
+                          },
+                          {
+                            "x": 262,
+                            "y": 35
+                          },
+                          {
+                            "x": 262,
+                            "y": 286
+                          },
+                          {
+                            "x": 51,
+                            "y": 286
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Semente1",
+          "persistentUuid": "84a6b549-cad4-4b8b-8db0-c4aab2cd5bb6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Vaso 1 semente.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 90,
+                            "y": 90
+                          },
+                          {
+                            "x": 561,
+                            "y": 90
+                          },
+                          {
+                            "x": 561,
+                            "y": 564
+                          },
+                          {
+                            "x": 90,
+                            "y": 564
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Semente2",
+          "persistentUuid": "8d4a7fe7-400f-41e0-8c09-12d35ed429ef",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Vaso 2 sementes.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 82,
+                            "y": 82
+                          },
+                          {
+                            "x": 572,
+                            "y": 82
+                          },
+                          {
+                            "x": 572,
+                            "y": 573
+                          },
+                          {
+                            "x": 82,
+                            "y": 573
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Flor_AA_Aa",
+          "persistentUuid": "28e7668c-b9ad-40da-a653-07a756173d0d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "17c35af8-49ed-451c-ad54-26e28d8b025e",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "AnimacaoIniciada",
+              "persistentUuid": "22802469-c8ba-4066-b621-88babdf378b6",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Crescimento",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Broto1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Broto2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Amarela Crescendo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Amarela Pronta.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Flor_aa",
+          "persistentUuid": "de149794-9f19-471a-befc-cd51fd09c17f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "0a26c95f-14e7-44c6-9a07-36bb06f47a26",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "AnimacaoIniciada",
+              "persistentUuid": "c99beb8c-df36-4760-a27d-30d90bb52b4d",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Crescendo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Broto1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 181,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 600
+                          },
+                          {
+                            "x": 181,
+                            "y": 600
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Broto2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 181,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 600
+                          },
+                          {
+                            "x": 181,
+                            "y": 600
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Roxa Crescendo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 181,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 600
+                          },
+                          {
+                            "x": 181,
+                            "y": 600
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Roxa Pronta.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 181,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 348
+                          },
+                          {
+                            "x": 476,
+                            "y": 600
+                          },
+                          {
+                            "x": 181,
+                            "y": 600
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Barra_Vazia",
+          "persistentUuid": "1325191f-44a5-40fd-838b-a6ceec7f1e54",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra de Progresso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39,
+                            "y": 63
+                          },
+                          {
+                            "x": 1071,
+                            "y": 63
+                          },
+                          {
+                            "x": 1071,
+                            "y": 290
+                          },
+                          {
+                            "x": 39,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Progresso_Amarelo",
+          "persistentUuid": "567e83c1-6c4d-4f99-89d0-27fc2616ea74",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra Amarela.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 107
+                          },
+                          {
+                            "x": 1055,
+                            "y": 107
+                          },
+                          {
+                            "x": 1055,
+                            "y": 240
+                          },
+                          {
+                            "x": 31,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Progresso_Verde",
+          "persistentUuid": "166a862c-1e97-4948-951c-e36eabd750d6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra Verde.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 105
+                          },
+                          {
+                            "x": 1052,
+                            "y": 105
+                          },
+                          {
+                            "x": 1052,
+                            "y": 240
+                          },
+                          {
+                            "x": 34,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Progresso_Vermelho",
+          "persistentUuid": "b0e4a402-238d-4bdc-be76-1d4a4340856d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barra Vermelha.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 26,
+                            "y": 109
+                          },
+                          {
+                            "x": 1060,
+                            "y": 109
+                          },
+                          {
+                            "x": 1060,
+                            "y": 245
+                          },
+                          {
+                            "x": 26,
+                            "y": 245
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Marcador_Barra",
+          "persistentUuid": "1b42d0c3-199c-4570-8b0f-0b2391c123f0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Marcador.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 228,
+                            "y": 3
+                          },
+                          {
+                            "x": 315,
+                            "y": 3
+                          },
+                          {
+                            "x": 315,
+                            "y": 171
+                          },
+                          {
+                            "x": 228,
+                            "y": 171
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Icone_BarraRegador",
+          "persistentUuid": "c4747550-593f-4313-96f9-39074184cb5d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Icone Regador da Barra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 20
+                          },
+                          {
+                            "x": 267,
+                            "y": 20
+                          },
+                          {
+                            "x": 267,
+                            "y": 240
+                          },
+                          {
+                            "x": 9,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "FundoEscuro",
+          "persistentUuid": "2161cf52-75bd-4d90-869e-bdbc761a78fd",
+          "rightMargin": 0,
+          "texture": "Fundo Preto",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BotaoFechar",
+          "persistentUuid": "3396ef88-a987-4c94-b003-5b39b889da93",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Fechar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 251,
+                            "y": 8
+                          },
+                          {
+                            "x": 251,
+                            "y": 258
+                          },
+                          {
+                            "x": 4,
+                            "y": 258
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Slot1",
+          "persistentUuid": "80e0695d-abf6-4029-a364-9776b40ea420",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Slot.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 270
+                          },
+                          {
+                            "x": 41,
+                            "y": 270
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Slot2",
+          "persistentUuid": "46176328-064c-4a96-84b8-e18b1047d457",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Slot.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 270
+                          },
+                          {
+                            "x": 41,
+                            "y": 270
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SlotAdubo",
+          "persistentUuid": "09c1cf9b-2e27-4283-a073-339a8f5e45d5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Slot.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 270
+                          },
+                          {
+                            "x": 41,
+                            "y": 270
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ResultadoJanela",
+          "persistentUuid": "0146057a-3b8d-441e-907f-eaf6100f5bdf",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Resultado Janela de Cruzamento.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32,
+                            "y": 50
+                          },
+                          {
+                            "x": 872,
+                            "y": 50
+                          },
+                          {
+                            "x": 872,
+                            "y": 394
+                          },
+                          {
+                            "x": 32,
+                            "y": 394
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MochilaSlot",
+          "persistentUuid": "badcc384-7d61-4ee7-8857-a69c3cfa11c6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Inventario Slot.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 33
+                          },
+                          {
+                            "x": 288,
+                            "y": 270
+                          },
+                          {
+                            "x": 41,
+                            "y": 270
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PincelMagico",
+          "persistentUuid": "68f4dc87-c01e-45db-a621-9614757aeadd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Ativo",
+              "persistentUuid": "58a3e9a2-924a-45cf-9281-63a206c7d1eb",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "2a5723c0-c162-4872-9968-572f0e79d858",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "e0fff44f-d101-4193-8f06-f40ea79b0a5f",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "CamadaOriginal",
+              "persistentUuid": "f269a81a-cad3-41e5-b727-bae2184c6438",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ferramentas/Pincel Mágico.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 71,
+                            "y": 6
+                          },
+                          {
+                            "x": 352,
+                            "y": 6
+                          },
+                          {
+                            "x": 352,
+                            "y": 245
+                          },
+                          {
+                            "x": 71,
+                            "y": 245
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MesaFerramentas",
+          "persistentUuid": "1e2a68fe-c1c0-4674-9e86-0f5e59f935f5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/Mesa de Madeira.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 506,
+                            "y": 19
+                          },
+                          {
+                            "x": 506,
+                            "y": 176
+                          },
+                          {
+                            "x": 8,
+                            "y": 176
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LocalAncestrais",
+          "persistentUuid": "c6df15b6-dba6-42d5-bc7d-134f25fa7357",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/Balcão.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 871
+                          },
+                          {
+                            "x": 98,
+                            "y": 871
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CaixaTerra",
+          "persistentUuid": "4e1f4ba6-00d1-433b-ae20-bbe35fc0cb0e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/CaixaTerra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 43,
+                            "y": 110
+                          },
+                          {
+                            "x": 728,
+                            "y": 110
+                          },
+                          {
+                            "x": 728,
+                            "y": 442
+                          },
+                          {
+                            "x": 43,
+                            "y": 442
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Ancestral_AA",
+          "persistentUuid": "4ecd1ddb-8ce6-4411-a763-2e0b0519da96",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Selecionado",
+              "persistentUuid": "f741c5a1-e6b4-468d-9e04-dd5c155d1d75",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 13
+                          },
+                          {
+                            "x": 1298,
+                            "y": 13
+                          },
+                          {
+                            "x": 1298,
+                            "y": 1191
+                          },
+                          {
+                            "x": 16,
+                            "y": 1191
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Ancestral_Aa",
+          "persistentUuid": "342548b6-4c99-438a-a739-cc6d28d2653c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Selecionado",
+              "persistentUuid": "6bcffaab-f1f5-4821-8848-4feecd43c4f8",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 3
+                          },
+                          {
+                            "x": 325,
+                            "y": 3
+                          },
+                          {
+                            "x": 325,
+                            "y": 298
+                          },
+                          {
+                            "x": 4,
+                            "y": 298
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Janela_Cruzamento",
+          "persistentUuid": "72c52980-138a-4973-ac52-1b612a4999dd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Janela genótipo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 35,
+                            "y": 26
+                          },
+                          {
+                            "x": 1988,
+                            "y": 26
+                          },
+                          {
+                            "x": 1988,
+                            "y": 685
+                          },
+                          {
+                            "x": 35,
+                            "y": 685
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Texto_Genótipo1",
+          "persistentUuid": "82e995fd-4eeb-4219-9b3c-31ed79c38e29",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Genótipo 1",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Genótipo 1",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BotaoPolinizar",
+          "persistentUuid": "bcc99802-e8f9-4a98-bde8-add86d52046e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Botão Polinizar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 5
+                          },
+                          {
+                            "x": 494,
+                            "y": 5
+                          },
+                          {
+                            "x": 494,
+                            "y": 171
+                          },
+                          {
+                            "x": 19,
+                            "y": 171
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BotaoResetar",
+          "persistentUuid": "c7ca4671-afab-4988-b07f-846f5fa4ea4b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Botão Resetar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 32
+                          },
+                          {
+                            "x": 527,
+                            "y": 32
+                          },
+                          {
+                            "x": 527,
+                            "y": 153
+                          },
+                          {
+                            "x": 17,
+                            "y": 153
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Texto_Genótipo2",
+          "persistentUuid": "f8c3d267-b6c9-4e59-b9ab-627b16852771",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Genótipo 2",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Genótipo 2",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Texto_Resultado",
+          "persistentUuid": "e7b29daf-3481-4810-b7fb-ef41c59d697e",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Resultado",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Resultado",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoAncestral1",
+          "persistentUuid": "46edcdc1-f90c-42db-b172-28ad61a8b3e5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "???",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "???",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoAncestral2",
+          "persistentUuid": "12f84708-0480-4788-8741-2351c96e4ac5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "???",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "???",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "AncestralFilho",
+          "persistentUuid": "251a3ad5-8016-4fef-aa0e-4aff1d6c35f1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "???",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "???",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "roleta_",
+          "persistentUuid": "ed29cd31-fec8-41aa-9971-46e467cb9bf2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 26
+                          },
+                          {
+                            "x": 676,
+                            "y": 26
+                          },
+                          {
+                            "x": 676,
+                            "y": 676
+                          },
+                          {
+                            "x": 25,
+                            "y": 676
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "pino_roleta",
+          "persistentUuid": "52525894-02d1-4edc-bf11-55163943bd7f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "roleta (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 276,
+                            "y": 271
+                          },
+                          {
+                            "x": 424,
+                            "y": 271
+                          },
+                          {
+                            "x": 424,
+                            "y": 426
+                          },
+                          {
+                            "x": 276,
+                            "y": 426
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "roldar_roleta",
+          "persistentUuid": "2b18a61c-33fd-46f2-a099-7079c400d582",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Aceitar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 4
+                          },
+                          {
+                            "x": 254,
+                            "y": 253
+                          },
+                          {
+                            "x": 6,
+                            "y": 253
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Fundo"
+          },
+          {
+            "objectName": "Balcao"
+          },
+          {
+            "objectName": "AreaAtendimento"
+          },
+          {
+            "objectName": "Vaso"
+          },
+          {
+            "objectName": "Semente1"
+          },
+          {
+            "objectName": "Semente2"
+          },
+          {
+            "objectName": "Regador"
+          },
+          {
+            "objectName": "MesaFerramentas"
+          },
+          {
+            "objectName": "LocalAncestrais"
+          },
+          {
+            "objectName": "SementesAmarelo_AA"
+          },
+          {
+            "objectName": "SementesAmarelo_Aa"
+          },
+          {
+            "objectName": "SementesLilas_aa"
+          },
+          {
+            "objectName": "AduboDominante"
+          },
+          {
+            "objectName": "AduboRecessivo"
+          },
+          {
+            "objectName": "Flor_AA_Aa"
+          },
+          {
+            "objectName": "Flor_aa"
+          },
+          {
+            "objectName": "Barra_Vazia"
+          },
+          {
+            "objectName": "Marcador_Barra"
+          },
+          {
+            "objectName": "Icone_BarraRegador"
+          },
+          {
+            "objectName": "Progresso_Amarelo"
+          },
+          {
+            "objectName": "Progresso_Verde"
+          },
+          {
+            "objectName": "Progresso_Vermelho"
+          },
+          {
+            "objectName": "FundoEscuro"
+          },
+          {
+            "objectName": "MochilaSlot"
+          },
+          {
+            "objectName": "BotaoFechar"
+          },
+          {
+            "objectName": "roldar_roleta"
+          },
+          {
+            "objectName": "Slot1"
+          },
+          {
+            "objectName": "Slot2"
+          },
+          {
+            "objectName": "ResultadoJanela"
+          },
+          {
+            "objectName": "SlotAdubo"
+          },
+          {
+            "objectName": "PincelMagico"
+          },
+          {
+            "objectName": "CaixaTerra"
+          },
+          {
+            "objectName": "Ancestral_AA"
+          },
+          {
+            "objectName": "Ancestral_Aa"
+          },
+          {
+            "objectName": "Janela_Cruzamento"
+          },
+          {
+            "objectName": "Texto_Genótipo1"
+          },
+          {
+            "objectName": "Texto_Genótipo2"
+          },
+          {
+            "objectName": "Texto_Resultado"
+          },
+          {
+            "objectName": "TextoAncestral1"
+          },
+          {
+            "objectName": "TextoAncestral2"
+          },
+          {
+            "objectName": "AncestralFilho"
+          },
+          {
+            "objectName": "BotaoPolinizar"
+          },
+          {
+            "objectName": "BotaoResetar"
+          },
+          {
+            "objectName": "roleta_"
+          },
+          {
+            "objectName": "pino_roleta"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "roleta_girando",
+                "=",
+                "0\n"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "roldar_roleta",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "roleta_girando",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "roleta_girando",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"roletagirando\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "roleta_girando",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"roletagirando\"",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "roleta_",
+                "+",
+                "700*TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"roletagirando\"",
+                ">",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "BotaoFechar",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "roleta_",
+                "+",
+                "0*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "roleta_girando",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "orthographic",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Minigame do Regador",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Roleta do Cruzamento",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Topo",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 200,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "layoutsFolderStructure": {
@@ -16051,6 +22271,9 @@
       },
       {
         "itemName": "Cultivo"
+      },
+      {
+        "itemName": "Cultivo2"
       }
     ]
   },
