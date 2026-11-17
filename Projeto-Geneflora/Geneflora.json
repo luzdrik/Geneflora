@@ -330,26 +330,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Ferramentas/Pá.png",
+        "file": "assets/Cultivo/Ferramentas/Regador Inicial.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/Cultivo/Ferramentas/Pá.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Cultivo/Decorações/aaaaaa.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Cultivo/Decorações/aaaaaa.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Cultivo/Ferramentas/RegadorInicial.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Cultivo/Ferramentas/RegadorInicial.png",
+        "name": "assets/Cultivo/Ferramentas/Regador Inicial.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -516,26 +500,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Ferramentas/Máquina de Fusão de Genótipos.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Cultivo/Ferramentas/Máquina de Fusão de Genótipos.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/IU/Fundo Preto.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Fundo Preto",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IU/Janela de Cruzamento.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Janela de Cruzamento.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -552,14 +520,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Slot.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IU/Janela do Resultado do Cruzamento.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Resultado Janela de Cruzamento.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -682,6 +642,77 @@
         "name": "Flores Diversas Brancas e Amarelas.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Ferramentas/Pincel Mágico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Ferramentas/Pincel Mágico.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/Mesa de Madeira.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/Mesa de Madeira.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/Balcão.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/Balcão.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/CaixaTerra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/CaixaTerra.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Janela genótipo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Janela genótipo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fontes/Sniglet-ExtraBold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets/Fontes/Sniglet-ExtraBold.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Botão Polinizar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Botão Polinizar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Botão Resetar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Botão Resetar.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -708,6 +739,42 @@
       "persistentUuid": "8a142228-e15b-4da5-80ca-78155a12def0",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "GenotipoAncestral1",
+      "persistentUuid": "ea194244-5aaa-4c66-9ece-1a015358d89c",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "GenotipoAncestral2",
+      "persistentUuid": "9d316806-16d1-4cf8-90f5-763c1223b36b",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "QuantidadeAncestrais",
+      "persistentUuid": "34c32051-6436-4e66-8c5a-a796ba550c1b",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "AleloPincel1",
+      "persistentUuid": "4e3a9632-2587-4228-a78c-34f16a53f8b9",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "AleloPincel2",
+      "persistentUuid": "b4d72025-29ed-4f97-98ac-db84efb6e881",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "JanelaPincelAberta",
+      "persistentUuid": "f9dd433f-2fb6-4d8d-9a95-87092cec5db3",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -4662,7 +4729,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000232,
+        "zoomFactor": 0.6897782140104851,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4758,10 +4825,10 @@
           "value": false
         },
         {
-          "name": "JanelaMixagemAberta",
-          "persistentUuid": "3611ec97-5227-4e70-a882-a2ac7f962602",
-          "type": "boolean",
-          "value": false
+          "name": "GenotipoFilho",
+          "persistentUuid": "8913f2a0-2a96-48b7-abf2-8403c6534025",
+          "type": "string",
+          "value": ""
         }
       ],
       "instances": [
@@ -4771,8 +4838,10 @@
           "depth": 0,
           "height": 105,
           "layer": "",
+          "locked": true,
           "name": "AreaAtendimento",
           "persistentUuid": "798cd977-9f74-4319-b7fa-0944f372f42e",
+          "sealed": true,
           "width": 99,
           "x": 1124,
           "y": 243,
@@ -4822,70 +4891,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 190,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CaixaTerra",
-          "persistentUuid": "c208fd62-06b5-43d9-a512-02c4b7b953ac",
-          "width": 281,
-          "x": 855,
-          "y": 190,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 342,
-          "customSize": true,
           "depth": 1,
-          "height": 87,
-          "hidden": true,
+          "height": 110,
           "keepRatio": true,
           "layer": "",
-          "name": "Pa",
-          "persistentUuid": "1a920a03-259f-4468-89ff-9c303a346371",
-          "width": 100,
-          "x": 956,
-          "y": 186,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Terra",
-          "persistentUuid": "a08066f8-f425-43a1-b662-6ece6057038b",
-          "width": 201,
-          "x": 894,
-          "y": 252,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 133,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
           "name": "Regador",
           "persistentUuid": "2960207d-d9cf-4bc9-ac06-2d0ca8be4980",
-          "width": 154,
-          "x": 1050,
-          "y": 558,
+          "width": 127,
+          "x": 1125,
+          "y": 532,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -4899,13 +4913,11 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "SementesAmarelo_AA",
           "persistentUuid": "23706959-35fa-4b43-b2d3-f49fb5d01c52",
-          "sealed": true,
           "width": 107,
-          "x": 8,
-          "y": 20,
+          "x": 74,
+          "y": -355,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4919,13 +4931,11 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "SementesAmarelo_Aa",
           "persistentUuid": "3b3a9774-2b5e-48b8-bc05-b3ded091ba45",
-          "sealed": true,
           "width": 107,
-          "x": 128,
-          "y": 20,
+          "x": 190,
+          "y": -266,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -4939,13 +4949,11 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "SementesLilas_aa",
           "persistentUuid": "4dcb2150-9472-4d82-b735-ad5981648bfc",
-          "sealed": true,
           "width": 107,
-          "x": 248,
-          "y": 20,
+          "x": 275,
+          "y": -182,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -4959,13 +4967,11 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "AduboDominante",
           "persistentUuid": "50b4426a-e8ae-4b27-917f-d238c67fdccf",
-          "sealed": true,
           "width": 107,
-          "x": 368,
-          "y": 20,
+          "x": 477,
+          "y": -168,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -4979,13 +4985,11 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "AduboRecessivo",
           "persistentUuid": "2dac2a6a-6a0a-4488-a52a-855466430211",
-          "sealed": true,
           "width": 109,
-          "x": 488,
-          "y": 20,
+          "x": 638,
+          "y": -207,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -5153,8 +5157,10 @@
           "depth": 0,
           "height": 202,
           "layer": "",
+          "locked": true,
           "name": "Vaso",
           "persistentUuid": "005215b0-ffa4-4c12-99f9-b28f9c1f0d23",
+          "sealed": true,
           "width": 220,
           "x": 260,
           "y": 399,
@@ -5176,8 +5182,10 @@
           "depth": 0,
           "height": 202,
           "layer": "",
+          "locked": true,
           "name": "Vaso",
           "persistentUuid": "f4848786-16a5-430f-b31e-65463fd2430d",
+          "sealed": true,
           "width": 220,
           "x": 517,
           "y": 399,
@@ -5199,8 +5207,10 @@
           "depth": 0,
           "height": 202,
           "layer": "",
+          "locked": true,
           "name": "Vaso",
           "persistentUuid": "8777968c-2ed7-4fd6-96b5-6329cd76b1aa",
+          "sealed": true,
           "width": 220,
           "x": 772,
           "y": 399,
@@ -5365,7 +5375,7 @@
           "height": 195,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Minigame do Regador",
           "locked": true,
           "name": "Barra_Vazia",
           "persistentUuid": "e77fe593-f7d9-4ae7-a80f-e5148e7c20cf",
@@ -5385,7 +5395,7 @@
           "flippedX": true,
           "height": 132,
           "hidden": true,
-          "layer": "",
+          "layer": "Minigame do Regador",
           "locked": true,
           "name": "Progresso_Amarelo",
           "persistentUuid": "a544fa11-04dc-4b7f-80eb-c465de2b350b",
@@ -5405,7 +5415,7 @@
           "height": 133,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Minigame do Regador",
           "locked": true,
           "name": "Icone_BarraRegador",
           "persistentUuid": "0bf302b5-29e0-4eaf-8c30-88b1356e0701",
@@ -5424,7 +5434,7 @@
           "flippedX": true,
           "height": 129,
           "hidden": true,
-          "layer": "",
+          "layer": "Minigame do Regador",
           "locked": true,
           "name": "Progresso_Verde",
           "persistentUuid": "4ff7c54e-db0b-484a-809d-8dd58f120f08",
@@ -5444,7 +5454,7 @@
           "flippedX": true,
           "height": 128,
           "hidden": true,
-          "layer": "",
+          "layer": "Minigame do Regador",
           "locked": true,
           "name": "Progresso_Vermelho",
           "persistentUuid": "3c2af788-c2de-4364-89cf-d16ef491f167",
@@ -5464,7 +5474,7 @@
           "height": 38,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Minigame do Regador",
           "name": "Marcador_Barra",
           "persistentUuid": "bee8c1d2-3cb7-4ae4-b246-7126dabd5b14",
           "width": 21,
@@ -5482,13 +5492,299 @@
           "height": 38,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Minigame do Regador",
           "name": "Marcador_Barra",
           "persistentUuid": "b8401239-df3d-4fe7-acb5-25bbc1e74e0c",
           "width": 21,
           "x": 770,
           "y": 627,
           "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PincelMagico",
+          "persistentUuid": "43284207-359f-462d-8606-2a66bc13a9f7",
+          "width": 117,
+          "x": 1000,
+          "y": 546,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 291,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "MesaFerramentas",
+          "persistentUuid": "4d322c73-5a32-4cdf-9c36-e766a4f9ad3a",
+          "sealed": true,
+          "width": 488,
+          "x": 874,
+          "y": 534,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 339,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LocalAncestrais",
+          "persistentUuid": "978178bf-18ea-4302-948f-0eebfb72a615",
+          "width": 508,
+          "x": -365,
+          "y": -356,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 306,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CaixaTerra",
+          "persistentUuid": "76c9ad9e-1ec4-4b0e-9341-bb068a89809a",
+          "width": 458,
+          "x": 397,
+          "y": 98,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 139,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ancestral_AA",
+          "persistentUuid": "ff65f12c-d133-45ce-8114-84da6cd829e8",
+          "width": 128,
+          "x": 479,
+          "y": 112,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.670157068063,
+          "height": 139,
+          "layer": "",
+          "name": "Ancestral_Aa",
+          "persistentUuid": "4b4073a3-44df-4940-a27c-bb78a5976376",
+          "width": 128,
+          "x": 644,
+          "y": 112,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 118,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "BotaoPolinizar",
+          "persistentUuid": "4dbd4e7b-8af1-43b4-aa98-f47d53ac14c1",
+          "sealed": true,
+          "width": 348,
+          "x": 268,
+          "y": 500,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 323,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Janela_Cruzamento",
+          "persistentUuid": "a15deede-7fad-45e3-8edb-3f83a39fe728",
+          "sealed": true,
+          "width": 853,
+          "x": 202,
+          "y": 296,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "BotaoResetar",
+          "persistentUuid": "8e4f88b9-272a-4e32-a402-f3633305efc6",
+          "sealed": true,
+          "width": 355,
+          "x": 640,
+          "y": 504,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Texto_Genótipo1",
+          "persistentUuid": "8ac41f28-75e0-4a01-bbbf-66b2cbd2825a",
+          "sealed": true,
+          "width": 0,
+          "x": 350,
+          "y": 390,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Texto_Genótipo2",
+          "persistentUuid": "adc0212e-0551-460e-99bf-695110e2c143",
+          "sealed": true,
+          "width": 0,
+          "x": 570,
+          "y": 390,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Texto_Resultado",
+          "persistentUuid": "c67e6f8f-a2d8-40c1-a95f-2c42a88d3891",
+          "sealed": true,
+          "width": 0,
+          "x": 795,
+          "y": 390,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "locked": true,
+          "name": "TextoAncestral1",
+          "persistentUuid": "475d9cfb-4096-4514-9444-85f8c909ac3c",
+          "sealed": true,
+          "width": 110,
+          "x": 350,
+          "y": 437,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "AncestralFilho",
+          "persistentUuid": "736396d6-eb01-4956-a687-f8cc85f035f0",
+          "sealed": true,
+          "width": 110,
+          "x": 800,
+          "y": 437,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "locked": true,
+          "name": "TextoAncestral2",
+          "persistentUuid": "cbe9cb0e-80cd-4eba-9675-f339de50e20d",
+          "sealed": true,
+          "width": 110,
+          "x": 575,
+          "y": 437,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 72,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BotaoFechar",
+          "persistentUuid": "23f4849a-82ec-496b-9263-46791dca9c20",
+          "width": 71,
+          "x": 944,
+          "y": 334,
+          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5681,67 +5977,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "CaixaTerra",
-          "persistentUuid": "a5309f9f-ad7a-4750-9b6f-1d63206ccc66",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Caixa com Terra.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 43,
-                            "y": 110
-                          },
-                          {
-                            "x": 728,
-                            "y": 110
-                          },
-                          {
-                            "x": 728,
-                            "y": 442
-                          },
-                          {
-                            "x": 43,
-                            "y": 442
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Vaso",
           "persistentUuid": "73423a94-4eda-41e7-b4e1-4688d823557a",
           "type": "Sprite",
@@ -5840,145 +6075,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Pa",
-          "persistentUuid": "59fa0116-3576-4d23-877b-183cd7396f23",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "PosicaoX",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "PosicaoY",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Ferramentas/Pá.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 81,
-                            "y": 8
-                          },
-                          {
-                            "x": 1271,
-                            "y": 8
-                          },
-                          {
-                            "x": 1271,
-                            "y": 1213
-                          },
-                          {
-                            "x": 81,
-                            "y": 1213
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Terra",
-          "persistentUuid": "a0ca806d-fb91-43a7-8949-b38ae7d746fe",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Decorações/aaaaaa.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 343,
-                            "y": 0
-                          },
-                          {
-                            "x": 343,
-                            "y": 91
-                          },
-                          {
-                            "x": 0,
-                            "y": 91
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Regador",
           "persistentUuid": "a6fafdda-58b4-4e11-8b5a-82821d43217b",
           "type": "Sprite",
@@ -6016,7 +6112,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Ferramentas/RegadorInicial.png",
+                      "image": "assets/Cultivo/Ferramentas/Regador Inicial.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9178,6 +9274,864 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PincelMagico",
+          "persistentUuid": "68f4dc87-c01e-45db-a621-9614757aeadd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Ativo",
+              "persistentUuid": "58a3e9a2-924a-45cf-9281-63a206c7d1eb",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "2a5723c0-c162-4872-9968-572f0e79d858",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "e0fff44f-d101-4193-8f06-f40ea79b0a5f",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "CamadaOriginal",
+              "persistentUuid": "f269a81a-cad3-41e5-b727-bae2184c6438",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ferramentas/Pincel Mágico.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 71,
+                            "y": 6
+                          },
+                          {
+                            "x": 352,
+                            "y": 6
+                          },
+                          {
+                            "x": 352,
+                            "y": 245
+                          },
+                          {
+                            "x": 71,
+                            "y": 245
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MesaFerramentas",
+          "persistentUuid": "1e2a68fe-c1c0-4674-9e86-0f5e59f935f5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/Mesa de Madeira.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 506,
+                            "y": 19
+                          },
+                          {
+                            "x": 506,
+                            "y": 176
+                          },
+                          {
+                            "x": 8,
+                            "y": 176
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LocalAncestrais",
+          "persistentUuid": "c6df15b6-dba6-42d5-bc7d-134f25fa7357",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/Balcão.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 198
+                          },
+                          {
+                            "x": 1440,
+                            "y": 871
+                          },
+                          {
+                            "x": 98,
+                            "y": 871
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CaixaTerra",
+          "persistentUuid": "4e1f4ba6-00d1-433b-ae20-bbe35fc0cb0e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/CaixaTerra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 43,
+                            "y": 110
+                          },
+                          {
+                            "x": 728,
+                            "y": 110
+                          },
+                          {
+                            "x": 728,
+                            "y": 442
+                          },
+                          {
+                            "x": 43,
+                            "y": 442
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Ancestral_AA",
+          "persistentUuid": "4ecd1ddb-8ce6-4411-a763-2e0b0519da96",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Selecionado",
+              "persistentUuid": "f741c5a1-e6b4-468d-9e04-dd5c155d1d75",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 13
+                          },
+                          {
+                            "x": 1298,
+                            "y": 13
+                          },
+                          {
+                            "x": 1298,
+                            "y": 1191
+                          },
+                          {
+                            "x": 16,
+                            "y": 1191
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Ancestral_Aa",
+          "persistentUuid": "342548b6-4c99-438a-a739-cc6d28d2653c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Selecionado",
+              "persistentUuid": "6bcffaab-f1f5-4821-8848-4feecd43c4f8",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 3
+                          },
+                          {
+                            "x": 325,
+                            "y": 3
+                          },
+                          {
+                            "x": 325,
+                            "y": 298
+                          },
+                          {
+                            "x": 4,
+                            "y": 298
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Janela_Cruzamento",
+          "persistentUuid": "72c52980-138a-4973-ac52-1b612a4999dd",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Janela genótipo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 35,
+                            "y": 26
+                          },
+                          {
+                            "x": 1988,
+                            "y": 26
+                          },
+                          {
+                            "x": 1988,
+                            "y": 685
+                          },
+                          {
+                            "x": 35,
+                            "y": 685
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Texto_Genótipo1",
+          "persistentUuid": "82e995fd-4eeb-4219-9b3c-31ed79c38e29",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Genótipo 1",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Genótipo 1",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BotaoPolinizar",
+          "persistentUuid": "bcc99802-e8f9-4a98-bde8-add86d52046e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Botão Polinizar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 5
+                          },
+                          {
+                            "x": 494,
+                            "y": 5
+                          },
+                          {
+                            "x": 494,
+                            "y": 171
+                          },
+                          {
+                            "x": 19,
+                            "y": 171
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BotaoResetar",
+          "persistentUuid": "c7ca4671-afab-4988-b07f-846f5fa4ea4b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Botão Resetar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 32
+                          },
+                          {
+                            "x": 527,
+                            "y": 32
+                          },
+                          {
+                            "x": 527,
+                            "y": 153
+                          },
+                          {
+                            "x": 17,
+                            "y": 153
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Texto_Genótipo2",
+          "persistentUuid": "f8c3d267-b6c9-4e59-b9ab-627b16852771",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Genótipo 2",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Genótipo 2",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Texto_Resultado",
+          "persistentUuid": "e7b29daf-3481-4810-b7fb-ef41c59d697e",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Resultado",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Resultado",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoAncestral1",
+          "persistentUuid": "46edcdc1-f90c-42db-b172-28ad61a8b3e5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "???",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "???",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoAncestral2",
+          "persistentUuid": "12f84708-0480-4788-8741-2351c96e4ac5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "???",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "???",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "AncestralFilho",
+          "persistentUuid": "251a3ad5-8016-4fef-aa0e-4aff1d6c35f1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "???",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "???",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9193,15 +10147,6 @@
             "objectName": "AreaAtendimento"
           },
           {
-            "objectName": "CaixaTerra"
-          },
-          {
-            "objectName": "Terra"
-          },
-          {
-            "objectName": "Pa"
-          },
-          {
             "objectName": "Vaso"
           },
           {
@@ -9212,6 +10157,12 @@
           },
           {
             "objectName": "Regador"
+          },
+          {
+            "objectName": "MesaFerramentas"
+          },
+          {
+            "objectName": "LocalAncestrais"
           },
           {
             "objectName": "SementesAmarelo_AA"
@@ -9272,6 +10223,45 @@
           },
           {
             "objectName": "SlotAdubo"
+          },
+          {
+            "objectName": "PincelMagico"
+          },
+          {
+            "objectName": "CaixaTerra"
+          },
+          {
+            "objectName": "Ancestral_AA"
+          },
+          {
+            "objectName": "Ancestral_Aa"
+          },
+          {
+            "objectName": "Janela_Cruzamento"
+          },
+          {
+            "objectName": "Texto_Genótipo1"
+          },
+          {
+            "objectName": "Texto_Genótipo2"
+          },
+          {
+            "objectName": "Texto_Resultado"
+          },
+          {
+            "objectName": "TextoAncestral1"
+          },
+          {
+            "objectName": "TextoAncestral2"
+          },
+          {
+            "objectName": "AncestralFilho"
+          },
+          {
+            "objectName": "BotaoPolinizar"
+          },
+          {
+            "objectName": "BotaoResetar"
           }
         ]
       },
@@ -9284,45 +10274,46 @@
           "name": "Retorno a cena de Atendimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "events": [
             {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "AreaAtendimento",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "AreaAtendimento",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Atendimento\"",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Atendimento\"",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
           "aiGeneratedEventId": "01M6PP2V3J7AEQMAM488A3EDWT",
@@ -11288,10 +12279,1514 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Cruzador de Genótipos com Pincel ",
+          "name": "Seleção e Cruzamento dos Genótipos com Pincel Mágico Polinizador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Seleção e Registro dos Genótipos"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral1",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral2",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_AA",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "AncestralFilho",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Texto_Genótipo1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Texto_Genótipo2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Texto_Resultado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAncestral2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "AncestralFilho"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoFechar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "PosicaoX",
+                    "=",
+                    "PincelMagico.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "PosicaoY",
+                    "=",
+                    "PincelMagico.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "CamadaOriginal",
+                    "=",
+                    "PincelMagico.Layer()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "\"Topo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Texto_Genótipo1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Texto_Genótipo2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Texto_Resultado",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AncestralFilho",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "=",
+                    "MouseX() - PincelMagico.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "=",
+                    "MouseY() - PincelMagico.Height()/2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ancestral_AA",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_AA",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral1",
+                    "=",
+                    "\"AA\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_AA",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ancestral_AA",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_AA",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral2",
+                    "=",
+                    "\"AA\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_AA",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ancestral_Aa",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral1",
+                    "=",
+                    "\"Aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ancestral_Aa",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral2",
+                    "=",
+                    "\"Aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "=",
+                    "PincelMagico.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "=",
+                    "PincelMagico.Variable(PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "PincelMagico.VariableString(CamadaOriginal)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Texto_Genótipo1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Texto_Genótipo2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Texto_Resultado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAncestral2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "AncestralFilho"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoFechar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoResetar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral1",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral2",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_AA",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "AncestralFilho",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Eventos de atualização dos valores após fechar e abrir a janela"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "AncestralFilho",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AncestralFilho",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "\"???\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AncestralFilho",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoResetar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AncestralFilho",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
         },
         {
@@ -11834,22 +14329,12 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Janela de Cruzamento Genético da Máquina de Mixagem",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
           "aiGeneratedEventId": "01M6PP2V3J7AEQMAM488A3EDWT",
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "name": "Remover Flor e Recuperar Sementes do Vaso com a Pá",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12498,120 +14983,122 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "name": "Arraste e Retorno da Pá",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "PosicaoX",
+                    "=",
+                    "Pa.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "PosicaoY",
+                    "=",
+                    "Pa.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "=",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "=",
+                    "Pa.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Pa",
+                    "=",
+                    "Pa.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Pa",
-                "PosicaoX",
-                "=",
-                "Pa.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Pa",
-                "PosicaoY",
-                "=",
-                "Pa.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "Pa",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "Pa",
-                "=",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "Pa",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "Pa",
-                "=",
-                "7"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "Pa",
-                "=",
-                "Pa.Variable(PosicaoX)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "Pa",
-                "=",
-                "Pa.Variable(PosicaoY)"
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -12626,122 +15113,123 @@
           "name": "Arraste e Retorno do Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "PosicaoX",
+                    "=",
+                    "Regador.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "PosicaoY",
+                    "=",
+                    "Regador.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "Regador.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "Regador.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Regador",
-                "PosicaoX",
-                "=",
-                "Regador.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Regador",
-                "PosicaoY",
-                "=",
-                "Regador.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "Regador",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "Regador",
-                "=",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "Regador",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "Regador",
-                "=",
-                "9"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "Regador",
-                "=",
-                "Regador.Variable(PosicaoX)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "Regador",
-                "=",
-                "Regador.Variable(PosicaoY)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -12751,310 +15239,311 @@
           "name": "Arraste e Retorno das Sementes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "PosicaoX",
+                    "=",
+                    "SementesAmarelo_AA.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "PosicaoY",
+                    "=",
+                    "SementesAmarelo_AA.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "PosicaoX",
+                    "=",
+                    "SementesAmarelo_Aa.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "PosicaoY",
+                    "=",
+                    "SementesAmarelo_Aa.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "PosicaoX",
+                    "=",
+                    "SementesLilas_aa.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "PosicaoY",
+                    "=",
+                    "SementesLilas_aa.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "=",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "=",
+                    "SementesAmarelo_AA.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_AA",
+                    "=",
+                    "SementesAmarelo_AA.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "=",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "=",
+                    "11"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "=",
+                    "SementesAmarelo_Aa.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "SementesAmarelo_Aa",
+                    "=",
+                    "SementesAmarelo_Aa.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "=",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "=",
+                    "SementesLilas_aa.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "SementesLilas_aa",
+                    "=",
+                    "SementesLilas_aa.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "PosicaoX",
-                "=",
-                "SementesAmarelo_AA.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "PosicaoY",
-                "=",
-                "SementesAmarelo_AA.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "PosicaoX",
-                "=",
-                "SementesAmarelo_Aa.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "PosicaoY",
-                "=",
-                "SementesAmarelo_Aa.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "PosicaoX",
-                "=",
-                "SementesLilas_aa.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "PosicaoY",
-                "=",
-                "SementesLilas_aa.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "=",
-                "15"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "=",
-                "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "=",
-                "SementesAmarelo_AA.Variable(PosicaoX)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "SementesAmarelo_AA",
-                "=",
-                "SementesAmarelo_AA.Variable(PosicaoY)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "=",
-                "15"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "=",
-                "11"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "=",
-                "SementesAmarelo_Aa.Variable(PosicaoX)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "SementesAmarelo_Aa",
-                "=",
-                "SementesAmarelo_Aa.Variable(PosicaoY)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "=",
-                "15"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "=",
-                "12"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "=",
-                "SementesLilas_aa.Variable(PosicaoX)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "SementesLilas_aa",
-                "=",
-                "SementesLilas_aa.Variable(PosicaoY)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -13064,216 +15553,217 @@
           "name": "Arraste e Retorno dos Adubos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "PosicaoX",
+                    "=",
+                    "AduboDominante.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "PosicaoY",
+                    "=",
+                    "AduboDominante.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "PosicaoX",
+                    "=",
+                    "AduboRecessivo.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "PosicaoY",
+                    "=",
+                    "AduboRecessivo.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "=",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "=",
+                    "13"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "=",
+                    "AduboDominante.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AduboDominante",
+                    "=",
+                    "AduboDominante.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "=",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "=",
+                    "14"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "=",
+                    "AduboRecessivo.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AduboRecessivo",
+                    "=",
+                    "AduboRecessivo.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "AduboDominante",
-                "PosicaoX",
-                "=",
-                "AduboDominante.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "AduboDominante",
-                "PosicaoY",
-                "=",
-                "AduboDominante.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "PosicaoX",
-                "=",
-                "AduboRecessivo.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "PosicaoY",
-                "=",
-                "AduboRecessivo.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "AduboDominante",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "AduboDominante",
-                "=",
-                "15"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "AduboDominante",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "AduboDominante",
-                "=",
-                "13"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "AduboDominante",
-                "=",
-                "AduboDominante.Variable(PosicaoX)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "AduboDominante",
-                "=",
-                "AduboDominante.Variable(PosicaoY)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "=",
-                "15"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "=",
-                "14"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "=",
-                "AduboRecessivo.Variable(PosicaoX)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "AduboRecessivo",
-                "=",
-                "AduboRecessivo.Variable(PosicaoY)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -13289,7 +15779,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -13311,6 +15801,177 @@
               "name": "3D Ambient Hemisphere Light",
               "doubleParameters": {
                 "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Minigame do Regador",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Roleta do Cruzamento",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Topo",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 200,
                 "intensity": 0.33,
                 "rotation": 300
               },
@@ -13371,6 +16032,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
