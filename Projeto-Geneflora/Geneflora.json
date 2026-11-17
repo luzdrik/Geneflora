@@ -540,10 +540,34 @@
         "userAdded": false
       },
       {
-        "file": "3.png",
+        "file": "assets/Cultivo/Ferramentas/Regador Inicial.png",
         "kind": "image",
         "metadata": "",
-        "name": "3.png",
+        "name": "assets/Cultivo/Ferramentas/Regador Inicial.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/CaixaTerra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/CaixaTerra.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Ferramentas/pá.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Ferramentas/pá.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/terra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/terra.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -3433,26 +3457,9 @@
           "name": "Pa",
           "persistentUuid": "1a920a03-259f-4468-89ff-9c303a346371",
           "width": 100,
-          "x": 970,
-          "y": 137,
+          "x": 976,
+          "y": 134,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Terra",
-          "persistentUuid": "a08066f8-f425-43a1-b662-6ece6057038b",
-          "width": 164,
-          "x": 936,
-          "y": 203,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4076,6 +4083,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 524,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Terra",
+          "persistentUuid": "4b06ff2b-d90e-4a41-93ac-e774663f317f",
+          "width": 383,
+          "x": 828,
+          "y": -27,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4431,11 +4455,13 @@
           "variables": [
             {
               "name": "PosicaoX",
+              "persistentUuid": "d279e001-8490-4b7d-a018-4de62e597bb3",
               "type": "number",
               "value": 0
             },
             {
               "name": "PosicaoY",
+              "persistentUuid": "bfdd7c71-4fd8-415a-8d80-b7e63def4d7a",
               "type": "number",
               "value": 0
             }
@@ -4459,7 +4485,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Ferramentas/Pá.png",
+                      "image": "assets/Cultivo/Ferramentas/pá.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4475,20 +4501,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 81,
-                            "y": 8
+                            "x": 43,
+                            "y": 22
                           },
                           {
-                            "x": 1271,
-                            "y": 8
+                            "x": 690,
+                            "y": 22
                           },
                           {
-                            "x": 1271,
-                            "y": 1213
+                            "x": 690,
+                            "y": 678
                           },
                           {
-                            "x": 81,
-                            "y": 1213
+                            "x": 43,
+                            "y": 678
                           }
                         ]
                       ]
@@ -4520,7 +4546,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Decorações/aaaaaa.png",
+                      "image": "assets/Cultivo/Decorações/terra.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4536,20 +4562,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 199,
+                            "y": 290
                           },
                           {
-                            "x": 343,
-                            "y": 0
+                            "x": 498,
+                            "y": 290
                           },
                           {
-                            "x": 343,
-                            "y": 91
+                            "x": 498,
+                            "y": 350
                           },
                           {
-                            "x": 0,
-                            "y": 91
+                            "x": 199,
+                            "y": 350
                           }
                         ]
                       ]
@@ -4600,7 +4626,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Ferramentas/RegadorInicial.png",
+                      "image": "assets/Cultivo/Ferramentas/Regador Inicial.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11636,23 +11662,23 @@
           "initialVariables": []
         },
         {
-          "angle": 45,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 553,
           "layer": "",
           "name": "roleta",
           "persistentUuid": "b6b9a605-602a-4aa8-bf04-e4e8f0046ee2",
-          "width": 0,
-          "x": 302,
-          "y": 18,
+          "width": 569,
+          "x": 285,
+          "y": 27,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 1,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11660,8 +11686,8 @@
           "name": "pino_roleta",
           "persistentUuid": "9fe931a5-8964-4115-be50-d9a071288c3c",
           "width": 0,
-          "x": 288,
-          "y": -270,
+          "x": 216,
+          "y": -285,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -11873,7 +11899,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "3.png",
+                      "image": "roleta.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11889,20 +11915,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 26
+                            "x": 2,
+                            "y": 4
                           },
                           {
-                            "x": 676,
-                            "y": 26
+                            "x": 700,
+                            "y": 4
                           },
                           {
-                            "x": 676,
-                            "y": 676
+                            "x": 700,
+                            "y": 695
                           },
                           {
-                            "x": 25,
-                            "y": 676
+                            "x": 2,
+                            "y": 695
                           }
                         ]
                       ]
