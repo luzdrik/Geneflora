@@ -538,6 +538,14 @@
         "name": "roleta.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -11628,7 +11636,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 45,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11636,15 +11644,15 @@
           "name": "roleta",
           "persistentUuid": "b6b9a605-602a-4aa8-bf04-e4e8f0046ee2",
           "width": 0,
-          "x": 285,
-          "y": 27,
+          "x": 302,
+          "y": 18,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 1,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -11865,7 +11873,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "roleta.png",
+                      "image": "3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11881,20 +11889,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
-                            "y": 4
+                            "x": 25,
+                            "y": 26
                           },
                           {
-                            "x": 700,
-                            "y": 4
+                            "x": 676,
+                            "y": 26
                           },
                           {
-                            "x": 700,
-                            "y": 695
+                            "x": 676,
+                            "y": 676
                           },
                           {
-                            "x": 2,
-                            "y": 695
+                            "x": 25,
+                            "y": 676
                           }
                         ]
                       ]
