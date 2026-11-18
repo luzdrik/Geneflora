@@ -713,6 +713,22 @@
         "name": "Botão Resetar.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/IU/Aceitar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Aceitar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cenários/Menu Inicial/Fundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cenários/Menu Inicial/Fundo.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -771,6 +787,12 @@
       "value": ""
     },
     {
+      "name": "GenotipoFilho",
+      "persistentUuid": "18ce3754-9e39-42c2-8b0a-d968693d9f46",
+      "type": "string",
+      "value": ""
+    },
+    {
       "name": "JanelaPincelAberta",
       "persistentUuid": "f9dd433f-2fb6-4d8d-9a95-87092cec5db3",
       "type": "number",
@@ -801,7 +823,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748922,
+        "zoomFactor": 0.4950840073748925,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1070,7 +1092,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Menu Inicial/Fundo.png",
+                      "image": "assets/Cenários/Menu Inicial/Fundo.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4729,7 +4751,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104851,
+        "zoomFactor": 0.5843784410741245,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4765,6 +4787,17 @@
             },
             {
               "name": "Semente2"
+            }
+          ]
+        },
+        {
+          "name": "AncestraisPais",
+          "objects": [
+            {
+              "name": "Ancestral_AA"
+            },
+            {
+              "name": "Ancestral_Aa"
             }
           ]
         }
@@ -4823,12 +4856,6 @@
           "persistentUuid": "10c8f4e1-07f6-487d-9979-42916e47b218",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "GenotipoFilho",
-          "persistentUuid": "8913f2a0-2a96-48b7-abf2-8403c6534025",
-          "type": "string",
-          "value": ""
         }
       ],
       "instances": [
@@ -5612,7 +5639,7 @@
           "depth": 1,
           "height": 118,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "BotaoPolinizar",
           "persistentUuid": "4dbd4e7b-8af1-43b4-aa98-f47d53ac14c1",
@@ -5631,7 +5658,7 @@
           "depth": 1,
           "height": 323,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "Janela_Cruzamento",
           "persistentUuid": "a15deede-7fad-45e3-8edb-3f83a39fe728",
@@ -5650,7 +5677,7 @@
           "depth": 1,
           "height": 115,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "BotaoResetar",
           "persistentUuid": "8e4f88b9-272a-4e32-a402-f3633305efc6",
@@ -5668,7 +5695,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "Texto_Genótipo1",
           "persistentUuid": "8ac41f28-75e0-4a01-bbbf-66b2cbd2825a",
@@ -5686,7 +5713,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "Texto_Genótipo2",
           "persistentUuid": "adc0212e-0551-460e-99bf-695110e2c143",
@@ -5704,7 +5731,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "Texto_Resultado",
           "persistentUuid": "c67e6f8f-a2d8-40c1-a95f-2c42a88d3891",
@@ -5722,7 +5749,7 @@
           "customSize": true,
           "depth": 0,
           "height": 48,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "TextoAncestral1",
           "persistentUuid": "475d9cfb-4096-4514-9444-85f8c909ac3c",
@@ -5741,7 +5768,7 @@
           "depth": 1,
           "height": 48,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "AncestralFilho",
           "persistentUuid": "736396d6-eb01-4956-a687-f8cc85f035f0",
@@ -5759,7 +5786,7 @@
           "customSize": true,
           "depth": 0,
           "height": 48,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "locked": true,
           "name": "TextoAncestral2",
           "persistentUuid": "cbe9cb0e-80cd-4eba-9675-f339de50e20d",
@@ -5778,7 +5805,7 @@
           "depth": 0,
           "height": 72,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Janela de Cruzamento",
           "name": "BotaoFechar",
           "persistentUuid": "23f4849a-82ec-496b-9263-46791dca9c20",
           "width": 71,
@@ -11714,6 +11741,11 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -13486,6 +13518,283 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Seleção do Alelo 1"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomFloatInRange(0, 1)",
+                        "<",
+                        "0.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel1",
+                        "=",
+                        "SubStr(GenotipoAncestral1, 0, 1)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel1",
+                        "=",
+                        "SubStr(GenotipoAncestral1, 1, 1)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Seleção do Alelo 2"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomFloatInRange(0, 1)",
+                        "<",
+                        "0.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel2",
+                        "=",
+                        "SubStr(GenotipoAncestral2, 0, 1)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel2",
+                        "=",
+                        "SubStr(GenotipoAncestral2, 1, 1)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Determinação do genótipo da semente"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel1",
+                        "=",
+                        "\"A\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel2",
+                        "=",
+                        "\"A\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "GenotipoFilho",
+                        "=",
+                        "\"AA\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel1",
+                        "=",
+                        "\"a\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "AleloPincel2",
+                        "=",
+                        "\"a\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "GenotipoFilho",
+                        "=",
+                        "\"aa\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "GenotipoFilho",
+                        "=",
+                        "\"Aa\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "AncestralFilho",
+                        "Text",
+                        "=",
+                        "GenotipoFilho"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -13891,9 +14200,9 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Alelo1",
+                        "AleloPincel1",
                         "=",
-                        "SubStr(Vasos.Slot1, 0, 1)"
+                        "SubStr(GenotipoAncestral1, 0, 1)"
                       ]
                     }
                   ]
@@ -13907,9 +14216,9 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Alelo1",
+                        "AleloPincel1",
                         "=",
-                        "SubStr(Vasos.Slot1, 1, 1)"
+                        "SubStr(GenotipoAncestral1, 1, 1)"
                       ]
                     }
                   ]
@@ -13934,9 +14243,9 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Alelo2",
+                        "AleloPincel2",
                         "=",
-                        "SubStr(Vasos.Slot2, 0, 1)"
+                        "SubStr(GenotipoAncestral2, 0, 1)"
                       ]
                     }
                   ]
@@ -13950,9 +14259,9 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Alelo2",
+                        "AleloPincel2",
                         "=",
-                        "SubStr(Vasos.Slot2, 1, 1)"
+                        "SubStr(GenotipoAncestral1, 1, 1)"
                       ]
                     }
                   ]
@@ -15850,7 +16159,7 @@
           "isLocked": false,
           "name": "Minigame do Regador",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -15972,6 +16281,63 @@
               "name": "3D Ambient Hemisphere Light",
               "doubleParameters": {
                 "elevation": 200,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Janela de Cruzamento",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
                 "intensity": 0.33,
                 "rotation": 300
               },
