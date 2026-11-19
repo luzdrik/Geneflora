@@ -729,6 +729,14 @@
         "name": "assets/Cenários/Menu Inicial/Fundo.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/IU/Botão meu herbário.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Botão meu herbário.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -906,7 +914,7 @@
           "height": 118,
           "keepRatio": true,
           "layer": "",
-          "name": "BotaoComoJogar",
+          "name": "BotaoMeuHerbário",
           "persistentUuid": "c77abd15-e304-49fb-8d78-84c4b394f484",
           "width": 294,
           "x": 354,
@@ -1318,7 +1326,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "BotaoComoJogar",
+          "name": "BotaoMeuHerbário",
           "persistentUuid": "b426c90e-11fd-4dff-8fd3-ad01f2c89875",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1336,7 +1344,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/IU/Botão Como jogar.png",
+                      "image": "assets/IU/Botão meu herbário.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1352,20 +1360,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 144,
-                            "y": 57
+                            "x": 218,
+                            "y": 125
                           },
                           {
-                            "x": 939,
-                            "y": 57
+                            "x": 1954,
+                            "y": 125
                           },
                           {
-                            "x": 939,
-                            "y": 287
+                            "x": 1954,
+                            "y": 586
                           },
                           {
-                            "x": 144,
-                            "y": 287
+                            "x": 218,
+                            "y": 586
                           }
                         ]
                       ]
@@ -1380,6 +1388,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "BotaoCreditos",
+          "persistentUuid": "d51e4323-6a10-45cf-8e87-bdd51d9527d9",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1941,7 +1950,7 @@
             "objectName": "BotaoJogar"
           },
           {
-            "objectName": "BotaoComoJogar"
+            "objectName": "BotaoMeuHerbário"
           },
           {
             "objectName": "BotaoCreditos"
@@ -1972,7 +1981,128 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "BotaoJogar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Atendimento\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "BotaoJogar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "BotaoJogar",
+                "Scale",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "BotaoJogar",
+                "\"146;140;140\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "BotaoJogar",
+                "Scale",
+                "+",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "BotaoJogar",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
