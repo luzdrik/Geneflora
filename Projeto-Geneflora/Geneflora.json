@@ -753,6 +753,22 @@
         "name": "assets/Créditos/Créditosinicial.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Créditos/BotãoVoltar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Créditos/BotãoVoltar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Créditos/Créditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Créditos/Créditos.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -16857,7 +16873,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39251611754882293,
+        "zoomFactor": 0.43357743047023806,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -16869,15 +16885,32 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 725,
+          "height": 718,
           "keepRatio": true,
           "layer": "",
-          "name": "CréditosInicial",
-          "persistentUuid": "ed2dcf65-94a8-44ac-b5a7-a42b9bb32f13",
-          "width": 1282,
-          "x": -1,
-          "y": -3,
+          "name": "Créditos",
+          "persistentUuid": "a1720bef-84d6-4ee1-822c-931839719a26",
+          "width": 1284,
+          "x": 0,
+          "y": 1,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BotãoVoltar",
+          "persistentUuid": "605c4eee-7341-4753-b7c7-9ea4883414ae",
+          "width": 313,
+          "x": 486,
+          "y": 612,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16948,8 +16981,8 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "CréditosInicial",
-          "persistentUuid": "3f97589f-30a4-47ad-b867-dea888b2e56f",
+          "name": "BotãoVoltar",
+          "persistentUuid": "5ef8cdde-118c-416c-a3b4-ba43058a8d24",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16966,7 +16999,68 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Créditos/Créditosinicial.png",
+                      "image": "assets/Créditos/BotãoVoltar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 220,
+                            "y": 129
+                          },
+                          {
+                            "x": 1952,
+                            "y": 129
+                          },
+                          {
+                            "x": 1952,
+                            "y": 590
+                          },
+                          {
+                            "x": 220,
+                            "y": 590
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Créditos",
+          "persistentUuid": "6a726cd5-2823-4835-8644-9a1ddab52398",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Créditos/Créditos.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17014,11 +17108,151 @@
             "objectName": "FundoCréditos"
           },
           {
-            "objectName": "CréditosInicial"
+            "objectName": "BotãoVoltar"
+          },
+          {
+            "objectName": "Créditos"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "BotãoVoltar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu Inicial\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "BotãoVoltar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "BotãoVoltar",
+                "Scale",
+                "=",
+                "0.15"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "BotãoVoltar",
+                "\"146;140;140\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "BotãoVoltar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "BotãoVoltar",
+                "Scale",
+                "=",
+                "0.15"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "BotãoVoltar",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
