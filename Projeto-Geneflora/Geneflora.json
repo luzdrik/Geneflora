@@ -797,6 +797,14 @@
         "name": "assets/IU/Botão Vaso 3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Vasos/Genótipos/Vasinho de terracota com broto (2) (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Vasos/Genótipos/Vasinho de terracota com broto (2) (1).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4774,7 +4782,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410646,
+        "zoomFactor": 0.5843784410741314,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4804,14 +4812,7 @@
         },
         {
           "name": "RepresentacoesVaso",
-          "objects": [
-            {
-              "name": "Semente1"
-            },
-            {
-              "name": "Semente2"
-            }
-          ]
+          "objects": []
         },
         {
           "name": "AncestraisPais",
@@ -5692,6 +5693,74 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 363,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Crescimento das Flores",
+          "name": "Planta_Crescimento",
+          "persistentUuid": "08a47a1a-ab90-413b-b8e0-8ffef55559bb",
+          "width": 317,
+          "x": 324,
+          "y": 519,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 363,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Crescimento das Flores",
+          "name": "Planta_Crescimento",
+          "persistentUuid": "0eb02377-f287-4e4f-98d2-0ae6cf03a499",
+          "width": 317,
+          "x": 793,
+          "y": 520,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "17c35af8-49ed-451c-ad54-26e28d8b025e",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 363,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Crescimento das Flores",
+          "name": "Planta_Crescimento",
+          "persistentUuid": "5aa05444-2ca9-4ce7-9675-d524fc8a6278",
+          "width": 317,
+          "x": 560,
+          "y": 520,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "17c35af8-49ed-451c-ad54-26e28d8b025e",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
@@ -6016,7 +6085,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 1.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -6172,7 +6241,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 1.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -6328,7 +6397,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 1.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -6497,6 +6566,11 @@
             {
               "name": "PosicaoY",
               "persistentUuid": "272a8216-9065-435c-980c-8014c15f2629",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "CamadaOriginal",
               "type": "number",
               "value": 0
             }
@@ -6979,145 +7053,9 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Semente1",
-          "persistentUuid": "84a6b549-cad4-4b8b-8db0-c4aab2cd5bb6",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
-              "type": "number",
-              "value": 1
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso 1 semente.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 90,
-                            "y": 90
-                          },
-                          {
-                            "x": 561,
-                            "y": 90
-                          },
-                          {
-                            "x": 561,
-                            "y": 564
-                          },
-                          {
-                            "x": 90,
-                            "y": 564
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Semente2",
-          "persistentUuid": "8d4a7fe7-400f-41e0-8c09-12d35ed429ef",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
-              "type": "number",
-              "value": 1
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso 2 sementes.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 82,
-                            "y": 82
-                          },
-                          {
-                            "x": 572,
-                            "y": 82
-                          },
-                          {
-                            "x": 572,
-                            "y": 573
-                          },
-                          {
-                            "x": 82,
-                            "y": 573
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Flor_AA_Aa",
+          "name": "Planta_Crescimento",
           "persistentUuid": "28e7668c-b9ad-40da-a653-07a756173d0d",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -7139,12 +7077,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Crescimento",
+              "name": "AA",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 1.5,
+                  "timeBetweenFrames": 1.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -8749,40 +8687,14 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Flor_aa",
-          "persistentUuid": "de149794-9f19-471a-befc-cd51fd09c17f",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "0a26c95f-14e7-44c6-9a07-36bb06f47a26",
-              "type": "number",
-              "value": 0
             },
             {
-              "name": "AnimacaoIniciada",
-              "persistentUuid": "c99beb8c-df36-4760-a27d-30d90bb52b4d",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Crescendo",
+              "name": "Aa",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 1.5,
+                  "timeBetweenFrames": 1.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -8790,8 +8702,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 184.5,
+                        "y": 439.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -8802,20 +8714,384 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 181,
-                            "y": 348
+                            "x": 215,
+                            "y": 505
                           },
                           {
-                            "x": 476,
-                            "y": 348
+                            "x": 204,
+                            "y": 472
                           },
                           {
-                            "x": 476,
-                            "y": 600
+                            "x": 190.5,
+                            "y": 464.5
                           },
                           {
-                            "x": 181,
-                            "y": 600
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
                           }
                         ]
                       ]
@@ -8826,8 +9102,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 184.5,
+                        "y": 439.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -8838,20 +9114,1996 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 181,
-                            "y": 348
+                            "x": 215,
+                            "y": 505
                           },
                           {
-                            "x": 476,
-                            "y": 348
+                            "x": 204,
+                            "y": 472
                           },
                           {
-                            "x": 476,
-                            "y": 600
+                            "x": 190.5,
+                            "y": 464.5
                           },
                           {
-                            "x": 181,
-                            "y": 600
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Amarela Crescendo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Amarela Pronta.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "aa",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Broto1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Broto2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 184.5,
+                        "y": 439.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 215,
+                            "y": 505
+                          },
+                          {
+                            "x": 204,
+                            "y": 472
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 464.5
+                          },
+                          {
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
                           }
                         ]
                       ]
@@ -8862,8 +11114,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 184.5,
+                        "y": 439.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -8874,20 +11126,384 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 181,
-                            "y": 348
+                            "x": 215,
+                            "y": 505
                           },
                           {
-                            "x": 476,
-                            "y": 348
+                            "x": 204,
+                            "y": 472
                           },
                           {
-                            "x": 476,
-                            "y": 600
+                            "x": 190.5,
+                            "y": 464.5
                           },
                           {
-                            "x": 181,
-                            "y": 600
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
                           }
                         ]
                       ]
@@ -8898,8 +11514,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 184.5,
+                        "y": 439.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -8910,20 +11526,384 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 181,
-                            "y": 348
+                            "x": 215,
+                            "y": 505
                           },
                           {
-                            "x": 476,
-                            "y": 348
+                            "x": 204,
+                            "y": 472
                           },
                           {
-                            "x": 476,
-                            "y": 600
+                            "x": 190.5,
+                            "y": 464.5
                           },
                           {
-                            "x": 181,
-                            "y": 600
+                            "x": 182.5,
+                            "y": 439
+                          },
+                          {
+                            "x": 183,
+                            "y": 411.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 390
+                          },
+                          {
+                            "x": 251,
+                            "y": 372.5
+                          },
+                          {
+                            "x": 218.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 183,
+                            "y": 339
+                          },
+                          {
+                            "x": 233,
+                            "y": 314
+                          },
+                          {
+                            "x": 287.5,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 328,
+                            "y": 341.5
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 369.5
+                          },
+                          {
+                            "x": 346.5,
+                            "y": 343
+                          },
+                          {
+                            "x": 319,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 264,
+                            "y": 298
+                          },
+                          {
+                            "x": 236,
+                            "y": 274
+                          },
+                          {
+                            "x": 222.5,
+                            "y": 249
+                          },
+                          {
+                            "x": 193,
+                            "y": 237
+                          },
+                          {
+                            "x": 255,
+                            "y": 225.5
+                          },
+                          {
+                            "x": 315.5,
+                            "y": 248.5
+                          },
+                          {
+                            "x": 338.5,
+                            "y": 306
+                          },
+                          {
+                            "x": 331,
+                            "y": 243
+                          },
+                          {
+                            "x": 326,
+                            "y": 235
+                          },
+                          {
+                            "x": 298.5,
+                            "y": 237
+                          },
+                          {
+                            "x": 258,
+                            "y": 197
+                          },
+                          {
+                            "x": 273.5,
+                            "y": 163.5
+                          },
+                          {
+                            "x": 242,
+                            "y": 168
+                          },
+                          {
+                            "x": 212,
+                            "y": 157
+                          },
+                          {
+                            "x": 193,
+                            "y": 134
+                          },
+                          {
+                            "x": 167.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 237.5,
+                            "y": 76
+                          },
+                          {
+                            "x": 277.5,
+                            "y": 89
+                          },
+                          {
+                            "x": 261.5,
+                            "y": 73
+                          },
+                          {
+                            "x": 263,
+                            "y": 50
+                          },
+                          {
+                            "x": 283.5,
+                            "y": 29
+                          },
+                          {
+                            "x": 305.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 356,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 375.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 378,
+                            "y": 67
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 91
+                          },
+                          {
+                            "x": 382.5,
+                            "y": 61.5
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 44
+                          },
+                          {
+                            "x": 465.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 492.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 482,
+                            "y": 85
+                          },
+                          {
+                            "x": 487,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 463,
+                            "y": 133.5
+                          },
+                          {
+                            "x": 426,
+                            "y": 136
+                          },
+                          {
+                            "x": 453,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 475,
+                            "y": 150
+                          },
+                          {
+                            "x": 493.5,
+                            "y": 173.5
+                          },
+                          {
+                            "x": 494.5,
+                            "y": 198
+                          },
+                          {
+                            "x": 462,
+                            "y": 198.5
+                          },
+                          {
+                            "x": 440,
+                            "y": 206
+                          },
+                          {
+                            "x": 417.5,
+                            "y": 202.5
+                          },
+                          {
+                            "x": 395,
+                            "y": 194
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 383,
+                            "y": 194
+                          },
+                          {
+                            "x": 373.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 357,
+                            "y": 219
+                          },
+                          {
+                            "x": 345.5,
+                            "y": 239
+                          },
+                          {
+                            "x": 344.5,
+                            "y": 286.5
+                          },
+                          {
+                            "x": 358,
+                            "y": 251
+                          },
+                          {
+                            "x": 385.5,
+                            "y": 231
+                          },
+                          {
+                            "x": 423.5,
+                            "y": 221.5
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 425,
+                            "y": 266
+                          },
+                          {
+                            "x": 379,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 298
+                          },
+                          {
+                            "x": 352,
+                            "y": 317
+                          },
+                          {
+                            "x": 358.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 376.5,
+                            "y": 325.5
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 307.5
+                          },
+                          {
+                            "x": 446,
+                            "y": 301
+                          },
+                          {
+                            "x": 488,
+                            "y": 311
+                          },
+                          {
+                            "x": 463.5,
+                            "y": 320.5
+                          },
+                          {
+                            "x": 442,
+                            "y": 349.5
+                          },
+                          {
+                            "x": 413,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 379.5,
+                            "y": 374
+                          },
+                          {
+                            "x": 406.5,
+                            "y": 376
+                          },
+                          {
+                            "x": 446.5,
+                            "y": 388
+                          },
+                          {
+                            "x": 470,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 473.5,
+                            "y": 423.5
+                          },
+                          {
+                            "x": 472,
+                            "y": 441.5
+                          },
+                          {
+                            "x": 465,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 452.5,
+                            "y": 478
+                          },
+                          {
+                            "x": 419,
+                            "y": 574
+                          },
+                          {
+                            "x": 393,
+                            "y": 589.5
+                          },
+                          {
+                            "x": 363,
+                            "y": 596
+                          },
+                          {
+                            "x": 325.5,
+                            "y": 601
+                          },
+                          {
+                            "x": 290,
+                            "y": 595
+                          },
+                          {
+                            "x": 262,
+                            "y": 587
+                          },
+                          {
+                            "x": 243.5,
+                            "y": 574
                           }
                         ]
                       ]
@@ -9656,13 +12636,7 @@
             }
           ],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -10865,12 +13839,6 @@
             "objectName": "Vaso"
           },
           {
-            "objectName": "Semente1"
-          },
-          {
-            "objectName": "Semente2"
-          },
-          {
             "objectName": "Regador"
           },
           {
@@ -10892,10 +13860,7 @@
             "objectName": "AduboRecessivo"
           },
           {
-            "objectName": "Flor_AA_Aa"
-          },
-          {
-            "objectName": "Flor_aa"
+            "objectName": "Planta_Crescimento"
           },
           {
             "objectName": "Barra_Vazia"
@@ -11836,7 +14801,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11897,6 +14861,17 @@
                     "MinigameRegadorAtivo",
                     "False",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "Animation",
+                    "=",
+                    "\"Vaso com Semente\""
                   ]
                 }
               ],
@@ -12025,26 +15000,6 @@
                   "parameters": [
                     "Progresso_Verde"
                   ]
-                }
-              ],
-              "events": [
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vaso",
-                        "IdVaso",
-                        "=",
-                        "Variable(IdVaso)"
-                      ]
-                    }
-                  ],
-                  "actions": []
                 }
               ]
             },
@@ -12563,6 +15518,281 @@
                     "NivelAgua * 5"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animação do Genótipo AA"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "GenotipoSementeFilho",
+                        "=",
+                        "\"AA\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "IdVaso",
+                        "=",
+                        "Variable(Vaso_Selecionado)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "IdVaso",
+                        "=",
+                        "Variable(Vaso_Selecionado)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Vasos"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "Animation",
+                        "=",
+                        "\"AA\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animação do Genótipo Aa"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "GenotipoSementeFilho",
+                        "=",
+                        "\"Aa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "IdVaso",
+                        "=",
+                        "Variable(Vaso_Selecionado)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "IdVaso",
+                        "=",
+                        "Variable(Vaso_Selecionado)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Vasos"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "Animation",
+                        "=",
+                        "\"Aa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animação do Genótipo aa"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "GenotipoSementeFilho",
+                        "=",
+                        "\"aa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "IdVaso",
+                        "=",
+                        "Variable(Vaso_Selecionado)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "IdVaso",
+                        "=",
+                        "Variable(Vaso_Selecionado)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Vasos"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "Animation",
+                        "=",
+                        "\"aa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -12993,6 +16223,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Seleção e Cruzamento dos Genótipos com Pincel Mágico Polinizador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13343,26 +16574,6 @@
                     "False",
                     "1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Draggable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "Draggable",
-                    ""
-                  ]
                 }
               ]
             },
@@ -13565,6 +16776,16 @@
                   "parameters": [
                     "AncestralFilho",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable",
+                    "no"
                   ]
                 }
               ]
@@ -15899,16 +19120,6 @@
                         "value": "ActivateBehavior"
                       },
                       "parameters": [
-                        "PincelMagico",
-                        "Draggable",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
                         "Regador",
                         "Draggable",
                         ""
@@ -16264,6 +19475,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Plantio: Selecionar um Vaso para Semente Gerada",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16954,16 +20166,6 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "PincelMagico",
-                    "Draggable",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
                     "Regador",
                     "Draggable",
                     "yes"
@@ -17170,16 +20372,6 @@
                   },
                   "parameters": [
                     "BotaoVaso3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Draggable",
-                    "yes"
                   ]
                 },
                 {
@@ -17400,16 +20592,6 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "PincelMagico",
-                    "Draggable",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
                     "Regador",
                     "Draggable",
                     "yes"
@@ -17469,6 +20651,152 @@
                   ]
                 }
               ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Arraste e Retorno do Regador",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "PosicaoX",
+                    "=",
+                    "Regador.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "PosicaoY",
+                    "=",
+                    "Regador.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "\"Topo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "CamadaOriginal",
+                    "=",
+                    "Regador.Layer()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Regador.VariableString(CamadaOriginal)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "Regador.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "Regador.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -17597,7 +20925,7 @@
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "Flor_AA_Aa",
+                        "Planta_Crescimento",
                         "IdVaso",
                         "=",
                         "Vaso_Selecionado"
@@ -17610,7 +20938,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "Flor_AA_Aa"
+                        "Planta_Crescimento"
                       ]
                     },
                     {
@@ -17618,7 +20946,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                       },
                       "parameters": [
-                        "Flor_AA_Aa",
+                        "Planta_Crescimento",
                         "Animation",
                         "=",
                         "0"
@@ -18120,143 +21448,6 @@
                   ]
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Arraste e Retorno do Regador",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "PosicaoX",
-                    "=",
-                    "Regador.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "PosicaoY",
-                    "=",
-                    "Regador.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dragged"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "AguardandoEscolhaVaso",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "=",
-                    "10"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "=",
-                    "9"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "=",
-                    "Regador.Variable(PosicaoX)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "=",
-                    "Regador.Variable(PosicaoY)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -18885,7 +22076,65 @@
           "isLocked": false,
           "name": "Minigame do Regador",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Crescimento das Flores",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -19001,7 +22250,7 @@
           "isLocked": false,
           "name": "Janela de Cruzamento",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -19059,7 +22308,7 @@
           "isLocked": false,
           "name": "Plantar Semente",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
