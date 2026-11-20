@@ -799,10 +799,18 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Vasos/Genótipos/Vasinho de terracota com broto (2) (1).png",
+        "file": "assets/IU/Pedidos.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/Cultivo/Vasos/Genótipos/Vasinho de terracota com broto (2) (1).png",
+        "name": "assets/IU/Pedidos.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Ficha de pedido.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Ficha de pedido.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -4782,7 +4790,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410741314,
+        "zoomFactor": 0.46331118245143016,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4892,6 +4900,12 @@
           "persistentUuid": "2cb907b7-d1b2-4789-9fe5-ef56ab69196c",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "JanelaPedidoAberta",
+          "persistentUuid": "f0393930-96ca-4b48-9b3d-a032ecbc5291",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -5304,7 +5318,7 @@
           "depth": 1,
           "height": 113,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Ancestrais",
           "name": "Ancestral_AA",
           "persistentUuid": "ff65f12c-d133-45ce-8114-84da6cd829e8",
           "width": 104,
@@ -5320,7 +5334,7 @@
           "customSize": true,
           "depth": 0.670157068063,
           "height": 113,
-          "layer": "",
+          "layer": "Ancestrais",
           "name": "Ancestral_Aa",
           "persistentUuid": "4b4073a3-44df-4940-a27c-bb78a5976376",
           "width": 104,
@@ -5531,7 +5545,7 @@
           "customSize": true,
           "depth": 1,
           "height": 113,
-          "layer": "",
+          "layer": "Ancestrais",
           "locked": true,
           "name": "Ancestral_aa",
           "persistentUuid": "b8e26f0d-edeb-478e-bfcf-1721e06d4917",
@@ -5549,7 +5563,7 @@
           "depth": 1,
           "height": 301,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Ancestrais",
           "locked": true,
           "name": "AncestralMae",
           "persistentUuid": "14a11068-8afc-44aa-ae82-f60593b145a0",
@@ -5759,6 +5773,82 @@
               "persistentUuid": "17c35af8-49ed-451c-ad54-26e28d8b025e",
               "type": "number",
               "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "IconePedido",
+          "persistentUuid": "308a714c-739b-4d7b-a24a-ba754299bd66",
+          "width": 73,
+          "x": 1140,
+          "y": 79,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 33,
+          "height": 823,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "name": "FundoEscuro",
+          "opacity": 128,
+          "persistentUuid": "fc57097b-fbce-476f-856d-2b5a6c0ecb8c",
+          "width": 1390,
+          "x": -51,
+          "y": -37,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 664,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "name": "DetalhesPedido",
+          "persistentUuid": "7f87626e-8345-4847-9c07-7ab66c576fa3",
+          "width": 626,
+          "x": 321,
+          "y": 40,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "name": "BotaoFechar",
+          "persistentUuid": "a95a2e24-d3b7-424c-bfae-20f1b40e9b75",
+          "width": 74,
+          "x": 894,
+          "y": 51,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoJanela",
+              "type": "number",
+              "value": 1
             }
           ]
         }
@@ -12304,7 +12394,13 @@
           "persistentUuid": "3396ef88-a987-4c94-b003-5b39b889da93",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "TipoJanela",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -13821,6 +13917,128 @@
             "lineHeight": 0,
             "color": "65;117;5"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconePedido",
+          "persistentUuid": "4a49a22a-3fae-4401-8073-6b645741a4ef",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Pedidos.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 3
+                          },
+                          {
+                            "x": 281,
+                            "y": 3
+                          },
+                          {
+                            "x": 281,
+                            "y": 317
+                          },
+                          {
+                            "x": 31,
+                            "y": 317
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DetalhesPedido",
+          "persistentUuid": "843c5cdf-1084-4a11-a290-511b6b3dd7db",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Ficha de pedido.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 9
+                          },
+                          {
+                            "x": 602,
+                            "y": 9
+                          },
+                          {
+                            "x": 602,
+                            "y": 608
+                          },
+                          {
+                            "x": 15,
+                            "y": 608
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13957,6 +14175,12 @@
           },
           {
             "objectName": "BotaoVaso3"
+          },
+          {
+            "objectName": "IconePedido"
+          },
+          {
+            "objectName": "DetalhesPedido"
           }
         ]
       },
@@ -13966,7 +14190,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Retorno a cena de Atendimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13992,6 +14215,26 @@
                   "parameters": [
                     "",
                     "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaPolinizacao",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -14801,6 +15044,254 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Janela de Consulta de Pedido",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "IconePedido",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    "TipoJanela",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MinigameRegadorAtivo",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Consultar Pedido\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "FundoEscuro",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "DetalhesPedido",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    "TipoJanela",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Consultar Pedido\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "FundoEscuro"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DetalhesPedido"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoFechar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16662,6 +17153,16 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -18175,6 +18676,17 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    "TipoJanela",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -18603,6 +19115,16 @@
                   "parameters": [
                     "Janela_Cruzamento",
                     "TipoJanela",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
                     "=",
                     "0"
                   ]
@@ -19475,7 +19997,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Plantio: Selecionar um Vaso para Semente Gerada",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22004,7 +22525,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -22073,7 +22594,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Minigame do Regador",
           "renderingType": "",
           "visibility": true,
@@ -22189,10 +22710,67 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Roleta",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Ancestrais",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22247,7 +22825,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Janela de Cruzamento",
           "renderingType": "",
           "visibility": true,
@@ -22305,7 +22883,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Plantar Semente",
           "renderingType": "",
           "visibility": true,
@@ -22364,6 +22942,64 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Consultar Pedido",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
           "name": "Topo",
           "renderingType": "",
           "visibility": true,
