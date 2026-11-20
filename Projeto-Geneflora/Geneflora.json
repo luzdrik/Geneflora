@@ -813,6 +813,22 @@
         "name": "assets/IU/Ficha de pedido.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/IU/Botão1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Botão1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Botão2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Botão2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -823,14 +839,14 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "PedidoAtivo",
-      "persistentUuid": "9b5dbc2d-a3df-460f-b466-b57b3165cdf6",
-      "type": "number",
-      "value": 0
+      "name": "NomeCliente",
+      "persistentUuid": "b833f4a2-8570-4219-83ac-b6c24811cb4b",
+      "type": "string",
+      "value": ""
     },
     {
-      "name": "TipoFlor",
-      "persistentUuid": "5edb0ff2-a456-4e91-ae42-f179b6ff029d",
+      "name": "ClienteAtual",
+      "persistentUuid": "0a15ac4e-2795-4daa-8f19-9670274e2e79",
       "type": "string",
       "value": ""
     },
@@ -839,6 +855,48 @@
       "persistentUuid": "8a142228-e15b-4da5-80ca-78155a12def0",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "CaracteristicasDesejadas",
+      "persistentUuid": "19ceb5c0-6560-423d-baf0-22fe17a31171",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "ObservacoesPedido",
+      "persistentUuid": "674fc1e9-4d85-4917-ab76-5c85dc06bb2e",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "TipoFlor",
+      "persistentUuid": "5edb0ff2-a456-4e91-ae42-f179b6ff029d",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "PedidoAtivo",
+      "persistentUuid": "9b5dbc2d-a3df-460f-b466-b57b3165cdf6",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "EstadoAtendimento",
+      "persistentUuid": "151f398f-acb4-4a38-a743-476571617ac3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "EntregaSolicitada",
+      "persistentUuid": "773c2faf-3a2d-4145-9ca9-287929fb6a57",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "EntregaCorreta",
+      "persistentUuid": "330c7ea7-d700-4876-9a0f-2c0e6e05270d",
+      "type": "number",
+      "value": 0
     },
     {
       "name": "JanelaPincelAberta",
@@ -2138,14 +2196,7 @@
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "name": "EstadoAtendimento",
-          "persistentUuid": "5a82c529-5627-4ddb-84c8-72f51fd497fb",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -4790,7 +4841,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40575189059441097,
+        "zoomFactor": 0.7619362677198154,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4904,6 +4955,29 @@
         {
           "name": "JanelaPedidoAberta",
           "persistentUuid": "f0393930-96ca-4b48-9b3d-a032ecbc5291",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ArrastandoPlanta",
+          "persistentUuid": "e76a75eb-b7f1-4e1b-9a1a-094590954947",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "VasoArrastado",
+          "persistentUuid": "9143e058-562c-4e42-9746-3628423c0405",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "DeslocamentoY",
+          "persistentUuid": "510e6646-2c07-43eb-8868-8f04aad66374",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EstadoEntrega",
           "type": "number",
           "value": 0
         }
@@ -5801,9 +5875,11 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Consultar Pedido",
+          "locked": true,
           "name": "FundoEscuro",
           "opacity": 128,
           "persistentUuid": "fc57097b-fbce-476f-856d-2b5a6c0ecb8c",
+          "sealed": true,
           "width": 1390,
           "x": -51,
           "y": -37,
@@ -5819,8 +5895,10 @@
           "height": 664,
           "keepRatio": true,
           "layer": "Consultar Pedido",
+          "locked": true,
           "name": "DetalhesPedido",
           "persistentUuid": "7f87626e-8345-4847-9c07-7ab66c576fa3",
+          "sealed": true,
           "width": 626,
           "x": 321,
           "y": 40,
@@ -5836,8 +5914,10 @@
           "height": 75,
           "keepRatio": true,
           "layer": "Consultar Pedido",
+          "locked": true,
           "name": "BotaoFechar",
           "persistentUuid": "a95a2e24-d3b7-424c-bfae-20f1b40e9b75",
+          "sealed": true,
           "width": 74,
           "x": 894,
           "y": 51,
@@ -5851,6 +5931,180 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "locked": true,
+          "name": "TextoNomeCliente",
+          "persistentUuid": "e8cb99cf-50d6-40a8-a4fb-76c78640ded3",
+          "sealed": true,
+          "width": 269,
+          "x": 606,
+          "y": 262,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "locked": true,
+          "name": "TextoPedidoCliente",
+          "persistentUuid": "477020e8-3d06-4ab0-afb9-fe5e3ca05b7b",
+          "sealed": true,
+          "width": 474,
+          "x": 401,
+          "y": 347,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "name": "TextoCaracteristicas",
+          "persistentUuid": "3c94c6e6-e89c-43ad-95ee-6bff09cf7071",
+          "width": 471,
+          "x": 400,
+          "y": 430,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "name": "TextoObservacoes",
+          "persistentUuid": "10c27fc5-a7a4-4a5f-8be8-03bab404cbf6",
+          "width": 294,
+          "x": 478,
+          "y": 557,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 817,
+          "keepRatio": true,
+          "layer": "Confirmar Entrega",
+          "locked": true,
+          "name": "FundoEscuro",
+          "opacity": 128,
+          "persistentUuid": "a7884c28-3b3a-4615-8ad0-62477a2ca43e",
+          "sealed": true,
+          "width": 1406,
+          "x": -66,
+          "y": -40,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 308,
+          "keepRatio": true,
+          "layer": "Confirmar Entrega",
+          "locked": true,
+          "name": "Janela_Cruzamento",
+          "persistentUuid": "6824712e-4e0d-4f45-bbc3-dea657bc61f6",
+          "sealed": true,
+          "width": 813,
+          "x": 233,
+          "y": 205,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoJanela",
+              "persistentUuid": "fd1ca0eb-56d9-4377-a4de-21f68b821d41",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Confirmar Entrega",
+          "locked": true,
+          "name": "TextoEntregarPedido",
+          "persistentUuid": "b44bde77-e19e-4ba3-9011-a2c60745a1f5",
+          "sealed": true,
+          "width": 0,
+          "x": 378,
+          "y": 314,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 185,
+          "keepRatio": true,
+          "layer": "Confirmar Entrega",
+          "locked": true,
+          "name": "BotaoSim",
+          "persistentUuid": "9b7feefe-6686-4e7f-88b9-3841a9746131",
+          "sealed": true,
+          "width": 278,
+          "x": 348,
+          "y": 358,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 151,
+          "keepRatio": true,
+          "layer": "Confirmar Entrega",
+          "locked": true,
+          "name": "BotaoNao",
+          "persistentUuid": "0efdf876-f447-479a-a953-49bb184508bd",
+          "sealed": true,
+          "width": 289,
+          "x": 650,
+          "y": 372,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6661,6 +6915,7 @@
             },
             {
               "name": "CamadaOriginal",
+              "persistentUuid": "691dffc0-6a23-4787-8ea4-0d7c659ccde2",
               "type": "number",
               "value": 0
             }
@@ -7161,6 +7416,24 @@
               "persistentUuid": "22802469-c8ba-4066-b621-88babdf378b6",
               "type": "boolean",
               "value": false
+            },
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "a1f75c33-8141-492d-9d22-d231ea3f8579",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "9e017276-9f5a-42e1-b6f0-d428839259d9",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "DeslocamentoY",
+              "persistentUuid": "49db8f4c-3257-462b-a166-8b60680278a3",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -12397,6 +12670,7 @@
           "variables": [
             {
               "name": "TipoJanela",
+              "persistentUuid": "36293418-9d4e-4f30-9ab7-7e5a6d923790",
               "type": "number",
               "value": 0
             }
@@ -14039,6 +14313,348 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoNomeCliente",
+          "persistentUuid": "fdcdd57b-7c2d-4eef-b83c-2b445d3e411b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoPedidoCliente",
+          "persistentUuid": "209c0d2f-6493-4a59-96fd-34d76660384d",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoCaracteristicas",
+          "persistentUuid": "425adeb4-ad5f-463b-8e30-149821ba36d3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoObservacoes",
+          "persistentUuid": "3e37174d-dcce-43fd-86ed-15970ea0d161",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoEntregarPedido",
+          "persistentUuid": "c5611a3b-5683-45be-bb49-73003e739620",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Deseja entregar esta flor para o cliente atual?",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 26,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Deseja entregar esta flor para o cliente atual?",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BotaoSim",
+          "persistentUuid": "3e8b598c-2fdc-44b8-9596-fc4e1d52840a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Botão1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 59
+                          },
+                          {
+                            "x": 369,
+                            "y": 59
+                          },
+                          {
+                            "x": 369,
+                            "y": 187
+                          },
+                          {
+                            "x": 15,
+                            "y": 187
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BotaoNao",
+          "persistentUuid": "2a624d90-f750-4125-be80-1b0d5d7b0f35",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Botão2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 41
+                          },
+                          {
+                            "x": 407,
+                            "y": 41
+                          },
+                          {
+                            "x": 407,
+                            "y": 185
+                          },
+                          {
+                            "x": 21,
+                            "y": 185
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14181,6 +14797,27 @@
           },
           {
             "objectName": "DetalhesPedido"
+          },
+          {
+            "objectName": "TextoNomeCliente"
+          },
+          {
+            "objectName": "TextoPedidoCliente"
+          },
+          {
+            "objectName": "TextoCaracteristicas"
+          },
+          {
+            "objectName": "TextoObservacoes"
+          },
+          {
+            "objectName": "TextoEntregarPedido"
+          },
+          {
+            "objectName": "BotaoSim"
+          },
+          {
+            "objectName": "BotaoNao"
           }
         ]
       },
@@ -15045,7 +15682,704 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Janela de Consulta de Pedido",
+          "name": "Área de Entrega do Pedido",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "PosicaoX",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "PosicaoY",
+                    "=",
+                    "Planta_Crescimento.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Confirmar Entrega\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "Planta_Crescimento.Variable(IdVaso)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VasoArrastado",
+                    "=",
+                    "Planta_Crescimento.Variable(IdVaso)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "DeslocamentoY",
+                    "=",
+                    "MouseY() - Planta_Crescimento.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "VasoArrastado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "MouseY() - Planta_Crescimento.Variable(DeslocamentoY)",
+                    ">",
+                    "Planta_Crescimento.Variable(PosicaoY)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "MouseY() - Planta_Crescimento.Variable(DeslocamentoY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoNao",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento",
+                    "TipoJanela",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "VasoArrastado"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoSim"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoNao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoEntregarPedido"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Confirmar Entrega\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.Variable(PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoSim",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento",
+                    "TipoJanela",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "VasoArrastado"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoSim"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoNao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoEntregarPedido"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Confirmar Entrega\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.Variable(PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Arraste suficiente para acionar janela de entrega"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "VasoArrastado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "MouseY() - Planta_Crescimento.Variable(DeslocamentoY)",
+                    ">=",
+                    "Planta_Crescimento.Variable(PosicaoY) + 120"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento",
+                    "TipoJanela",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Confirmar Entrega\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoSim",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoNao",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoEntregarPedido",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Arraste insuficiente"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "VasoArrastado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "MouseY() - Planta_Crescimento.Variable(DeslocamentoY)",
+                    "<",
+                    "Planta_Crescimento.Variable(PosicaoY) + 120"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.Variable(PosicaoY)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Janela de Consulta do Pedido",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -15292,6 +16626,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15363,6 +16698,17 @@
                     "Animation",
                     "=",
                     "\"Vaso com Semente\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -15662,6 +17008,17 @@
                     "=",
                     "Variable(Vaso_Selecionado)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -15741,6 +17098,17 @@
                     "=",
                     "Variable(Vaso_Selecionado)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -15768,6 +17136,17 @@
                     "NivelAgua",
                     ">=",
                     "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -16748,6 +18127,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Seleção e Cruzamento dos Genótipos com Pincel Mágico Polinizador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22706,7 +24086,7 @@
           "isLocked": false,
           "name": "Crescimento das Flores",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22994,6 +24374,63 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Consultar Pedido",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Confirmar Entrega",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
