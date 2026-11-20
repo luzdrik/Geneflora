@@ -4790,7 +4790,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245143016,
+        "zoomFactor": 0.40575189059441097,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -14190,6 +14190,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Retorno a cena de Atendimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15291,7 +15292,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15367,6 +15367,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Minigame do Regador\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -16011,6 +16020,21 @@
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Crescimento das Flores\""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -16691,6 +16715,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -16714,7 +16748,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Seleção e Cruzamento dos Genótipos com Pincel Mágico Polinizador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17166,6 +17199,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Janela de Cruzamento\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -20051,6 +20093,15 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Plantar Semente\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -21220,6 +21271,17 @@
                     "=",
                     "Regador.Y()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "CamadaOriginal",
+                    "=",
+                    "Regador.Layer()"
+                  ]
                 }
               ]
             },
@@ -21254,17 +21316,6 @@
                   "parameters": [
                     "Regador",
                     "\"Topo\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "CamadaOriginal",
-                    "=",
-                    "Regador.Layer()"
                   ]
                 }
               ]
@@ -22597,7 +22648,7 @@
           "isLocked": true,
           "name": "Minigame do Regador",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -22655,7 +22706,7 @@
           "isLocked": false,
           "name": "Crescimento das Flores",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -22713,7 +22764,7 @@
           "isLocked": true,
           "name": "Roleta",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -22828,7 +22879,7 @@
           "isLocked": true,
           "name": "Janela de Cruzamento",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -22886,7 +22937,7 @@
           "isLocked": true,
           "name": "Plantar Semente",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
