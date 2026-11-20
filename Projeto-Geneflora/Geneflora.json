@@ -556,14 +556,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/IU/Botão Como jogar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/IU/Botão Como jogar.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/IU/Botão Créditos.png",
         "kind": "image",
         "metadata": "",
@@ -729,6 +721,22 @@
         "name": "assets/Cenários/Menu Inicial/Fundo.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Decorações/Estante.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Decorações/Estante.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cultivo/Ancestrais/Flor Ancestral_aa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cultivo/Ancestrais/Flor Ancestral_aa.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -757,6 +765,24 @@
       "value": ""
     },
     {
+      "name": "JanelaPincelAberta",
+      "persistentUuid": "f9dd433f-2fb6-4d8d-9a95-87092cec5db3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipoAncestral1",
+      "persistentUuid": "f17e8e23-19df-454d-b30d-16fe78035524",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "TipoAncestral2",
+      "persistentUuid": "f3fb81b5-b9de-445f-bf01-6647d1c0427a",
+      "type": "string",
+      "value": ""
+    },
+    {
       "name": "GenotipoAncestral1",
       "persistentUuid": "ea194244-5aaa-4c66-9ece-1a015358d89c",
       "type": "string",
@@ -773,6 +799,24 @@
       "persistentUuid": "34c32051-6436-4e66-8c5a-a796ba550c1b",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "PaiSelecionado",
+      "persistentUuid": "758612c4-f9a8-4f83-a406-3b408f3dc9ad",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MaeSelecionada",
+      "persistentUuid": "44eaae8e-89ff-4a15-8453-e107cdeac856",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GenotipoMaeFase",
+      "persistentUuid": "e80d86aa-710e-4ef2-b7c3-c2cad2cae28e",
+      "type": "string",
+      "value": "Aa"
     },
     {
       "name": "AleloPincel1",
@@ -793,8 +837,7 @@
       "value": ""
     },
     {
-      "name": "JanelaPincelAberta",
-      "persistentUuid": "f9dd433f-2fb6-4d8d-9a95-87092cec5db3",
+      "name": "EtapaPolinizao",
       "type": "number",
       "value": 0
     }
@@ -823,7 +866,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748925,
+        "zoomFactor": 0.3216911764705911,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -895,23 +938,6 @@
           "x": 282,
           "y": -86,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 118,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BotaoComoJogar",
-          "persistentUuid": "c77abd15-e304-49fb-8d78-84c4b394f484",
-          "width": 294,
-          "x": 354,
-          "y": 557,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1305,67 +1331,6 @@
                           {
                             "x": 86,
                             "y": 361
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "BotaoComoJogar",
-          "persistentUuid": "b426c90e-11fd-4dff-8fd3-ad01f2c89875",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/IU/Botão Como jogar.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 57
-                          },
-                          {
-                            "x": 939,
-                            "y": 57
-                          },
-                          {
-                            "x": 939,
-                            "y": 287
-                          },
-                          {
-                            "x": 144,
-                            "y": 287
                           }
                         ]
                       ]
@@ -1939,9 +1904,6 @@
           },
           {
             "objectName": "BotaoJogar"
-          },
-          {
-            "objectName": "BotaoComoJogar"
           },
           {
             "objectName": "BotaoCreditos"
@@ -4751,7 +4713,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410741245,
+        "zoomFactor": 0.4335774304702629,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4881,16 +4843,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 603,
+          "height": 481,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "Balcao",
           "persistentUuid": "9a12c15a-cd8a-4e38-a3f5-5030c1f60faa",
-          "sealed": true,
-          "width": 923,
-          "x": 164,
-          "y": 320,
+          "width": 844,
+          "x": 206,
+          "y": 378,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -4919,14 +4879,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 110,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Regador",
           "persistentUuid": "2960207d-d9cf-4bc9-ac06-2d0ca8be4980",
-          "width": 127,
-          "x": 1125,
-          "y": 532,
+          "width": 111,
+          "x": 1138,
+          "y": 533,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -5026,171 +4986,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 455,
-          "hidden": true,
-          "keepRatio": true,
+          "height": 159,
           "layer": "",
-          "locked": true,
-          "name": "Flor_AA_Aa",
-          "persistentUuid": "eb4c1ac0-4aea-4a88-abc8-b6fd7da09304",
-          "sealed": true,
-          "width": 368,
-          "x": 543,
-          "y": 474,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 455,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "Flor_AA_Aa",
-          "persistentUuid": "ba1fe176-d411-49eb-9a7a-c8b5097d0e28",
-          "sealed": true,
-          "width": 368,
-          "x": 291,
-          "y": 474,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 452,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "Flor_aa",
-          "persistentUuid": "3ee9559c-7fba-431f-98ec-8c59e7155e30",
-          "sealed": true,
-          "width": 381,
-          "x": 181,
-          "y": 142,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 455,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "Flor_AA_Aa",
-          "persistentUuid": "9a9fe228-6b89-46e3-9480-5149ea519cf1",
-          "sealed": true,
-          "width": 368,
-          "x": 803,
-          "y": 474,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 452,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "Flor_aa",
-          "persistentUuid": "ca68dea5-f428-412d-a3c4-637a1abf3baa",
-          "sealed": true,
-          "width": 381,
-          "x": 433,
-          "y": 142,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 452,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "Flor_aa",
-          "persistentUuid": "ec188f02-2775-4eda-96b1-5688e1b756ea",
-          "sealed": true,
-          "width": 381,
-          "x": 693,
-          "y": 142,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 202,
-          "layer": "",
-          "locked": true,
           "name": "Vaso",
           "persistentUuid": "005215b0-ffa4-4c12-99f9-b28f9c1f0d23",
-          "sealed": true,
-          "width": 220,
-          "x": 260,
-          "y": 399,
+          "width": 201,
+          "x": 293,
+          "y": 461,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -5206,16 +5008,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 202,
+          "depth": 1,
+          "height": 159,
           "layer": "",
-          "locked": true,
           "name": "Vaso",
           "persistentUuid": "f4848786-16a5-430f-b31e-65463fd2430d",
-          "sealed": true,
-          "width": 220,
-          "x": 517,
-          "y": 399,
+          "width": 201,
+          "x": 529,
+          "y": 461,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -5231,16 +5031,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 202,
+          "depth": 1,
+          "height": 159,
           "layer": "",
-          "locked": true,
           "name": "Vaso",
           "persistentUuid": "8777968c-2ed7-4fd6-96b5-6329cd76b1aa",
-          "sealed": true,
-          "width": 220,
-          "x": 772,
-          "y": 399,
+          "width": 201,
+          "x": 762,
+          "y": 461,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -5248,148 +5046,6 @@
             {
               "name": "IdVaso",
               "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 213,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Semente1",
-          "persistentUuid": "0f8f1b0b-c14c-4a0d-ac67-7c8be36c6fcd",
-          "sealed": true,
-          "width": 221,
-          "x": 260,
-          "y": 387,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 213,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Semente1",
-          "persistentUuid": "5a9edab3-d2eb-41e1-8b32-1b0f0cf3e3af",
-          "sealed": true,
-          "width": 221,
-          "x": 517,
-          "y": 387,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 213,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Semente1",
-          "persistentUuid": "7ac490cf-8a46-47ce-89ab-79bad179c08c",
-          "sealed": true,
-          "width": 221,
-          "x": 772,
-          "y": 387,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "7f8e6083-8856-443c-b6ed-29652dcbe8c0",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 208,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Semente2",
-          "persistentUuid": "0f6fd98e-2cfe-4bdd-9c2e-34cb7b757a0e",
-          "sealed": true,
-          "width": 215,
-          "x": 263,
-          "y": 390,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 208,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Semente2",
-          "persistentUuid": "f47f08a5-ea40-41ab-918c-ebdd6d7b596e",
-          "sealed": true,
-          "width": 215,
-          "x": 519,
-          "y": 390,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 208,
-          "hidden": true,
-          "layer": "",
-          "locked": true,
-          "name": "Semente2",
-          "persistentUuid": "626644a1-aa3b-4194-9a9e-29092d6e465e",
-          "sealed": true,
-          "width": 215,
-          "x": 775,
-          "y": 390,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "IdVaso",
-              "persistentUuid": "04482ca4-7123-4f58-803c-ae03ec1e567b",
               "type": "number",
               "value": 3
             }
@@ -5534,51 +5190,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 84,
+          "height": 73,
           "keepRatio": true,
           "layer": "",
           "name": "PincelMagico",
           "persistentUuid": "43284207-359f-462d-8606-2a66bc13a9f7",
-          "width": 117,
-          "x": 1000,
-          "y": 546,
+          "width": 102,
+          "x": 1018,
+          "y": 556,
           "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 291,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "MesaFerramentas",
-          "persistentUuid": "4d322c73-5a32-4cdf-9c36-e766a4f9ad3a",
-          "sealed": true,
-          "width": 488,
-          "x": 874,
-          "y": 534,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 339,
-          "keepRatio": true,
-          "layer": "",
-          "name": "LocalAncestrais",
-          "persistentUuid": "978178bf-18ea-4302-948f-0eebfb72a615",
-          "width": 508,
-          "x": -365,
-          "y": -356,
-          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5590,8 +5210,10 @@
           "height": 306,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "CaixaTerra",
           "persistentUuid": "76c9ad9e-1ec4-4b0e-9341-bb068a89809a",
+          "sealed": true,
           "width": 458,
           "x": 397,
           "y": 98,
@@ -5604,14 +5226,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 139,
+          "height": 113,
           "keepRatio": true,
           "layer": "",
           "name": "Ancestral_AA",
           "persistentUuid": "ff65f12c-d133-45ce-8114-84da6cd829e8",
-          "width": 128,
-          "x": 479,
-          "y": 112,
+          "width": 104,
+          "x": 453,
+          "y": 138,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -5621,13 +5243,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0.670157068063,
-          "height": 139,
+          "height": 113,
           "layer": "",
           "name": "Ancestral_Aa",
           "persistentUuid": "4b4073a3-44df-4940-a27c-bb78a5976376",
-          "width": 128,
-          "x": 644,
-          "y": 112,
+          "width": 104,
+          "x": 572,
+          "y": 138,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -5812,6 +5434,90 @@
           "x": 944,
           "y": 334,
           "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "layer": "",
+          "name": "Ancestral_aa",
+          "persistentUuid": "b8e26f0d-edeb-478e-bfcf-1721e06d4917",
+          "width": 79,
+          "x": 696,
+          "y": 136,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 301,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AncestralMae",
+          "persistentUuid": "14a11068-8afc-44aa-ae82-f60593b145a0",
+          "width": 328,
+          "x": -46,
+          "y": 341,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 263,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MesaFerramentas",
+          "persistentUuid": "77963adc-d9e4-4d51-a2bc-ef66e24cc21b",
+          "width": 402,
+          "x": 973,
+          "y": 547,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 263,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MesaFerramentas",
+          "persistentUuid": "9425c006-56d9-4b3a-bd87-2b197bee14b1",
+          "width": 402,
+          "x": -121,
+          "y": 547,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 311,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Janela_Cruzamento",
+          "persistentUuid": "5ff0657b-69d1-4441-81ce-370373ff1ef5",
+          "width": 819,
+          "x": 219,
+          "y": -5,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6010,31 +5716,13 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "FlorGenotipo",
-              "persistentUuid": "a5489950-1ec3-4123-9861-56e795dc1af6",
-              "type": "string",
-              "value": ""
-            },
-            {
               "name": "TemFlor",
               "persistentUuid": "fc1c5a49-f4f0-4687-a712-b584a94e86af",
               "type": "boolean",
               "value": false
             },
             {
-              "name": "Slot2",
-              "persistentUuid": "04159bf1-8a9a-4f49-8b91-1478f7a501b4",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "Slot1",
-              "persistentUuid": "3c6665c8-aec9-42f2-8468-fe357089cd05",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "Conte",
+              "name": "TemSementeFilho",
               "persistentUuid": "51de1daa-4ce4-4f3e-b40a-ef059d6ab358",
               "type": "number",
               "value": 0
@@ -6044,6 +5732,12 @@
               "persistentUuid": "877b79fc-927e-48ee-b279-e445eb93556a",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "GenotipoSementeFilho",
+              "persistentUuid": "2055fd70-7782-4772-8596-733933c2ef83",
+              "type": "string",
+              "value": ""
             }
           ],
           "effects": [],
@@ -9458,67 +9152,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "LocalAncestrais",
-          "persistentUuid": "c6df15b6-dba6-42d5-bc7d-134f25fa7357",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Decorações/Balcão.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 98,
-                            "y": 198
-                          },
-                          {
-                            "x": 1440,
-                            "y": 198
-                          },
-                          {
-                            "x": 1440,
-                            "y": 871
-                          },
-                          {
-                            "x": 98,
-                            "y": 871
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "CaixaTerra",
           "persistentUuid": "4e1f4ba6-00d1-433b-ae20-bbe35fc0cb0e",
           "type": "Sprite",
@@ -9720,7 +9353,14 @@
           "persistentUuid": "72c52980-138a-4973-ac52-1b612a4999dd",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "TipoJanela",
+              "persistentUuid": "fd1ca0eb-56d9-4377-a4de-21f68b821d41",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -10159,6 +9799,201 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Ancestral_aa",
+          "persistentUuid": "cab61b68-2988-4fc7-a678-135764fbd95f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Selecionado",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Ancestrais/Flor Ancestral_aa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 180,
+                            "y": 193
+                          },
+                          {
+                            "x": 476,
+                            "y": 193
+                          },
+                          {
+                            "x": 476,
+                            "y": 601
+                          },
+                          {
+                            "x": 180,
+                            "y": 601
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Estante",
+          "persistentUuid": "5a1123e1-1702-4e2e-9d09-6eda2d0132e2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Decorações/Estante.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 58,
+                            "y": 37
+                          },
+                          {
+                            "x": 542,
+                            "y": 37
+                          },
+                          {
+                            "x": 542,
+                            "y": 624
+                          },
+                          {
+                            "x": 58,
+                            "y": 624
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AncestralMae",
+          "persistentUuid": "c6a004ab-7d40-4d7f-b376-8e1b6821a328",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Selecionado",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Genótipos/Amarela Crescendo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 183,
+                            "y": 181
+                          },
+                          {
+                            "x": 473,
+                            "y": 181
+                          },
+                          {
+                            "x": 473,
+                            "y": 599
+                          },
+                          {
+                            "x": 183,
+                            "y": 599
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10187,9 +10022,6 @@
           },
           {
             "objectName": "MesaFerramentas"
-          },
-          {
-            "objectName": "LocalAncestrais"
           },
           {
             "objectName": "SementesAmarelo_AA"
@@ -10264,6 +10096,12 @@
             "objectName": "Ancestral_Aa"
           },
           {
+            "objectName": "Ancestral_aa"
+          },
+          {
+            "objectName": "AncestralMae"
+          },
+          {
             "objectName": "Janela_Cruzamento"
           },
           {
@@ -10289,6 +10127,9 @@
           },
           {
             "objectName": "BotaoResetar"
+          },
+          {
+            "objectName": "Estante"
           }
         ]
       },
@@ -10382,7 +10223,7 @@
                   },
                   "parameters": [
                     "Vasos",
-                    "Conte",
+                    "TemSementeFilho",
                     "<",
                     "2"
                   ]
@@ -10431,7 +10272,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "=",
                         "0"
                       ]
@@ -10455,7 +10296,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "+",
                         "1"
                       ]
@@ -10510,7 +10351,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "=",
                         "1"
                       ]
@@ -10534,7 +10375,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "+",
                         "1"
                       ]
@@ -10638,7 +10479,7 @@
                   },
                   "parameters": [
                     "Vasos",
-                    "Conte",
+                    "TemSementeFilho",
                     "<",
                     "2"
                   ]
@@ -10687,7 +10528,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "=",
                         "0"
                       ]
@@ -10711,7 +10552,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "+",
                         "1"
                       ]
@@ -10766,7 +10607,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "=",
                         "1"
                       ]
@@ -10790,7 +10631,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "+",
                         "1"
                       ]
@@ -10896,7 +10737,7 @@
                   },
                   "parameters": [
                     "Vasos",
-                    "Conte",
+                    "TemSementeFilho",
                     "<",
                     "2"
                   ]
@@ -10945,7 +10786,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "=",
                         "0"
                       ]
@@ -10969,7 +10810,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "+",
                         "1"
                       ]
@@ -11024,7 +10865,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "=",
                         "1"
                       ]
@@ -11048,7 +10889,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "+",
                         "1"
                       ]
@@ -11191,17 +11032,6 @@
                     "False",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Semente1",
-                    "IdVaso",
-                    "=",
-                    "Variable(IdVaso)"
-                  ]
                 }
               ],
               "actions": [
@@ -11329,6 +11159,26 @@
                   "parameters": [
                     "Progresso_Verde"
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Vaso",
+                        "IdVaso",
+                        "=",
+                        "Variable(IdVaso)"
+                      ]
+                    }
+                  ],
+                  "actions": []
                 }
               ]
             },
@@ -11667,17 +11517,6 @@
                     "<",
                     "70"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Semente1",
-                    "IdVaso",
-                    "=",
-                    "Variable(IdVaso)"
-                  ]
                 }
               ],
               "actions": [
@@ -11798,17 +11637,6 @@
                     "<=",
                     "85"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Semente1",
-                    "IdVaso",
-                    "=",
-                    "Variable(IdVaso)"
-                  ]
                 }
               ],
               "actions": [
@@ -11913,17 +11741,6 @@
                     "NivelAgua",
                     ">",
                     "85"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Semente1",
-                    "IdVaso",
-                    "=",
-                    "Variable(IdVaso)"
                   ]
                 }
               ],
@@ -12030,17 +11847,6 @@
                     "NivelAgua",
                     ">=",
                     "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Semente1",
-                    "IdVaso",
-                    "=",
-                    "Variable(IdVaso)"
                   ]
                 }
               ],
@@ -12362,6 +12168,46 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral1",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral2",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
@@ -12397,6 +12243,28 @@
                   },
                   "parameters": [
                     "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AncestralMae",
                     "Selecionado",
                     "=",
                     "0"
@@ -12749,6 +12617,18 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Seleção de pelo menos um dos Ancestrais Pais (AA, Aa, aa)"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12772,6 +12652,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -12800,9 +12690,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "JanelaPincelAberta",
+                    "PaiSelecionado",
                     "=",
-                    "1"
+                    "0"
                   ]
                 }
               ],
@@ -12815,6 +12705,26 @@
                     "GenotipoAncestral1",
                     "=",
                     "\"AA\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral1",
+                    "=",
+                    "\"Pai\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -12888,6 +12798,16 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -12912,9 +12832,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "JanelaPincelAberta",
+                    "PaiSelecionado",
                     "=",
-                    "1"
+                    "0"
                   ]
                 }
               ],
@@ -12927,6 +12847,26 @@
                     "GenotipoAncestral2",
                     "=",
                     "\"AA\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral2",
+                    "=",
+                    "\"Pai\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -13008,6 +12948,16 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -13032,9 +12982,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "JanelaPincelAberta",
+                    "PaiSelecionado",
                     "=",
-                    "1"
+                    "0"
                   ]
                 }
               ],
@@ -13047,6 +12997,26 @@
                     "GenotipoAncestral1",
                     "=",
                     "\"Aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral1",
+                    "=",
+                    "\"Pai\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -13120,6 +13090,16 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -13144,9 +13124,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "JanelaPincelAberta",
+                    "PaiSelecionado",
                     "=",
-                    "1"
+                    "0"
                   ]
                 }
               ],
@@ -13159,6 +13139,26 @@
                     "GenotipoAncestral2",
                     "=",
                     "\"Aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral2",
+                    "=",
+                    "\"Pai\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -13211,6 +13211,614 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ancestral_aa",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral1",
+                    "=",
+                    "\"aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral1",
+                    "=",
+                    "\"Pai\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_aa",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ancestral_aa",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral2",
+                    "=",
+                    "\"aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral2",
+                    "=",
+                    "\"Pai\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_aa",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Atribui o Genótipo da Ancestral Mãe e Seleção obrigatória dela em pelo menos um dos campos da polinização"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "AncestralMae",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AncestralMae",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral1",
+                    "=",
+                    "GenotipoMaeFase"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral1",
+                    "=",
+                    "\"Mãe\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AncestralMae",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "Ativo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PincelMagico",
+                    "AncestralMae",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AncestralMae",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral2",
+                    "=",
+                    "GenotipoMaeFase"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral2",
+                    "=",
+                    "\"Mãe\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AncestralMae",
+                    "Selecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    "Text",
+                    "=",
+                    "GenotipoAncestral2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAncestral2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoResetar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Funcionabilidade dos botões da janela do Pincel Mágico Polinizador"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -13426,6 +14034,46 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral1",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral2",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
@@ -13461,6 +14109,28 @@
                   },
                   "parameters": [
                     "Ancestral_Aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Ancestral_aa",
+                    "Selecionado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "AncestralMae",
                     "Selecionado",
                     "=",
                     "0"
@@ -13518,6 +14188,18 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Mecânica de cruzamento com base na 1º Lei de Mendel"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13558,6 +14240,26 @@
                     "QuantidadeAncestrais",
                     "=",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -13776,6 +14478,302 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Limpa as seleções antigas e oculta o sistema apenas quando polinizar"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "PincelMagico",
+                        "Ativo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "QuantidadeAncestrais",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PaiSelecionado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MaeSelecionada",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TipoAncestral1",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TipoAncestral2",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "GenotipoAncestral1",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "GenotipoAncestral2",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ancestral_AA",
+                        "Selecionado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ancestral_Aa",
+                        "Selecionado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ancestral_aa",
+                        "Selecionado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "AncestralMae",
+                        "Selecionado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextoAncestral1",
+                        "Text",
+                        "=",
+                        "\"???\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextoAncestral2",
+                        "Text",
+                        "=",
+                        "\"???\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "AncestralFilho",
+                        "Text",
+                        "=",
+                        "\"???\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "BotaoFechar"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "AncestralFilho"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAncestral2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAncestral1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Texto_Resultado"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Texto_Genótipo2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Texto_Genótipo1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "BotaoResetar"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "BotaoPolinizar"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Janela_Cruzamento"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "JanelaPincelAberta",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeLayer"
+                      },
+                      "parameters": [
+                        "PincelMagico",
+                        "PincelMagico.VariableString(CamadaOriginal)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "PincelMagico",
+                        "=",
+                        "PincelMagico.Variable(PosicaoY)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "PincelMagico",
+                        "=",
+                        "PincelMagico.Variable(PosicaoX)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -14104,545 +15102,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Cruzamento dos Genótipos ao Regar e Exibição das Flores",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Regador",
-                    "Vasos",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "Conte",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Vaso_Selecionado",
-                    "=",
-                    "Vasos.Variable(IdVaso)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "RandomFloatInRange(0, 1)",
-                        "<",
-                        "0.5"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "AleloPincel1",
-                        "=",
-                        "SubStr(GenotipoAncestral1, 0, 1)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "AleloPincel1",
-                        "=",
-                        "SubStr(GenotipoAncestral1, 1, 1)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "RandomFloatInRange(0, 1)",
-                        "<",
-                        "0.5"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "AleloPincel2",
-                        "=",
-                        "SubStr(GenotipoAncestral2, 0, 1)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "AleloPincel2",
-                        "=",
-                        "SubStr(GenotipoAncestral1, 1, 1)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Alelo1",
-                        "=",
-                        "\"A\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Alelo2",
-                        "=",
-                        "\"A\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Flor",
-                        "=",
-                        "\"AA\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Alelo1",
-                        "=",
-                        "\"a\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Alelo2",
-                        "=",
-                        "\"a\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Flor",
-                        "=",
-                        "\"aa\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Flor",
-                        "=",
-                        "\"Aa\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "FlorGenotipo",
-                        "=",
-                        "Flor"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemFlor",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Semente1",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Semente2",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Semente1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Semente2"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "FlorGenotipo",
-                        "=",
-                        "\"AA\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Flor_AA_Aa",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Flor_aa",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "Flor_AA_Aa",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Flor_aa"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "FlorGenotipo",
-                        "=",
-                        "\"Aa\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Flor_AA_Aa",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Flor_aa",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "Flor_AA_Aa",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Flor_aa"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "FlorGenotipo",
-                        "=",
-                        "\"aa\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Flor_aa",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Flor_AA_Aa",
-                        "IdVaso",
-                        "=",
-                        "Vasos.Variable(IdVaso)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "Flor_aa",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Flor_AA_Aa"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "variables": [
-                {
-                  "name": "Alelo1",
-                  "persistentUuid": "2440d85c-cfe1-4112-8e64-af635ca264d8",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "Alelo2",
-                  "persistentUuid": "6a7bd11a-3f37-4e66-9fad-ffa5b82be91a",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "Flor",
-                  "persistentUuid": "0ad69e75-7358-47e1-ac79-dd4a0590fabb",
-                  "type": "string",
-                  "value": ""
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "aiGeneratedEventId": "01M6PP2V3J7AEQMAM488A3EDWT",
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "disabled": true,
           "name": "Remover Flor e Recuperar Sementes do Vaso com a Pá",
           "source": "",
@@ -14723,7 +15182,7 @@
                   },
                   "parameters": [
                     "Vasos",
-                    "Conte",
+                    "TemSementeFilho",
                     "=",
                     "0"
                   ]
@@ -14921,7 +15380,7 @@
                   },
                   "parameters": [
                     "Vasos",
-                    "Conte",
+                    "TemSementeFilho",
                     "=",
                     "2"
                   ]
@@ -15056,7 +15515,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "-",
                         "1"
                       ]
@@ -15123,7 +15582,7 @@
                   },
                   "parameters": [
                     "Vasos",
-                    "Conte",
+                    "TemSementeFilho",
                     "=",
                     "1"
                   ]
@@ -15258,7 +15717,7 @@
                       },
                       "parameters": [
                         "Vasos",
-                        "Conte",
+                        "TemSementeFilho",
                         "-",
                         "1"
                       ]
@@ -15286,133 +15745,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": true,
-          "name": "Arraste e Retorno da Pá",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "PosicaoX",
-                    "=",
-                    "Pa.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "PosicaoY",
-                    "=",
-                    "Pa.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dragged"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "=",
-                    "10"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "=",
-                    "7"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "=",
-                    "Pa.Variable(PosicaoX)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "=",
-                    "Pa.Variable(PosicaoY)"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -16214,7 +16546,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Roleta do Cruzamento",
+          "name": "Roleta",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -16271,16 +16603,16 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Topo",
+          "name": "Janela de Cruzamento",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
               "name": "3D Ambient Hemisphere Light",
               "doubleParameters": {
-                "elevation": 200,
+                "elevation": 40,
                 "intensity": 0.33,
                 "rotation": 300
               },
@@ -16328,7 +16660,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Janela de Cruzamento",
+          "name": "Plantar Semente",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -16338,6 +16670,63 @@
               "name": "3D Ambient Hemisphere Light",
               "doubleParameters": {
                 "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Topo",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 200,
                 "intensity": 0.33,
                 "rotation": 300
               },
