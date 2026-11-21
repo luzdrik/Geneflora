@@ -1154,8 +1154,70 @@
     {
       "name": "EstadoCultivo",
       "persistentUuid": "d157df37-907a-4470-9ef0-a8f231a8357a",
-      "type": "number",
-      "value": 0
+      "type": "structure",
+      "children": [
+        {
+          "name": "Estoques",
+          "persistentUuid": "aef7e866-ba5d-470c-9722-2e974787f21d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Ferramentas",
+          "persistentUuid": "0a10b6a7-85a7-48fb-92b7-19a5da11079b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Inicializado",
+          "persistentUuid": "17e66fa2-c774-427d-98f7-8669d86a0080",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Planta",
+          "persistentUuid": "3b0375d1-57f7-4b1e-9c78-d5e3c8a6ded5",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Polinizacao",
+          "persistentUuid": "01aa8cf6-e9df-4f2d-a51b-825656573ee4",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Sementes",
+          "persistentUuid": "2eedea23-8491-4e45-a8ae-8f165997cac1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Vasos",
+          "persistentUuid": "4383814f-ecfb-423b-aa5d-7de8d22e2965",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Vaso 1",
+              "persistentUuid": "d704706e-90dd-4118-83c8-5051fb169153",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Vaso 2",
+              "persistentUuid": "cab3e7f0-97fd-4110-9c82-e34a1c242fc4",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Vaso 3",
+              "persistentUuid": "f276aed9-2928-4d69-b57a-1a2b9101c20f",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ]
     }
   ],
   "layouts": [
@@ -2371,7 +2433,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49508400737490815,
+        "zoomFactor": 0.7876290101674063,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2774,12 +2836,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "hidden": true,
           "keepRatio": true,
           "layer": "Aceitou Pedido",
           "locked": true,
           "name": "TextoAguardando",
           "persistentUuid": "603558f8-edc1-4914-a641-6d8d3585df8f",
+          "sealed": true,
           "width": 0,
           "x": 431,
           "y": 169,
@@ -2799,6 +2861,7 @@
           "locked": true,
           "name": "TextoEspera",
           "persistentUuid": "c965e812-1730-462c-a5ff-82ff1da9740c",
+          "sealed": true,
           "width": 288,
           "x": 430,
           "y": 148,
@@ -2837,6 +2900,7 @@
           "locked": true,
           "name": "Balao_DonaRosa",
           "persistentUuid": "b7334495-4eb3-491e-8093-3d583ea603e4",
+          "sealed": true,
           "width": 417,
           "x": 371,
           "y": 94,
@@ -2864,6 +2928,7 @@
           "locked": true,
           "name": "Balao_DonaRosa",
           "persistentUuid": "e6ec9c8c-7381-4d08-ace1-1e3032d259ff",
+          "sealed": true,
           "width": 390,
           "x": 374,
           "y": 76,
@@ -2911,7 +2976,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 89,
+          "height": 77,
           "hidden": true,
           "keepRatio": true,
           "layer": "Pedido Correto",
@@ -2919,9 +2984,9 @@
           "name": "TextoPedidoCorreto",
           "persistentUuid": "98a8907b-3840-4897-a4d8-979fc9ce01db",
           "sealed": true,
-          "width": 506,
-          "x": 444,
-          "y": 124,
+          "width": 505,
+          "x": 448,
+          "y": 136,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -2939,6 +3004,7 @@
           "locked": true,
           "name": "Balao_DonaRosa",
           "persistentUuid": "e1e6d002-19f0-4a7a-acb1-498bae4cbddd",
+          "sealed": true,
           "width": 635,
           "x": 367,
           "y": 28,
@@ -2958,16 +3024,17 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 93,
+          "height": 111,
           "hidden": true,
           "keepRatio": true,
           "layer": "Pedido Errado",
           "locked": true,
           "name": "TextoPedidoErrado",
           "persistentUuid": "05bd45ba-e6b6-4ce8-80f2-115ca324c403",
-          "width": 447,
-          "x": 451,
-          "y": 127,
+          "sealed": true,
+          "width": 468,
+          "x": 446,
+          "y": 123,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -4405,7 +4472,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Vou ficar aqui no aguardo, viu?",
+          "string": "Texto temporário para quando aceitar o pedido",
           "font": "Sniglet-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 22,
@@ -4428,7 +4495,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Vou ficar aqui no aguardo, viu?",
+            "text": "Texto temporário para quando aceitar o pedido",
             "font": "Sniglet-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -4449,7 +4516,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Oi, meu bem. Conseguiu cultivar minha flor amarela?",
+          "string": "Texto que fica repetindo enquanto espera",
           "font": "Sniglet-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 22,
@@ -4472,7 +4539,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Oi, meu bem. Conseguiu cultivar minha flor amarela?",
+            "text": "Texto que fica repetindo enquanto espera",
             "font": "Sniglet-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -4554,7 +4621,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Texto ao entregar algo errado será exibido aqui",
+          "string": "Texto quando Pedido for correto",
           "font": "Sniglet-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 24,
@@ -4577,7 +4644,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Texto ao entregar algo errado será exibido aqui",
+            "text": "Texto quando Pedido for correto",
             "font": "Sniglet-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -4598,7 +4665,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Texto do pedido errado aparecerá aqui",
+          "string": "Texto do Pedido quando errado",
           "font": "Sniglet-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 24,
@@ -4621,7 +4688,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Texto do pedido errado aparecerá aqui",
+            "text": "Texto do Pedido quando errado",
             "font": "Sniglet-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -5272,6 +5339,17 @@
                 },
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAguardando",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.TextoAguardando)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -5405,6 +5483,17 @@
                   "parameters": [
                     "Balao_DonaRosa",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoEspera",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.TextoEsperando)"
                   ]
                 },
                 {
@@ -16858,7 +16947,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Retorno a Cena de Atendimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16916,791 +17004,6 @@
                     "",
                     "\"Atendimento\"",
                     ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "aiGeneratedEventId": "01M6PP2V3J7AEQMAM488A3EDWT",
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": true,
-          "folded": true,
-          "name": "Plantar sementes (máximo 2 por vaso)",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "Vasos",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
-                    "<",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Estoque_AA",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Vaso_Selecionado",
-                    "=",
-                    "Vasos.Variable(IdVaso)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot1",
-                        "=",
-                        "\"AA\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_AA",
-                        "-",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot2",
-                        "=",
-                        "\"AA\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_AA",
-                        "-",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente2",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Semente2",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Semente1"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "Vasos",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
-                    "<",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Estoque_Aa",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Vaso_Selecionado",
-                    "=",
-                    "Vasos.Variable(IdVaso)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot1",
-                        "=",
-                        "\"Aa\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_Aa",
-                        "-",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot2",
-                        "=",
-                        "\"Aa\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_Aa",
-                        "-",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente2",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Semente2",
-                            ""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Semente1",
-                                "IdVaso",
-                                "=",
-                                "Variable(Vaso_Selecionado)"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Hide"
-                              },
-                              "parameters": [
-                                "Semente1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "Vasos",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
-                    "<",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Estoque_aa",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Vaso_Selecionado",
-                    "=",
-                    "Vasos.Variable(IdVaso)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot1",
-                        "=",
-                        "\"aa\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_aa",
-                        "-",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot2",
-                        "=",
-                        "\"aa\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_aa",
-                        "-",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente2",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Show"
-                          },
-                          "parameters": [
-                            "Semente2",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Semente1",
-                            "IdVaso",
-                            "=",
-                            "Variable(Vaso_Selecionado)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Hide"
-                          },
-                          "parameters": [
-                            "Semente1"
-                          ]
-                        }
-                      ]
-                    }
                   ]
                 }
               ]
@@ -18781,6 +18084,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24942,14 +24246,11 @@
           "parameters": []
         },
         {
-          "aiGeneratedEventId": "01M6PP2V3J7AEQMAM488A3EDWT",
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
-          "folded": true,
-          "name": "Remover Flor e Recuperar Sementes do Vaso com a Pá",
+          "name": "Salvar Estado da Cena Cultivo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -24958,20 +24259,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DraggableBehavior::Dropped"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
-                    "Pa",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "Vasos",
+                    "AreaAtendimento",
                     "",
                     "",
                     ""
@@ -24979,267 +24270,31 @@
                 },
                 {
                   "type": {
-                    "value": "BooleanObjectVariable"
+                    "value": "MouseButtonFromTextReleased"
                   },
                   "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Vaso_Selecionado",
-                    "=",
-                    "Vasos.Variable(IdVaso)"
+                    "",
+                    "\"Left\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetBooleanObjectVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "FlorGenotipo",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
+                    "JanelaPedidoAberta",
                     "=",
                     "0"
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetStringObjectVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Vasos",
-                    "Slot1",
+                    "EtapaPolinizacao",
                     "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "Slot2",
-                    "=",
-                    "\"\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Planta_Crescimento",
-                        "IdVaso",
-                        "=",
-                        "Vaso_Selecionado"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Planta_Crescimento"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                      },
-                      "parameters": [
-                        "Planta_Crescimento",
-                        "Animation",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Flor_aa",
-                        "IdVaso",
-                        "=",
-                        "Vaso_Selecionado"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Flor_aa"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                      },
-                      "parameters": [
-                        "Flor_aa",
-                        "Animation",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Semente1",
-                        "IdVaso",
-                        "=",
-                        "Vaso_Selecionado"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Semente1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Semente2",
-                        "IdVaso",
-                        "=",
-                        "Vaso_Selecionado"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Semente2"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "Vasos",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Semente2",
-                    "IdVaso",
-                    "=",
-                    "Vasos.Variable(IdVaso)"
+                    "0"
                   ]
                 }
               ],
@@ -25249,661 +24304,22 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Vaso_Selecionado",
+                    "EstadoCultivo.Vasos[\"Vaso 1\"]",
                     "=",
-                    "Vasos.Variable(IdVaso)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot2",
-                        "=",
-                        "\"AA\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_AA",
-                        "+",
-                        "1"
-                      ]
-                    }
+                    "Vasos.Variable(TemSementeFilho)"
                   ]
                 },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot2",
-                        "=",
-                        "\"aa\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_aa",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot2",
-                        "=",
-                        "\"Aa\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_Aa",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot2",
-                        "=",
-                        "\"\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "-",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Semente2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "Vaso",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Pa",
-                    "Vasos",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Semente1",
-                    "IdVaso",
-                    "=",
-                    "Vasos.Variable(IdVaso)"
-                  ]
-                }
-              ],
-              "actions": [
                 {
                   "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Vaso_Selecionado",
+                    "EstadoCultivo.Vasos[\"Vaso 1\"]",
                     "=",
-                    "Vasos.Variable(IdVaso)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot1",
-                        "=",
-                        "\"AA\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_AA",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot1",
-                        "=",
-                        "\"Aa\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_Aa",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot1",
-                        "=",
-                        "\"aa\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Estoque_aa",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "Slot1",
-                        "=",
-                        "\"\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Vasos",
-                        "TemSementeFilho",
-                        "-",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Hide"
-                      },
-                      "parameters": [
-                        "Semente1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "Vaso",
-                        ""
-                      ]
-                    }
+                    "Vasos.Variable(TemSementeFilho)"
                   ]
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": true,
-          "folded": true,
-          "name": "Arraste e Retorno das Sementes",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "PosicaoX",
-                    "=",
-                    "SementesAmarelo_AA.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "PosicaoY",
-                    "=",
-                    "SementesAmarelo_AA.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "PosicaoX",
-                    "=",
-                    "SementesAmarelo_Aa.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "PosicaoY",
-                    "=",
-                    "SementesAmarelo_Aa.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "PosicaoX",
-                    "=",
-                    "SementesLilas_aa.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "PosicaoY",
-                    "=",
-                    "SementesLilas_aa.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dragged"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "=",
-                    "15"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "=",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "=",
-                    "SementesAmarelo_AA.Variable(PosicaoX)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_AA",
-                    "=",
-                    "SementesAmarelo_AA.Variable(PosicaoY)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dragged"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "=",
-                    "15"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "=",
-                    "11"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "=",
-                    "SementesAmarelo_Aa.Variable(PosicaoX)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "SementesAmarelo_Aa",
-                    "=",
-                    "SementesAmarelo_Aa.Variable(PosicaoY)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dragged"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "=",
-                    "15"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "Draggable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "=",
-                    "12"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "=",
-                    "SementesLilas_aa.Variable(PosicaoX)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "SementesLilas_aa",
-                    "=",
-                    "SementesLilas_aa.Variable(PosicaoY)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
