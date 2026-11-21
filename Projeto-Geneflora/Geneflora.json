@@ -913,6 +913,30 @@
               "value": ""
             },
             {
+              "name": "PedidoCorreto",
+              "persistentUuid": "c3ab3f9d-a205-45ef-b2b3-66737fb29a44",
+              "type": "string",
+              "value": "Que flor maravilhosa. Amarelas exatamente como imaginei! Você conseguiu!"
+            },
+            {
+              "name": "PedidoErrado",
+              "persistentUuid": "f7e6625c-02cf-4a34-9eac-8e02fd7a9c23",
+              "type": "string",
+              "value": "É uma flor bonita, sim, mas ainda não é bem o que eu pedi. Lembre-se: preciso que ela seja amarela. Vamos tentar mais uma vez?"
+            },
+            {
+              "name": "TextoAguardando",
+              "persistentUuid": "188035e1-0d66-4f39-b10c-5cf6671390a2",
+              "type": "string",
+              "value": "Vou ficar aqui no aguardo, viu?"
+            },
+            {
+              "name": "TextoEsperando",
+              "persistentUuid": "d7133b62-04be-4e7d-b24b-1efde8edb1d7",
+              "type": "string",
+              "value": "Oi, meu bem. Conseguiu cultivar minha flor amarela?"
+            },
+            {
               "name": "TextoPedido",
               "persistentUuid": "971fea89-0564-48bf-a920-1b601e797c21",
               "type": "string",
@@ -2347,7 +2371,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845354135,
+        "zoomFactor": 0.49508400737490815,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2753,6 +2777,7 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Aceitou Pedido",
+          "locked": true,
           "name": "TextoAguardando",
           "persistentUuid": "603558f8-edc1-4914-a641-6d8d3585df8f",
           "width": 0,
@@ -2771,6 +2796,7 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Aguardando Pedido",
+          "locked": true,
           "name": "TextoEspera",
           "persistentUuid": "c965e812-1730-462c-a5ff-82ff1da9740c",
           "width": 288,
@@ -2788,6 +2814,7 @@
           "height": 96,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "AreaCultivo",
           "persistentUuid": "86465b1f-7dd1-4a15-adab-13404082a8e9",
           "width": 92,
@@ -2807,6 +2834,7 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Aceitou Pedido",
+          "locked": true,
           "name": "Balao_DonaRosa",
           "persistentUuid": "b7334495-4eb3-491e-8093-3d583ea603e4",
           "width": 417,
@@ -2833,6 +2861,7 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Aguardando Pedido",
+          "locked": true,
           "name": "Balao_DonaRosa",
           "persistentUuid": "e6ec9c8c-7381-4d08-ace1-1e3032d259ff",
           "width": 390,
@@ -2849,6 +2878,100 @@
               "value": 2
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 248,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Pedido Correto",
+          "locked": true,
+          "name": "Balao_DonaRosa",
+          "persistentUuid": "366b7dee-6bd5-4aae-a464-bf08766cf2ff",
+          "sealed": true,
+          "width": 683,
+          "x": 360,
+          "y": 58,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoBalao",
+              "persistentUuid": "d552d716-6f14-48b1-ad21-a72a2019bf03",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Pedido Correto",
+          "locked": true,
+          "name": "TextoPedidoCorreto",
+          "persistentUuid": "98a8907b-3840-4897-a4d8-979fc9ce01db",
+          "sealed": true,
+          "width": 506,
+          "x": 444,
+          "y": 124,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 322,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Pedido Errado",
+          "locked": true,
+          "name": "Balao_DonaRosa",
+          "persistentUuid": "e1e6d002-19f0-4a7a-acb1-498bae4cbddd",
+          "width": 635,
+          "x": 367,
+          "y": 28,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoBalao",
+              "persistentUuid": "d552d716-6f14-48b1-ad21-a72a2019bf03",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 93,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Pedido Errado",
+          "locked": true,
+          "name": "TextoPedidoErrado",
+          "persistentUuid": "05bd45ba-e6b6-4ce8-80f2-115ca324c403",
+          "width": 447,
+          "x": 451,
+          "y": 127,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4418,6 +4541,94 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoPedidoCorreto",
+          "persistentUuid": "1022e8ac-0a84-40d3-92bf-dfc97495c22c",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Texto ao entregar algo errado será exibido aqui",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Texto ao entregar algo errado será exibido aqui",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 24,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoPedidoErrado",
+          "persistentUuid": "a7fdd3e5-9071-481f-88f4-73c47df219c9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Texto do pedido errado aparecerá aqui",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Texto do pedido errado aparecerá aqui",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 24,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4425,6 +4636,9 @@
         "children": [
           {
             "objectName": "FundoFloricultura"
+          },
+          {
+            "objectName": "AreaCultivo"
           },
           {
             "objectName": "Balcao"
@@ -4469,7 +4683,10 @@
             "objectName": "BuqueDeco"
           },
           {
-            "objectName": "Cliente_Jasmin"
+            "objectName": "SinoMesa"
+          },
+          {
+            "objectName": "AceitarPedido"
           },
           {
             "objectName": "TextoPedido"
@@ -4481,22 +4698,22 @@
             "objectName": "TextoEspera"
           },
           {
-            "objectName": "AreaCultivo"
+            "objectName": "TextoPedidoCorreto"
+          },
+          {
+            "objectName": "TextoPedidoErrado"
           },
           {
             "objectName": "Balao_DonaRosa"
           },
           {
-            "objectName": "Cliente_DonaRosa"
-          },
-          {
             "objectName": "BotaoAceitar"
           },
           {
-            "objectName": "SinoMesa"
+            "objectName": "Cliente_DonaRosa"
           },
           {
-            "objectName": "AceitarPedido"
+            "objectName": "Cliente_Jasmin"
           }
         ]
       },
@@ -4506,6 +4723,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Retorno a Cena de Cultivo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4691,6 +4909,50 @@
                     "Text",
                     "=",
                     "GlobalVariableString(Clientes.DonaRosa.TextoPedido)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAguardando",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.TextoAguardando)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoEspera",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.TextoEsperando)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedidoCorreto",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.PedidoCorreto)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedidoErrado",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.PedidoErrado)"
                   ]
                 }
               ]
@@ -5120,6 +5382,15 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Aguardando Pedido\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -5226,17 +5497,6 @@
                     "=",
                     "2"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Balao_DonaRosa",
-                    "TipoBalao",
-                    "=",
-                    "2"
-                  ]
                 }
               ],
               "actions": [
@@ -5270,6 +5530,73 @@
                     "3"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoAtendimento",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Balao_DonaRosa"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoPedido"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAguardando"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoEspera"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoPedidoCorreto"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoPedidoErrado"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -5277,7 +5604,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Verificação da Flor Entregue com o Pedido do Cliente",
+              "name": "Lógica da Flor Entregue com o Pedido do Cliente",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [],
@@ -5506,6 +5833,17 @@
                     "=",
                     "CorSolicitada"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "3"
+                  ]
                 }
               ],
               "actions": [
@@ -5594,9 +5932,79 @@
                     "True",
                     "5"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "3"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoPedido"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAguardando"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoEspera"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoPedidoErrado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pedido Errado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pedido Correto\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -5607,8 +6015,53 @@
                     "=",
                     "\"Certo\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedidoCorreto",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.PedidoCorreto)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoPedidoCorreto",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "6"
+                  ]
                 }
               ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -5643,6 +6096,17 @@
                     "CorFlorEntregue",
                     "!=",
                     "CorSolicitada"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "4"
                   ]
                 }
               ],
@@ -5728,9 +6192,79 @@
                     "False",
                     "5"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "4"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoPedido"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAguardando"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoEspera"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoPedidoCorreto"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pedido Correto\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pedido Errado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -5741,8 +6275,53 @@
                     "=",
                     "\"Errado\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedidoErrado",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.PedidoErrado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoPedidoErrado",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "7"
+                  ]
                 }
               ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "colorB": 228,
@@ -5777,7 +6356,7 @@
                   "parameters": [
                     "EstadoAtendimento",
                     "=",
-                    "5"
+                    "6"
                   ]
                 },
                 {
@@ -5800,16 +6379,6 @@
                     "PedidoAtivo",
                     "=",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "EstadoAtendimento",
-                    "=",
-                    "6"
                   ]
                 }
               ]
@@ -5836,7 +6405,7 @@
                   "parameters": [
                     "EstadoAtendimento",
                     "=",
-                    "5"
+                    "7"
                   ]
                 },
                 {
@@ -6083,7 +6652,121 @@
           "isLocked": false,
           "name": "Aguardando Pedido",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Pedido Correto",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Pedido Errado",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -17030,6 +17713,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Área de Entrega do Pedido",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17076,16 +17760,6 @@
                   "parameters": [
                     "",
                     "\"Confirmar Entrega\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "EstadoEntrega",
-                    "=",
-                    "0"
                   ]
                 }
               ]
@@ -17153,6 +17827,16 @@
                   "parameters": [
                     "Regador",
                     "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -17803,6 +18487,57 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconePedido"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "IconePedido",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
