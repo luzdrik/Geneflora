@@ -829,6 +829,22 @@
         "name": "assets/IU/Botão2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Clientes/Dona Rosa/certo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Clientes/Dona Rosa/certo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Clientes/Dona Rosa/errado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Clientes/Dona Rosa/errado.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -839,38 +855,155 @@
   "objectsGroups": [],
   "variables": [
     {
+      "name": "ModoFila",
+      "persistentUuid": "9358cc8b-0d08-4054-9e65-8bbdec5960cc",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "IndiceCliente",
+      "persistentUuid": "9085e7ed-671d-4a48-90c2-03ca49048a3f",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Clientes",
+      "persistentUuid": "9c14131c-1a93-4dc1-ae51-cd1a8fbe6693",
+      "type": "structure",
+      "children": [
+        {
+          "name": "DonaRosa",
+          "persistentUuid": "93ecace1-5a09-4ac7-9ffe-8c7732146ae3",
+          "type": "structure",
+          "children": [
+            {
+              "name": "CaracteristicasDesejadas",
+              "persistentUuid": "2f40e493-5903-46bc-a0f2-88c65e97ef89",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "CorSolicitada",
+              "persistentUuid": "cb2c472b-aa5c-49fa-8ffb-2a5d00988d7b",
+              "type": "string",
+              "value": "Amarelo"
+            },
+            {
+              "name": "GenotipoSolicitado",
+              "persistentUuid": "6fa718b7-582c-45f3-a272-1391d0f6226b",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Nome",
+              "persistentUuid": "5aeccf58-829b-41d4-abe4-320e6636d056",
+              "type": "string",
+              "value": "Dona Rosa"
+            },
+            {
+              "name": "Objeto",
+              "persistentUuid": "4aba6564-d44c-4fde-a0cc-13425c463121",
+              "type": "string",
+              "value": "Cliente_DonaRosa"
+            },
+            {
+              "name": "ObservacoesPedido",
+              "persistentUuid": "c9fa2d65-4c7d-4b72-aa52-11938be8c3a2",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "TextoPedido",
+              "persistentUuid": "971fea89-0564-48bf-a920-1b601e797c21",
+              "type": "string",
+              "value": "Bom dia, meu bem. Vim procurar uma flor especial para alegrar minha casinha. Sempre gostei de flores amarelas. Elas deixam qualquer cantinho mais bonito! Será que você consegue cultivar uma assim para mim?"
+            }
+          ]
+        },
+        {
+          "name": "Jasmin",
+          "persistentUuid": "5cbf4b09-d0e6-47f1-8869-fd4a3d29f2b4",
+          "type": "structure",
+          "children": [
+            {
+              "name": "CaracteristicasDesejadas",
+              "persistentUuid": "a456d2fd-4341-4aac-914a-bf85e8b1fc86",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "CorSolicitada",
+              "persistentUuid": "fd07f26b-d62b-4224-9b12-09976f7be9f0",
+              "type": "string",
+              "value": "Lilás"
+            },
+            {
+              "name": "GenotipoSolicitado",
+              "persistentUuid": "7f31e405-2474-4dd9-9697-474586ebce83",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Nome",
+              "persistentUuid": "c5843bc3-6cb3-4cc7-8249-4b530cba047e",
+              "type": "string",
+              "value": "Jasmin"
+            },
+            {
+              "name": "Objeto",
+              "persistentUuid": "58f1706e-4167-4118-b59d-4fd5e71fe46c",
+              "type": "string",
+              "value": "Cliente_Jasmin"
+            },
+            {
+              "name": "ObservacoesPedido",
+              "persistentUuid": "13383957-a71a-406b-937e-fb3a7318bfd9",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "TextoPedido",
+              "persistentUuid": "8424de29-ad10-43d6-b329-e8b0f385e913",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "NomeCliente",
       "persistentUuid": "b833f4a2-8570-4219-83ac-b6c24811cb4b",
       "type": "string",
       "value": ""
     },
     {
-      "name": "ClienteAtual",
-      "persistentUuid": "0a15ac4e-2795-4daa-8f19-9670274e2e79",
+      "name": "CorSolicitada",
+      "persistentUuid": "3ca76b24-ef47-4c40-af17-6aa20f3b2048",
       "type": "string",
       "value": ""
     },
     {
-      "name": "CorSolicitada",
-      "persistentUuid": "8a142228-e15b-4da5-80ca-78155a12def0",
+      "name": "GenotipoSolicitado",
+      "persistentUuid": "d9c9dc7c-16ae-436a-9655-32d19b4875bc",
       "type": "string",
       "value": ""
     },
     {
       "name": "CaracteristicasDesejadas",
-      "persistentUuid": "19ceb5c0-6560-423d-baf0-22fe17a31171",
+      "persistentUuid": "b11ad2e4-0492-49ae-98e3-41ce3eb2f9a2",
       "type": "string",
       "value": ""
     },
     {
       "name": "ObservacoesPedido",
-      "persistentUuid": "674fc1e9-4d85-4917-ab76-5c85dc06bb2e",
+      "persistentUuid": "e5a84b78-b858-480f-9c43-295db9f191c6",
       "type": "string",
       "value": ""
     },
     {
-      "name": "TipoFlor",
-      "persistentUuid": "5edb0ff2-a456-4e91-ae42-f179b6ff029d",
+      "name": "ClienteAtual",
+      "persistentUuid": "0a15ac4e-2795-4daa-8f19-9670274e2e79",
       "type": "string",
       "value": ""
     },
@@ -895,8 +1028,8 @@
     {
       "name": "EntregaCorreta",
       "persistentUuid": "330c7ea7-d700-4876-9a0f-2c0e6e05270d",
-      "type": "number",
-      "value": 0
+      "type": "boolean",
+      "value": false
     },
     {
       "name": "JanelaPincelAberta",
@@ -973,6 +1106,30 @@
     {
       "name": "EtapaPolinizacao",
       "persistentUuid": "2387e2c9-182e-42a1-b7b1-0eb8bc438169",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GenotipoFlorEntregue",
+      "persistentUuid": "5a227c86-414b-4d8f-b6d0-7211d805b25a",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "VasoFlorEntregue",
+      "persistentUuid": "7d579fee-b681-42b8-b827-6754d976f151",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CorFlorEntregue",
+      "persistentUuid": "ff4c9e99-431a-4ec6-bee9-c3ef9105ea9b",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "EstadoCultivo",
+      "persistentUuid": "d157df37-907a-4470-9ef0-a8f231a8357a",
       "type": "number",
       "value": 0
     }
@@ -2190,13 +2347,20 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845353664,
+        "zoomFactor": 0.47893418845354135,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "EstadoEntrega",
+          "persistentUuid": "55dd1c49-7fdc-4d83-b4b0-a3cc1021c986",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -2479,11 +2643,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 136,
+          "height": 118,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
-          "name": "TextoPedido1",
+          "layer": "Pedido",
+          "name": "TextoPedido",
           "persistentUuid": "9be00161-5fc9-45a9-9dc1-09f86ae7e6aa",
           "width": 537,
           "x": 459,
@@ -2501,8 +2665,8 @@
           "height": 315,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
-          "name": "BalaoPedido",
+          "layer": "Pedido",
+          "name": "Balao_DonaRosa",
           "persistentUuid": "bc20ebeb-6595-4513-86df-a3b33371bae6",
           "width": 768,
           "x": 350,
@@ -2537,7 +2701,7 @@
           "height": 136,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Pedido",
           "name": "BotaoAceitar",
           "persistentUuid": "62964271-0996-4412-be95-65664c014e44",
           "width": 206,
@@ -2554,7 +2718,7 @@
           "height": 0,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Pedido",
           "name": "AceitarPedido",
           "persistentUuid": "5cf73b76-d0f4-4008-9191-b89f25e231fb",
           "width": 0,
@@ -2588,31 +2752,13 @@
           "height": 0,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
-          "name": "TextoEspera1",
+          "layer": "Aceitou Pedido",
+          "name": "TextoAguardando",
           "persistentUuid": "603558f8-edc1-4914-a641-6d8d3585df8f",
           "width": 0,
           "x": 431,
           "y": 169,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "flippedX": true,
-          "height": 177,
-          "hidden": true,
-          "layer": "",
-          "name": "BalaoMenor",
-          "persistentUuid": "296ded6e-0285-40da-9234-f7649d6ec04f",
-          "width": 408,
-          "x": 375,
-          "y": 101,
-          "zOrder": 24,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2621,16 +2767,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 26,
+          "height": 68,
           "hidden": true,
           "keepRatio": true,
-          "layer": "",
-          "name": "TextoEspera2",
+          "layer": "Aguardando Pedido",
+          "name": "TextoEspera",
           "persistentUuid": "c965e812-1730-462c-a5ff-82ff1da9740c",
-          "width": 313,
-          "x": 424,
-          "y": 155,
-          "zOrder": 26,
+          "width": 288,
+          "x": 430,
+          "y": 148,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2651,6 +2797,58 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 203,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Aceitou Pedido",
+          "name": "Balao_DonaRosa",
+          "persistentUuid": "b7334495-4eb3-491e-8093-3d583ea603e4",
+          "width": 417,
+          "x": 371,
+          "y": 94,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoBalao",
+              "persistentUuid": "d552d716-6f14-48b1-ad21-a72a2019bf03",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 234,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Aguardando Pedido",
+          "name": "Balao_DonaRosa",
+          "persistentUuid": "e6ec9c8c-7381-4d08-ace1-1e3032d259ff",
+          "width": 390,
+          "x": 374,
+          "y": 76,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoBalao",
+              "persistentUuid": "d552d716-6f14-48b1-ad21-a72a2019bf03",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
@@ -3634,7 +3832,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "TextoPedido1",
+          "name": "TextoPedido",
           "persistentUuid": "b7c00155-29ff-4139-b0ca-28e459f2a4f8",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -3642,7 +3840,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Bom dia, meu bem. Vim procurar uma flor especial para alegrar minha casinha. Sempre gostei de flores amarelas. Elas deixam qualquer cantinho mais bonito! Será que você consegue cultivar uma assim para mim?",
+          "string": "",
           "font": "Sniglet-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 22,
@@ -3665,7 +3863,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Bom dia, meu bem. Vim procurar uma flor especial para alegrar minha casinha. Sempre gostei de flores amarelas. Elas deixam qualquer cantinho mais bonito! Será que você consegue cultivar uma assim para mim?",
+            "text": "",
             "font": "Sniglet-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -3677,16 +3875,23 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "BalaoPedido",
+          "name": "Balao_DonaRosa",
           "persistentUuid": "433a58f1-09e4-43f7-9dda-8706fbe45bc3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "TipoBalao",
+              "persistentUuid": "d552d716-6f14-48b1-ad21-a72a2019bf03",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Pedido",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3747,7 +3952,55 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Pedido",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dona Rosa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 210,
+                            "y": 44
+                          },
+                          {
+                            "x": 1019,
+                            "y": 44
+                          },
+                          {
+                            "x": 1019,
+                            "y": 1301
+                          },
+                          {
+                            "x": 210,
+                            "y": 1301
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Certo",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3756,7 +4009,55 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dona Rosa.png",
+                      "image": "assets/Clientes/Dona Rosa/certo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 210,
+                            "y": 44
+                          },
+                          {
+                            "x": 1019,
+                            "y": 44
+                          },
+                          {
+                            "x": 1019,
+                            "y": 1301
+                          },
+                          {
+                            "x": 210,
+                            "y": 1301
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Errado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Clientes/Dona Rosa/errado.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3973,7 +4274,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "TextoEspera1",
+          "name": "TextoAguardando",
           "persistentUuid": "6a5f3f0a-0861-4dac-b93c-23b2d5037636",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -4014,71 +4315,10 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "BalaoMenor",
-          "persistentUuid": "9164838e-a00c-4630-9f99-0abca2459e9b",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Balão de fala.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 135,
-                            "y": 171
-                          },
-                          {
-                            "x": 1506,
-                            "y": 171
-                          },
-                          {
-                            "x": 1506,
-                            "y": 864
-                          },
-                          {
-                            "x": 135,
-                            "y": 864
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "TextoEspera2",
+          "name": "TextoEspera",
           "persistentUuid": "1148237e-688e-4228-85c4-d895db814bcb",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -4232,22 +4472,19 @@
             "objectName": "Cliente_Jasmin"
           },
           {
-            "objectName": "TextoPedido1"
+            "objectName": "TextoPedido"
           },
           {
-            "objectName": "TextoEspera1"
+            "objectName": "TextoAguardando"
+          },
+          {
+            "objectName": "TextoEspera"
           },
           {
             "objectName": "AreaCultivo"
           },
           {
-            "objectName": "TextoEspera2"
-          },
-          {
-            "objectName": "BalaoPedido"
-          },
-          {
-            "objectName": "BalaoMenor"
+            "objectName": "Balao_DonaRosa"
           },
           {
             "objectName": "Cliente_DonaRosa"
@@ -4269,454 +4506,1385 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Inicializador dos estados do atendimento",
+          "name": "Retorno a Cena de Cultivo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "AreaCultivo",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Cultivo\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Lógica do atendimento aos clientes"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Sistema de Clientes e Entrega de Flor",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "SceneJustBegins"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                ""
+              "comment": "Carrega os clientes e as informações do pedido que será aceito logo no começo da cena"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "IndiceCliente",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EsperaCliente\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Sons/sino-de-mesa.wav"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ClienteAtual",
+                    "=",
+                    "\"DonaRosa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "NomeCliente",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.Nome)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoSolicitado",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.GenotipoSolicitado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CorSolicitada",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.CorSolicitada)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CaracteristicasDesejadas",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.CaracteristicasDesejadas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ObservacoesPedido",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.ObservacoesPedido)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedido",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.TextoPedido)"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "NumberVariable"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "PedidoAtivo",
-                "=",
-                "0"
+              "comment": "Surgimento e Pedido do cliente"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EsperaCliente\"",
+                    ">",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Sons/sino-de-mesa.wav",
+                    "",
+                    "25",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EntregaSolicitada",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoPedido",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoAceitar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AceitarPedido",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Mudança do estado para Aguardando"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoAceitar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MensagemAguardo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoAceitar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "AceitarPedido"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoPedido"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "\"MensagemAguardo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAguardando",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MensagemAguardo\"",
+                    ">",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAguardando"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "\"MensagemAguardo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Nova exibição de mensagem fixa do estado de Aguardando quando o jogador alterna de cena"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoEspera",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EntregaSolicitada",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoEspera"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Trazendo a flor de cultivo ao atendimento"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EntregaSolicitada",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "ClienteAtual",
+                    "=",
+                    "\"DonaRosa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EntregaSolicitada",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Verificação da Flor Entregue com o Pedido do Cliente",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Entregou AA"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFlorEntregue",
+                    "=",
+                    "\"AA\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CorFlorEntregue",
+                    "=",
+                    "\"Amarelo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Entregou Aa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFlorEntregue",
+                    "=",
+                    "\"Aa\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CorFlorEntregue",
+                    "=",
+                    "\"Amarelo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Entregou aa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFlorEntregue",
+                    "=",
+                    "\"aa\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CorFlorEntregue",
+                    "=",
+                    "\"Lilás\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Compara agora a entrega com o pedido de Dona Rosa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pedido Atendido"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CorFlorEntregue",
+                    "=",
+                    "CorSolicitada"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EntregaCorreta",
+                    "True",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ela não precisa do genótipo para aceitar, então não precisa colocar a condição abaixo"
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFlorEntregue",
+                    "=",
+                    "GenotipoSolicitado"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Animação de Dona Rosa Feliz"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EntregaCorreta",
+                    "True",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa",
+                    "Animation",
+                    "=",
+                    "\"Certo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pedido Não Atendido"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CorFlorEntregue",
+                    "!=",
+                    "CorSolicitada"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EntregaCorreta",
+                    "False",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "GenotipoFlorEntregue",
+                        "!=",
+                        "GenotipoSolicitado"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Animação de Dona Rosa Triste"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EntregaCorreta",
+                    "False",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa",
+                    "Animation",
+                    "=",
+                    "\"Errado\""
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Finalização do Pedido da Dona Rosa",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Entrega Correta (Limpa o PedidoAtivo, permitindo que outro Cliente venha)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EntregaCorreta",
+                    "True",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "6"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Entrega Incorreta (Mantem PedidoAtivo, mantendo ainda Dona Rosa na Cena de Atendimento aguardando)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EntregaCorreta",
+                    "False",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EntregaSolicitada",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "2"
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "EstadoAtendimento",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EsperaCliente\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "assets/Sons/sino-de-mesa.wav"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "EstadoAtendimento",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EsperaCliente\"",
-                ">",
-                "4"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PedidoAtivo",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Cliente_DonaRosa",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets/Sons/sino-de-mesa.wav",
-                "",
-                "15",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "BalaoPedido",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "TextoPedido1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "BotaoAceitar",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "AceitarPedido",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "EstadoAtendimento",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "EstadoAtendimento",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "BotaoAceitar",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "EstadoAtendimento",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BotaoAceitar"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "AceitarPedido"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "PedidoAtivo",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "CorSolicitada",
-                "=",
-                "\"Amarelo\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BalaoPedido"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "TextoPedido1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "BalaoMenor",
-                "\"MensagemAguardo\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "BalaoMenor",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "TextoEspera1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "BalaoMenor",
-                "\"MensagemAguardo\"",
-                ">",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BalaoMenor"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "TextoEspera1"
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseObjectTimer"
-              },
-              "parameters": [
-                "BalaoMenor",
-                "\"MensagemAguardo\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PedidoAtivo",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Cliente_DonaRosa",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "BalaoMenor",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "TextoEspera2",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "AreaCultivo",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Cultivo\"",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
@@ -4778,6 +5946,178 @@
               "stringParameters": {
                 "color": "255;255;255",
                 "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Pedido",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Aceitou Pedido",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Aguardando Pedido",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
                 "top": "Z+"
               },
               "booleanParameters": {
@@ -4978,6 +6318,7 @@
         },
         {
           "name": "EstadoEntrega",
+          "persistentUuid": "1af58e26-8c41-4d51-b5e5-74a8363ec639",
           "type": "number",
           "value": 0
         }
@@ -5798,7 +7139,14 @@
           "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "IdVaso",
+              "persistentUuid": "17c35af8-49ed-451c-ad54-26e28d8b025e",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -7409,7 +8757,7 @@
               "name": "IdVaso",
               "persistentUuid": "17c35af8-49ed-451c-ad54-26e28d8b025e",
               "type": "number",
-              "value": 1
+              "value": 0
             },
             {
               "name": "AnimacaoIniciada",
@@ -14828,7 +16176,7 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "Retorno a cena de Atendimento",
+          "name": "Retorno a Cena de Atendimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -16082,6 +17430,28 @@
                     "=",
                     "VasoArrastado"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "VasoArrastado"
+                  ]
                 }
               ],
               "actions": [
@@ -16152,6 +17522,56 @@
                   },
                   "parameters": [
                     "Planta_Crescimento",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFlorEntregue",
+                    "=",
+                    "Vasos.VariableString(GenotipoSementeFilho)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VasoFlorEntregue",
+                    "=",
+                    "Vasos.Variable(IdVaso)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CorFlorEntregue",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EntregaSolicitada",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Atendimento\"",
                     ""
                   ]
                 }
@@ -16626,7 +18046,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17502,6 +18921,17 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "GenotipoSementeFilho",
+                        "=",
+                        "\"AA\""
+                      ]
                     }
                   ]
                 },
@@ -17593,6 +19023,17 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "GenotipoSementeFilho",
+                        "=",
+                        "\"Aa\""
+                      ]
                     }
                   ]
                 },
@@ -17683,6 +19124,17 @@
                         "TemFlor",
                         "True",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "GenotipoSementeFilho",
+                        "=",
+                        "\"aa\""
                       ]
                     }
                   ]
@@ -21419,6 +22871,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Plantio: Selecionar um Vaso para Semente Gerada",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
