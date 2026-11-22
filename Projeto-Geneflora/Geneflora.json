@@ -1155,27 +1155,295 @@
       "type": "structure",
       "children": [
         {
+          "name": "Inicializado",
+          "persistentUuid": "119876af-f6c2-48a2-a989-515e1657cb0d",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Polinizacao",
+          "persistentUuid": "25716989-f735-4793-96fd-6809bf6f3072",
+          "type": "structure",
+          "children": [
+            {
+              "name": "AguardandoEscolhaVaso",
+              "persistentUuid": "7a0e9421-df9f-47b0-abcc-be67f700a9d7",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "EtapaPolinizacao",
+              "persistentUuid": "bc0acc03-e07f-40b2-a5b2-76a7d897be32",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "GenotipoAncestral1",
+              "persistentUuid": "83de084f-465e-4a99-b314-fb08f3eaf4b7",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "GenotipoAncestral2",
+              "persistentUuid": "af443c67-d360-4ed3-bf9e-31f0b77911ef",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "GenotipoFilho",
+              "persistentUuid": "d5d68fba-25a9-4706-889f-ba4d32360e03",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "MaeSelecionada",
+              "persistentUuid": "ad70f273-7309-47f8-b7c5-14974299938a",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PaiSelecionado",
+              "persistentUuid": "7aa5ceec-7a74-4e1f-a8c9-a2a700d6f690",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "QuantidadeAncestrais",
+              "persistentUuid": "da4e7a29-aef2-4e76-b81d-18cf82277c8e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TipoAncestral1",
+              "persistentUuid": "a79c656d-c8a2-4c59-b611-0271f73dc0e8",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "TipoAncestral2",
+              "persistentUuid": "30fe4a41-1a54-4cae-9a7d-6cc1a87decf9",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Regador",
+          "persistentUuid": "da216cda-c771-41fb-87fe-e8bd0390c65c",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Camada",
+              "persistentUuid": "9f128801-4afa-445b-b835-51f6016f672a",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "PosicaoX",
+              "persistentUuid": "6a6e1f65-1d36-4f3d-adca-fb38ea93f581",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "PosicaoY",
+              "persistentUuid": "1bb9d623-8bfa-47fc-81ce-54ccf291ee0a",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "folded": true,
           "name": "Vasos",
           "persistentUuid": "5ead7a33-04b4-4040-9b77-6073f04e4077",
           "type": "structure",
           "children": [
             {
-              "name": "Vaso 1",
+              "folded": true,
+              "name": "Vaso1",
               "persistentUuid": "d96a03de-c3b6-4efb-992d-c7ebb62adcdd",
-              "type": "number",
-              "value": 0
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Animacao",
+                  "persistentUuid": "3df739b3-b77e-4f3c-bb5c-c6c55a78f46d",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "AnimacaoPlanta",
+                  "persistentUuid": "9647845e-0609-444b-8d69-fd8bef3b4d3f",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "GenotipoSementeFilho",
+                  "persistentUuid": "bd4d7d5c-7040-4416-a8da-7b84edcc15e8",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "PosicaoX",
+                  "persistentUuid": "ce93bc5a-0648-4622-bd6a-440fec3d52ee",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoXCrescimento",
+                  "persistentUuid": "f87d2051-e195-4b54-9b48-b51f7e209f7f",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoY",
+                  "persistentUuid": "062a6ab6-0a4e-4fbb-a9b6-58c0e0f8098e",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoYCrescimento",
+                  "persistentUuid": "8f9dae4c-0b5b-4f9d-a2ac-4da05ee5e768",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "TemFlor",
+                  "persistentUuid": "4cb91ca4-7d59-417d-96b0-7b46e7133fcd",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "TemSementeFilho",
+                  "persistentUuid": "b97f2d72-3a08-42b9-9cb2-fa5890dc3f99",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
             },
             {
-              "name": "Vaso 2",
+              "folded": true,
+              "name": "Vaso2",
               "persistentUuid": "1051491c-042d-4d29-854d-60a9479eea0a",
-              "type": "number",
-              "value": 0
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Animacao",
+                  "persistentUuid": "0c789d72-964f-4866-9736-fff52880b056",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "AnimacaoPlanta",
+                  "persistentUuid": "ece0ba4b-50a4-420d-aa7b-f022e18243bd",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "GenotipoSementeFilho",
+                  "persistentUuid": "c1cb08ff-fd96-402a-b3f8-3b7d31fd6fe6",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "PosicaoX",
+                  "persistentUuid": "caf59f17-8eb0-4a93-8b0e-0c38b7f0e865",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoXCrescimento",
+                  "persistentUuid": "693efb16-9122-4056-86e4-ef01aa46f0b2",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoY",
+                  "persistentUuid": "96e68c0a-f542-4191-b54e-71790de296fa",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoYCrescimento",
+                  "persistentUuid": "50c82675-6794-4da1-bf55-5093b9bb879a",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "TemFlor",
+                  "persistentUuid": "c643fa19-cb4f-473d-a10c-e660b901e41d",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "TemSementeFilho",
+                  "persistentUuid": "7ae45fd5-5f8b-4e2c-a41c-615e9b2e733f",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
             },
             {
-              "name": "Vaso 3",
+              "folded": true,
+              "name": "Vaso3",
               "persistentUuid": "3a51d862-6095-41a9-b26f-5135bc108011",
-              "type": "number",
-              "value": 0
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Animacao",
+                  "persistentUuid": "6bc26329-a354-44d4-bc66-8bf7e7a17606",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "AnimacaoPlanta",
+                  "persistentUuid": "714a7181-fa52-4bec-8163-f461a13a5d01",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "GenotipoSementeFilho",
+                  "persistentUuid": "1fc6f456-ee45-4d9e-8502-e1596615de76",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "PosicaoX",
+                  "persistentUuid": "7a216d27-8546-448a-b53b-7f2e455105ea",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoXCrescimento",
+                  "persistentUuid": "9bd67bc4-544a-438d-b741-da486fa51ade",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoY",
+                  "persistentUuid": "8b7ca6f6-5f82-4c7d-b07c-382efe7e31a0",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "PosicaoYCrescimento",
+                  "persistentUuid": "66dd312f-77c1-4738-9587-6f433c9a21d0",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "TemFlor",
+                  "persistentUuid": "0e13ad86-8985-4e94-b2c4-dea90c8e92fa",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "TemSementeFilho",
+                  "persistentUuid": "abba3e2a-a27f-42d6-9cfd-e607c21e984f",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
             }
           ]
         }
@@ -5291,6 +5559,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Sistema de Clientes e Entrega de Flor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17161,15 +17430,883 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Scene"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "",
-                    "\"Atendimento\"",
-                    ""
+                  "comment": "Salva as coisas antes de realizar a transição de cena"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "IdVaso",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.Animacao",
+                        "=",
+                        "Vasos.AnimationName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.GenotipoSementeFilho",
+                        "=",
+                        "Vasos.VariableString(GenotipoSementeFilho)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.PosicaoX",
+                        "=",
+                        "Vasos.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.PosicaoY",
+                        "=",
+                        "Vasos.Y()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemFlor",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemFlor",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemSementeFilho",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemSementeFilho",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "IdVaso",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.Animacao",
+                        "=",
+                        "Vasos.AnimationName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.GenotipoSementeFilho",
+                        "=",
+                        "Vasos.VariableString(GenotipoSementeFilho)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.PosicaoX",
+                        "=",
+                        "Vasos.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.PosicaoY",
+                        "=",
+                        "Vasos.Y()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemFlor",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemFlor",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemSementeFilho",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemSementeFilho",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "IdVaso",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.Animacao",
+                        "=",
+                        "Vasos.AnimationName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.GenotipoSementeFilho",
+                        "=",
+                        "Vasos.VariableString(GenotipoSementeFilho)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.PosicaoX",
+                        "=",
+                        "Vasos.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.PosicaoY",
+                        "=",
+                        "Vasos.Y()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemFlor",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemFlor",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemSementeFilho",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Vasos",
+                            "TemSementeFilho",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "IdVaso",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta",
+                        "=",
+                        "Planta_Crescimento.AnimationName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.PosicaoXCrescimento",
+                        "=",
+                        "Planta_Crescimento.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.PosicaoYCrescimento",
+                        "=",
+                        "Planta_Crescimento.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "IdVaso",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta",
+                        "=",
+                        "Planta_Crescimento.AnimationName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.PosicaoXCrescimento",
+                        "=",
+                        "Planta_Crescimento.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.PosicaoYCrescimento",
+                        "=",
+                        "Planta_Crescimento.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Planta_Crescimento",
+                        "IdVaso",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta",
+                        "=",
+                        "Planta_Crescimento.AnimationName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.PosicaoXCrescimento",
+                        "=",
+                        "Planta_Crescimento.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.PosicaoYCrescimento",
+                        "=",
+                        "Planta_Crescimento.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Regador.PosicaoX",
+                        "=",
+                        "Regador.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Regador.PosicaoY",
+                        "=",
+                        "Regador.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Regador.Camada",
+                        "=",
+                        "Regador.Layer()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.GenotipoAncestral1",
+                        "=",
+                        "GenotipoAncestral1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.GenotipoAncestral2",
+                        "=",
+                        "GenotipoAncestral2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.TipoAncestral1",
+                        "=",
+                        "TipoAncestral1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.TipoAncestral2",
+                        "=",
+                        "TipoAncestral2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.QuantidadeAncestrais",
+                        "=",
+                        "QuantidadeAncestrais"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.PaiSelecionado",
+                        "=",
+                        "PaiSelecionado"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.MaeSelecionada",
+                        "=",
+                        "MaeSelecionada"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.EtapaPolinizacao",
+                        "=",
+                        "EtapaPolinizacao"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.GenotipoFilho",
+                        "=",
+                        "GenotipoFilho"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "AguardandoEscolhaVaso",
+                        "=",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.AguardandoEscolhaVaso",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "AguardandoEscolhaVaso",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Polinizacao.AguardandoEscolhaVaso",
+                        "True",
+                        "GenotipoFilho"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Atendimento\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -19784,6 +20921,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Seleção e Cruzamento dos Genótipos com Pincel Mágico Polinizador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20382,6 +21520,16 @@
                     "Ativo",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
                   ]
                 },
                 {
@@ -24416,14 +25564,3470 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Salvando Estado da Cena Cultivo",
+          "folded": true,
+          "name": "Restaurando Estado da Cena Cultivo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "GenotipoSementeFilho",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso1.GenotipoSementeFilho)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso1.Animacao)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemSementeFilho",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemSementeFilho",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "GenotipoSementeFilho",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso2.GenotipoSementeFilho)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso2.Animacao)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemSementeFilho",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemSementeFilho",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "GenotipoSementeFilho",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso3.GenotipoSementeFilho)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso3.Animacao)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemFlor",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemSementeFilho",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Vasos",
+                        "TemSementeFilho",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoXCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoYCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoYCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoXCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoXCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoYCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Vasos"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Vasos"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Vasos"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Regador.PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Regador.PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "GlobalVariableString(EstadoCultivo.Regador.Camada)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral1",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Polinizacao.GenotipoAncestral1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoAncestral2",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Polinizacao.GenotipoAncestral2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral1",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Polinizacao.TipoAncestral1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TipoAncestral2",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Polinizacao.TipoAncestral2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeAncestrais",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Polinizacao.QuantidadeAncestrais)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Polinizacao.PaiSelecionado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MaeSelecionada",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Polinizacao.MaeSelecionada)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaPolinizacao",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Polinizacao.EtapaPolinizacao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFilho",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Polinizacao.GenotipoFilho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.AguardandoEscolhaVaso",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "True",
+                    "GlobalVariable(EstadoCultivo.Polinizacao.MaeSelecionada)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.AguardandoEscolhaVaso",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "False",
+                    "GlobalVariable(EstadoCultivo.Polinizacao.MaeSelecionada)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Salvando Estado da Cena Cultivo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Guarda as posições iniciais do objeto que tem a animação das flores assim que começa a cena"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.PosicaoXCrescimento",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.PosicaoYCrescimento",
+                    "=",
+                    "Planta_Crescimento.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta",
+                    "=",
+                    "Planta_Crescimento.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.PosicaoXCrescimento",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.PosicaoYCrescimento",
+                    "=",
+                    "Planta_Crescimento.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta",
+                    "=",
+                    "Planta_Crescimento.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.PosicaoXCrescimento",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.PosicaoYCrescimento",
+                    "=",
+                    "Planta_Crescimento.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta",
+                    "=",
+                    "Planta_Crescimento.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Salva a posição das instâncias vaso (sem nada)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.PosicaoX",
+                    "=",
+                    "Vasos.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.PosicaoY",
+                    "=",
+                    "Vasos.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.PosicaoX",
+                    "=",
+                    "Vasos.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.PosicaoY",
+                    "=",
+                    "Vasos.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.PosicaoX",
+                    "=",
+                    "Vasos.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.PosicaoY",
+                    "=",
+                    "Vasos.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Salvar os dados gerais"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.GenotipoSementeFilho",
+                    "=",
+                    "Vasos.VariableString(GenotipoSementeFilho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.GenotipoSementeFilho",
+                    "=",
+                    "Vasos.VariableString(GenotipoSementeFilho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.GenotipoSementeFilho",
+                    "=",
+                    "Vasos.VariableString(GenotipoSementeFilho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.Animacao",
+                    "=",
+                    "Vasos.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.Animacao",
+                    "=",
+                    "Vasos.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.Animacao",
+                    "=",
+                    "Vasos.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta",
+                    "=",
+                    "Planta_Crescimento.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta",
+                    "=",
+                    "Planta_Crescimento.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta",
+                    "=",
+                    "Planta_Crescimento.AnimationName()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Salvando dados do Regador"
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Regador.PosicaoX",
+                    "=",
+                    "Regador.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Regador.PosicaoY",
+                    "=",
+                    "Regador.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Regador.Camada",
+                    "=",
+                    "Regador.Layer()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Salvando dados do sistema de Polinização"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.GenotipoAncestral1",
+                    "=",
+                    "GlobalVariableString(GenotipoAncestral1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.GenotipoAncestral2",
+                    "=",
+                    "GlobalVariableString(GenotipoAncestral2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.TipoAncestral1",
+                    "=",
+                    "GlobalVariableString(TipoAncestral1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.TipoAncestral2",
+                    "=",
+                    "GlobalVariableString(TipoAncestral2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.QuantidadeAncestrais",
+                    "=",
+                    "GlobalVariable(QuantidadeAncestrais)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.PaiSelecionado",
+                    "=",
+                    "GlobalVariable(PaiSelecionado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.MaeSelecionada",
+                    "=",
+                    "GlobalVariable(MaeSelecionada)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.EtapaPolinizacao",
+                    "=",
+                    "GlobalVariable(EtapaPolinizacao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.GenotipoFilho",
+                    "=",
+                    "GlobalVariableString(GenotipoFilho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.AguardandoEscolhaVaso",
+                    "False",
+                    "GenotipoFilho"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Polinizacao.AguardandoEscolhaVaso",
+                    "True",
+                    "GenotipoFilho"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    "GenotipoFilho"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Atualizando estado dos vasos antes de sair da cena"
             }
           ],
           "parameters": []
@@ -24745,7 +29349,7 @@
           "isLocked": false,
           "name": "Janela de Cruzamento",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
