@@ -65,7 +65,7 @@
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 1.5,
+      "minDuration": 2,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -76,7 +76,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -845,6 +845,14 @@
         "name": "Moeda -Photoroom (1).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Loja/IconeCompraVaso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Loja/IconeCompraVaso.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1605,6 +1613,12 @@
           ]
         }
       ]
+    },
+    {
+      "name": "VasoSelecionadoParaSubstituir",
+      "persistentUuid": "124d48a3-b4f9-4897-90ac-b6cfe3a660ac",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -7991,8 +8005,8 @@
       "title": "",
       "v": 249,
       "uiSettings": {
-        "grid": true,
-        "gridType": "rectangular",
+        "grid": false,
+        "gridType": "isometric",
         "gridWidth": 32,
         "gridHeight": 32,
         "gridDepth": 32,
@@ -8001,8 +8015,8 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.5843784410741444,
+        "snap": false,
+        "zoomFactor": 0.8352099999999997,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -8120,6 +8134,19 @@
           "persistentUuid": "90475323-3475-4d15-8428-9a09d1fb74db",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "ItensCompraveis",
+          "persistentUuid": "0b1378a9-951d-42f8-8438-41b08e246407",
+          "type": "structure",
+          "children": [
+            {
+              "name": "PrecoVaso",
+              "persistentUuid": "196009c7-f986-4a71-8a37-72001095dc1b",
+              "type": "number",
+              "value": 10
+            }
+          ]
         }
       ],
       "instances": [
@@ -9150,7 +9177,7 @@
           "depth": 1,
           "height": 39,
           "keepRatio": true,
-          "layer": "Mostrar Moedas",
+          "layer": "HUD",
           "locked": true,
           "name": "FundoMoedas",
           "opacity": 102,
@@ -9170,7 +9197,7 @@
           "depth": 1,
           "height": 34,
           "keepRatio": true,
-          "layer": "Mostrar Moedas",
+          "layer": "HUD",
           "name": "TextoMoedas",
           "persistentUuid": "083aff73-1629-40a0-a754-44359df3352a",
           "width": 120,
@@ -9187,7 +9214,7 @@
           "depth": 1,
           "height": 73,
           "keepRatio": true,
-          "layer": "Mostrar Moedas",
+          "layer": "HUD",
           "locked": true,
           "name": "IconeMoeda",
           "persistentUuid": "2d9ff164-e21f-4128-8767-67a7cd5b6444",
@@ -9204,15 +9231,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 59,
+          "height": 72,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "IconeVasoComprar",
           "persistentUuid": "3b501f85-10d6-46a6-81af-e3214a1e3a5d",
-          "width": 64,
-          "x": 54,
-          "y": 134,
-          "zOrder": 75,
+          "width": 78,
+          "x": 47,
+          "y": 129,
+          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9223,7 +9250,7 @@
           "depth": 1,
           "height": 28,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "FundoVasoComprar",
           "opacity": 102,
           "persistentUuid": "244968ec-756c-4bcd-978b-692267339c2c",
@@ -9241,11 +9268,11 @@
           "depth": 1,
           "height": 44,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "Moeda",
           "persistentUuid": "d9550b7e-05d1-4cae-b8f5-84b5d5916b81",
           "width": 44,
-          "x": 31,
+          "x": 35,
           "y": 183,
           "zOrder": 77,
           "numberProperties": [],
@@ -9254,17 +9281,16 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 68,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "FundoItem",
-          "persistentUuid": "70d45c9a-85ec-43e4-89e0-e6da57c382c6",
-          "width": 72,
-          "x": 50,
-          "y": 131,
-          "zOrder": 74,
+          "layer": "HUD",
+          "name": "ValorVasoNovo",
+          "persistentUuid": "a9526b6b-07e4-4c1b-a178-055e86613885",
+          "width": 0,
+          "x": 87,
+          "y": 188,
+          "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15824,67 +15850,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "FundoItem",
-          "persistentUuid": "badcc384-7d61-4ee7-8857-a69c3cfa11c6",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Inventario Slot.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 41,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 270
-                          },
-                          {
-                            "x": 41,
-                            "y": 270
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "PincelMagico",
           "persistentUuid": "68f4dc87-c01e-45db-a621-9614757aeadd",
           "type": "Sprite",
@@ -17639,7 +17604,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "default",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -17648,7 +17613,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Vasos/Vaso.png",
+                      "image": "assets/Loja/IconeCompraVaso.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17664,20 +17629,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 93,
-                            "y": 59
+                            "x": 2,
+                            "y": 3
                           },
                           {
-                            "x": 561,
-                            "y": 59
+                            "x": 249,
+                            "y": 3
                           },
                           {
-                            "x": 561,
-                            "y": 560
+                            "x": 249,
+                            "y": 240
                           },
                           {
-                            "x": 93,
-                            "y": 560
+                            "x": 2,
+                            "y": 240
                           }
                         ]
                       ]
@@ -17760,6 +17725,50 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ValorVasoNovo",
+          "persistentUuid": "274107b9-ba62-42f9-adf8-ed08e5ea576a",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "10",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "right",
+          "characterSize": 26,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "10",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "right",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -17916,9 +17925,6 @@
             "objectName": "BotaoNao"
           },
           {
-            "objectName": "FundoItem"
-          },
-          {
             "objectName": "IconeVasoComprar"
           },
           {
@@ -17926,6 +17932,9 @@
           },
           {
             "objectName": "Moeda"
+          },
+          {
+            "objectName": "ValorVasoNovo"
           }
         ]
       },
@@ -17953,6 +17962,1237 @@
                     "Text",
                     "=",
                     "ToString(GlobalVariable(Moedas))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Sistema de Compra de Vasos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Exibe o preço do vaso"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "ValorVasoNovo",
+                        "Text",
+                        "=",
+                        "ToString(ItensCompraveis.PrecoVaso)"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Verifica saldo se está abaixo do esperado"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Moedas",
+                    "<",
+                    "ItensCompraveis.PrecoVaso"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "ValorVasoNovo",
+                    "\"233;12;38\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Verifica saldo se está igual ou superior ao valor do item e muda sua cor"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Moedas",
+                    ">=",
+                    "ItensCompraveis.PrecoVaso"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "ValorVasoNovo",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Comprando vaso"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Moedas",
+                    ">=",
+                    "ItensCompraveis.PrecoVaso"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "IconeVasoComprar",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "VasoSelecionadoParaSubstituir",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso1.TemFlor",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "VasoSelecionadoParaSubstituir",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "VasoSelecionadoParaSubstituir",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso2.TemFlor",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "VasoSelecionadoParaSubstituir",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "VasoSelecionadoParaSubstituir",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso3.TemFlor",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "VasoSelecionadoParaSubstituir",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "VasoSelecionadoParaSubstituir",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Deletando e Criando Vaso 1"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "IdVaso",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "\"\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "IdVaso",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Vasos",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoX)",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoY)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetSize"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "Resizable",
+                                "201",
+                                "159"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "IdVaso",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "TemFlor",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "TemSementeFilho",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "GenotipoSementeFilho",
+                                "=",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta",
+                                "=",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso1.Animacao",
+                                "=",
+                                "\"Vaso Vazio\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso1.Entregue",
+                                "False",
+                                "\"Vaso Vazio\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Planta_Crescimento",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoXCrescimento)",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoYCrescimento)",
+                                "\"Crescimento das Flores\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetSize"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "Resizable",
+                                "317",
+                                "363"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "IdVaso",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Hide"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Moedas",
+                                "-",
+                                "ItensCompraveis.PrecoVaso"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Deletando e Criando Vaso 2"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "IdVaso",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "\"\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "IdVaso",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Vasos",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoX)",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoY)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "IdVaso",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "TemFlor",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "TemSementeFilho",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "GenotipoSementeFilho",
+                                "=",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta",
+                                "=",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso2.Animacao",
+                                "=",
+                                "\"Vaso Vazio\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso2.Entregue",
+                                "False",
+                                "\"Vaso Vazio\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Planta_Crescimento",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoXCrescimento)",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoYCrescimento)",
+                                "\"Crescimento das Flores\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "IdVaso",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Hide"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Moedas",
+                                "-",
+                                "ItensCompraveis.PrecoVaso"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Deletando e Criando Vaso 3"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "IdVaso",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "\"\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "IdVaso",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Vasos",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoX)",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoY)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "IdVaso",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "TemFlor",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "TemSementeFilho",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Vasos",
+                                "GenotipoSementeFilho",
+                                "=",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta",
+                                "=",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso3.Animacao",
+                                "=",
+                                "\"Vaso Vazio\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EstadoCultivo.Vasos.Vaso3.Entregue",
+                                "False",
+                                "\"Vaso Vazio\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Planta_Crescimento",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoXCrescimento)",
+                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoYCrescimento)",
+                                "\"Crescimento das Flores\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento",
+                                "IdVaso",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Hide"
+                              },
+                              "parameters": [
+                                "Planta_Crescimento"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Moedas",
+                                "-",
+                                "ItensCompraveis.PrecoVaso"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "VasoSelecionadoParaSubstituir",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "IconeMoeda",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Moedas",
+                        "-",
+                        "ItensCompraveis.PrecoVaso"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "FundoVasoComprar",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Moedas",
+                        "-",
+                        "ItensCompraveis.PrecoVaso"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -18891,6 +20131,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Área de Entrega do Pedido",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31466,7 +32707,7 @@
           "isLocked": false,
           "name": "Confirmar Entrega",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -31522,7 +32763,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Mostrar Moedas",
+          "name": "HUD",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
