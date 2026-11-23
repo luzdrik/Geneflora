@@ -837,15 +837,158 @@
         "name": "Cruz Multiplicadora Cremosa em Estilo Cartoon (1).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Moeda -Photoroom (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moeda -Photoroom (1).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "FundoMoedas",
+      "persistentUuid": "e3704856-bb34-4f84-9215-072069fbf47e",
+      "texture": "Fundo Preto",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "IconeMoeda",
+      "persistentUuid": "cfe065a6-1c5e-4cc7-983d-83efc9495d56",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Moeda -Photoroom (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 21
+                      },
+                      {
+                        "x": 189,
+                        "y": 21
+                      },
+                      {
+                        "x": 189,
+                        "y": 190
+                      },
+                      {
+                        "x": 22,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TextoMoedas",
+      "persistentUuid": "14cab72f-1ec9-4931-84a9-19cf88accbd6",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+      "textAlignment": "right",
+      "characterSize": 32,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+        "textAlignment": "right",
+        "verticalTextAlignment": "top",
+        "characterSize": 32,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "IconeMoeda"
+      },
+      {
+        "objectName": "FundoMoedas"
+      },
+      {
+        "objectName": "TextoMoedas"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
+    {
+      "name": "Moedas",
+      "persistentUuid": "a8ec3862-7056-457c-a528-ee598cac7b39",
+      "type": "number",
+      "value": 100
+    },
     {
       "name": "ModoFila",
       "persistentUuid": "9358cc8b-0d08-4054-9e65-8bbdec5960cc",
@@ -1277,6 +1420,7 @@
                 },
                 {
                   "name": "Entregue",
+                  "persistentUuid": "e7b58204-e38a-44bb-972e-cf61ec3f26fe",
                   "type": "boolean",
                   "value": false
                 },
@@ -1343,6 +1487,7 @@
                 },
                 {
                   "name": "Entregue",
+                  "persistentUuid": "6705004a-dd56-4f98-a3e5-2305817b1a49",
                   "type": "boolean",
                   "value": false
                 },
@@ -1409,6 +1554,7 @@
                 },
                 {
                   "name": "Entregue",
+                  "persistentUuid": "34b87544-25c2-4b81-ae20-83204ec00a61",
                   "type": "boolean",
                   "value": false
                 },
@@ -3134,6 +3280,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -3160,7 +3310,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210374,
+        "zoomFactor": 0.6897782140104782,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3766,6 +3916,64 @@
           "x": 453,
           "y": 115,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "Mostrar Moedas",
+          "locked": true,
+          "name": "IconeMoeda",
+          "persistentUuid": "67190697-7834-4cfe-ac8b-24b23911d485",
+          "sealed": true,
+          "width": 73,
+          "x": 1030,
+          "y": 3,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "Mostrar Moedas",
+          "locked": true,
+          "name": "FundoMoedas",
+          "opacity": 102,
+          "persistentUuid": "677b52e6-d3fa-43c0-a9d1-4f586e60eca0",
+          "sealed": true,
+          "width": 161,
+          "x": 1047,
+          "y": 21,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "Mostrar Moedas",
+          "locked": true,
+          "name": "TextoMoedas",
+          "persistentUuid": "3dbba594-9f2b-4d60-bbe3-eebc6fad0744",
+          "sealed": true,
+          "width": 120,
+          "x": 1083,
+          "y": 21,
+          "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5521,6 +5729,36 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
+          "name": "Sistema das Moedas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoMoedas",
+                    "Text",
+                    "=",
+                    "ToString(GlobalVariable(Moedas))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Retorno a Cena de Cultivo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5787,7 +6025,7 @@
                     "",
                     "\"EsperaCliente\"",
                     ">",
-                    "4"
+                    "1"
                   ]
                 },
                 {
@@ -6674,7 +6912,7 @@
                   "parameters": [
                     "CorFlorEntregue",
                     "=",
-                    "CorSolicitada"
+                    "GlobalVariableString(CorSolicitada)"
                   ]
                 },
                 {
@@ -6938,7 +7176,7 @@
                   "parameters": [
                     "CorFlorEntregue",
                     "!=",
-                    "CorSolicitada"
+                    "GlobalVariableString(CorSolicitada)"
                   ]
                 },
                 {
@@ -7651,6 +7889,63 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Mostrar Moedas",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -7696,7 +7991,7 @@
       "title": "",
       "v": 249,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -7706,9 +8001,9 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.9934433498260298,
-        "windowMask": false,
+        "snap": true,
+        "zoomFactor": 0.5843784410741444,
+        "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
@@ -7819,6 +8114,12 @@
           "persistentUuid": "1af58e26-8c41-4d51-b5e5-74a8363ec639",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "BloquearArrasteFlor",
+          "persistentUuid": "90475323-3475-4d15-8428-9a09d1fb74db",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -7891,42 +8192,6 @@
           "x": 1138,
           "y": 533,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 115,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "name": "AduboDominante",
-          "persistentUuid": "50b4426a-e8ae-4b27-917f-d238c67fdccf",
-          "width": 107,
-          "x": 477,
-          "y": -168,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 113,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "",
-          "name": "AduboRecessivo",
-          "persistentUuid": "2dac2a6a-6a0a-4488-a52a-855466430211",
-          "width": 109,
-          "x": 638,
-          "y": -207,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8613,8 +8878,8 @@
           "name": "IconePedido",
           "persistentUuid": "308a714c-739b-4d7b-a24a-ba754299bd66",
           "width": 73,
-          "x": 1140,
-          "y": 79,
+          "x": 1136,
+          "y": 155,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -8875,6 +9140,131 @@
           "x": 582,
           "y": 418,
           "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "Mostrar Moedas",
+          "locked": true,
+          "name": "FundoMoedas",
+          "opacity": 102,
+          "persistentUuid": "1bd9b9d9-41aa-4afb-bdca-4f0b3e13c4b4",
+          "sealed": true,
+          "width": 161,
+          "x": 1047,
+          "y": 21,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "Mostrar Moedas",
+          "name": "TextoMoedas",
+          "persistentUuid": "083aff73-1629-40a0-a754-44359df3352a",
+          "width": 120,
+          "x": 1083,
+          "y": 21,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "Mostrar Moedas",
+          "locked": true,
+          "name": "IconeMoeda",
+          "persistentUuid": "2d9ff164-e21f-4128-8767-67a7cd5b6444",
+          "sealed": true,
+          "width": 73,
+          "x": 1030,
+          "y": 3,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "keepRatio": true,
+          "layer": "",
+          "name": "IconeVasoComprar",
+          "persistentUuid": "3b501f85-10d6-46a6-81af-e3214a1e3a5d",
+          "width": 64,
+          "x": 54,
+          "y": 134,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoVasoComprar",
+          "opacity": 102,
+          "persistentUuid": "244968ec-756c-4bcd-978b-692267339c2c",
+          "width": 75,
+          "x": 49,
+          "y": 190,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Moeda",
+          "persistentUuid": "d9550b7e-05d1-4cae-b8f5-84b5d5916b81",
+          "width": 44,
+          "x": 31,
+          "y": 183,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoItem",
+          "persistentUuid": "70d45c9a-85ec-43e4-89e0-e6da57c382c6",
+          "width": 72,
+          "x": 50,
+          "y": 131,
+          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9947,6 +10337,11 @@
             {
               "name": "DeslocamentoY",
               "persistentUuid": "49db8f4c-3257-462b-a166-8b60680278a3",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TesteVisibilidade",
               "type": "number",
               "value": 0
             }
@@ -15429,7 +15824,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "MochilaSlot",
+          "name": "FundoItem",
           "persistentUuid": "badcc384-7d61-4ee7-8857-a69c3cfa11c6",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -17231,6 +17626,140 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeVasoComprar",
+          "persistentUuid": "edf03a0d-be32-47b2-8472-9b4501443a18",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cultivo/Vasos/Vaso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 93,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 59
+                          },
+                          {
+                            "x": 561,
+                            "y": 560
+                          },
+                          {
+                            "x": 93,
+                            "y": 560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "FundoVasoComprar",
+          "persistentUuid": "61f783b5-9a55-48aa-9a13-21c703a44d08",
+          "texture": "Fundo Preto",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Moeda",
+          "persistentUuid": "9c44ed70-2497-4b11-b4eb-1c990262682c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Moeda -Photoroom (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 189,
+                            "y": 21
+                          },
+                          {
+                            "x": 189,
+                            "y": 190
+                          },
+                          {
+                            "x": 22,
+                            "y": 190
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -17283,9 +17812,6 @@
           },
           {
             "objectName": "FundoEscuro"
-          },
-          {
-            "objectName": "MochilaSlot"
           },
           {
             "objectName": "BotaoFechar"
@@ -17388,10 +17914,52 @@
           },
           {
             "objectName": "BotaoNao"
+          },
+          {
+            "objectName": "FundoItem"
+          },
+          {
+            "objectName": "IconeVasoComprar"
+          },
+          {
+            "objectName": "FundoVasoComprar"
+          },
+          {
+            "objectName": "Moeda"
           }
         ]
       },
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Sistema das Moedas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoMoedas",
+                    "Text",
+                    "=",
+                    "ToString(GlobalVariable(Moedas))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -17441,6 +18009,26 @@
                   },
                   "parameters": [
                     "EtapaPolinizacao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
                     "=",
                     "0"
                   ]
@@ -18011,16 +18599,6 @@
                         "=",
                         "Planta_Crescimento.X()"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "EstadoCultivo.Vasos.Vaso1.PosicaoYCrescimento",
-                        "=",
-                        "Planta_Crescimento.Y()"
-                      ]
                     }
                   ]
                 },
@@ -18059,16 +18637,6 @@
                         "=",
                         "Planta_Crescimento.X()"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "EstadoCultivo.Vasos.Vaso2.PosicaoYCrescimento",
-                        "=",
-                        "Planta_Crescimento.Y()"
-                      ]
                     }
                   ]
                 },
@@ -18106,16 +18674,6 @@
                         "EstadoCultivo.Vasos.Vaso3.PosicaoXCrescimento",
                         "=",
                         "Planta_Crescimento.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "EstadoCultivo.Vasos.Vaso3.PosicaoYCrescimento",
-                        "=",
-                        "Planta_Crescimento.Y()"
                       ]
                     }
                   ]
@@ -18333,7 +18891,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Área de Entrega do Pedido",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18347,6 +18904,17 @@
                   },
                   "parameters": [
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -18372,7 +18940,118 @@
                     "=",
                     "Planta_Crescimento.Y()"
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
                 },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "PosicaoX",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "PosicaoY",
+                    "=",
+                    "Planta_Crescimento.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "PosicaoX",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "PosicaoY",
+                    "=",
+                    "Planta_Crescimento.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "HideLayer"
@@ -18454,6 +19133,16 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
                     "PedidoAtivo",
                     "=",
                     "1"
@@ -18502,6 +19191,42 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
+                    "BloquearArrasteFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearArrasteFlor",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
                     "ArrastandoPlanta",
                     "True",
                     ""
@@ -18535,6 +19260,16 @@
                     "MouseY() - Planta_Crescimento.Variable(DeslocamentoY)",
                     ">",
                     "Planta_Crescimento.Variable(PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearArrasteFlor",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -18610,16 +19345,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "EstadoEntrega",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Hide"
                   },
                   "parameters": [
@@ -18661,6 +19386,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.Variable(PosicaoX)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetY"
                   },
                   "parameters": [
@@ -18676,6 +19411,46 @@
                   "parameters": [
                     "Planta_Crescimento",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "False",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearArrasteFlor",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VasoArrastado",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -18761,16 +19536,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "EstadoEntrega",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Hide"
                   },
                   "parameters": [
@@ -18846,17 +19611,27 @@
                   "parameters": [
                     "VasoFlorEntregue",
                     "=",
-                    "Vasos.Variable(IdVaso)"
+                    "VasoArrastado"
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "CorFlorEntregue",
+                    "ArrastandoPlanta",
+                    "False",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoEntrega",
                     "=",
-                    "\"\""
+                    "0"
                   ]
                 },
                 {
@@ -18952,14 +19727,6 @@
                 },
                 {
                   "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Planta_Crescimento"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -18975,6 +19742,15 @@
                   "parameters": [
                     "",
                     "\"Confirmar Entrega\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "FundoEscuro",
+                    ""
                   ]
                 },
                 {
@@ -19074,22 +19850,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "ArrastandoPlanta",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetY"
                   },
                   "parameters": [
                     "Planta_Crescimento",
                     "=",
                     "Planta_Crescimento.Variable(PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "False",
+                    ""
                   ]
                 }
               ]
@@ -26185,6 +26961,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Restaurando Estado da Cena Cultivo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26857,6 +27634,26 @@
                 },
                 {
                   "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.Y()"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -26904,6 +27701,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoXCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetY"
                   },
                   "parameters": [
@@ -26919,7 +27726,17 @@
                   "parameters": [
                     "Planta_Crescimento",
                     "=",
-                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoXCrescimento)"
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.Y()"
                   ]
                 },
                 {
@@ -26987,6 +27804,26 @@
                     "Planta_Crescimento",
                     "=",
                     "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoYCrescimento)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "Planta_Crescimento.Y()"
                   ]
                 },
                 {
@@ -30153,7 +30990,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -30222,8 +31059,8 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
-          "name": "Minigame do Regador",
+          "isLocked": false,
+          "name": "Crescimento das Flores",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -30280,8 +31117,8 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Crescimento das Flores",
+          "isLocked": true,
+          "name": "Minigame do Regador",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -30629,7 +31466,65 @@
           "isLocked": false,
           "name": "Confirmar Entrega",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Mostrar Moedas",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -31259,6 +32154,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
