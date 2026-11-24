@@ -737,6 +737,14 @@
         "name": "Aceitar.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "nova roleta (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nova roleta (1)2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -16132,6 +16140,17 @@
           "persistentUuid": "8913f2a0-2a96-48b7-abf2-8403c6534025",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "ValorSorteado",
+          "persistentUuid": "4e87638c-6917-4b3f-b942-05809c2f0c42",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "GenotipoSorteado",
+          "type": "string",
+          "value": "\"\""
         }
       ],
       "instances": [
@@ -17079,12 +17098,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 356,
-          "keepRatio": true,
+          "height": 400,
           "layer": "",
           "name": "roleta_",
           "persistentUuid": "2df5586a-cc87-4dec-b59f-8900ca12f041",
-          "width": 374,
+          "width": 400,
           "x": 440,
           "y": 136,
           "zOrder": 49,
@@ -21491,7 +21509,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "3.png",
+                      "image": "nova roleta (1)2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21507,20 +21525,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 26
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 676,
-                            "y": 26
+                            "x": 700,
+                            "y": 0
                           },
                           {
-                            "x": 676,
-                            "y": 676
+                            "x": 700,
+                            "y": 700
                           },
                           {
-                            "x": 25,
-                            "y": 676
+                            "x": 0,
+                            "y": 700
                           }
                         ]
                       ]
@@ -21821,6 +21839,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "condição de rodada "
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -21858,6 +21888,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "valores da roleta"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -21886,8 +21928,86 @@
                 "",
                 "\"roletagirando\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ValorSorteado",
+                "=",
+                "RandomFloatInRange(0, 1)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ValorSorteado",
+                    "<",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoSorteado",
+                    "=",
+                    "\"AA\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ValorSorteado",
+                    ">=",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoSorteado",
+                    "=",
+                    "\"aa\""
+                  ]
+                }
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "condição de parada "
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -21922,7 +22042,7 @@
               "parameters": [
                 "roleta_",
                 "+",
-                "700*TimeDelta()"
+                "1500*TimeDelta()"
               ]
             }
           ]
@@ -21938,27 +22058,17 @@
                 "",
                 "\"roletagirando\"",
                 ">",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "roleta_girando",
+                "=",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "BotaoFechar",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
               ]
             }
           ],
@@ -21983,7 +22093,88 @@
                 "0"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "roleta_girando",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoSorteado",
+                    "=",
+                    "\"AA\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "roleta_",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "roleta_girando",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoSorteado",
+                    "=",
+                    "\"aa\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "roleta_",
+                    "=",
+                    "180"
+                  ]
+                }
+              ]
+            }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -22070,7 +22261,7 @@
           "isLocked": false,
           "name": "Minigame do Regador",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22127,7 +22318,7 @@
           "isLocked": false,
           "name": "Roleta do Cruzamento",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
