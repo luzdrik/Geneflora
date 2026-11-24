@@ -14252,6 +14252,26 @@
                     "",
                     "\"Left\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
                 }
               ],
               "actions": [],
@@ -14453,955 +14473,15 @@
                             "True",
                             "0"
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Coloca automaticamente um vaso novo nos espaços que estão faltando vasos"
-                    },
-                    {
-                      "disabled": true,
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                        },
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "ActivateBehavior"
                           },
                           "parameters": [
-                            "VasoSelecionadoParaSubstituir",
-                            ">",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "Deletando e Criando Vaso 1"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "IdVaso",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "\"\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "IdVaso",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "\"\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Vasos",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoX)",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoY)",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "Resizable",
-                                "201",
-                                "159"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "IdVaso",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "TemFlor",
-                                "False",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "TemSementeFilho",
-                                "False",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "GenotipoSementeFilho",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso1.AnimacaoPlanta",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso1.Animacao",
-                                "=",
-                                "\"Vaso Vazio\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso1.Entregue",
-                                "False",
-                                "\"Vaso Vazio\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Planta_Crescimento",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoXCrescimento)",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso1.PosicaoYCrescimento)",
-                                "\"Crescimento das Flores\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "Resizable",
-                                "317",
-                                "363"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "IdVaso",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Hide"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "Moedas",
-                                "-",
-                                "ItensCompraveis.PrecoVaso"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "EscolhendoVasoParaSubstituir",
-                                "False",
-                                "0"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "Deletando e Criando Vaso 2"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "2"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "IdVaso",
-                                "=",
-                                "2"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "\"\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "2"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "IdVaso",
-                                "=",
-                                "2"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "\"\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "2"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Vasos",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoX)",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoY)",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "Resizable",
-                                "201",
-                                "159"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "IdVaso",
-                                "=",
-                                "2"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "TemFlor",
-                                "False",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "TemSementeFilho",
-                                "False",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "GenotipoSementeFilho",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso2.AnimacaoPlanta",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso2.Animacao",
-                                "=",
-                                "\"Vaso Vazio\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso2.Entregue",
-                                "False",
-                                "\"Vaso Vazio\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "2"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Planta_Crescimento",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoXCrescimento)",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso2.PosicaoYCrescimento)",
-                                "\"Crescimento das Flores\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "Resizable",
-                                "317",
-                                "363"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "IdVaso",
-                                "=",
-                                "2"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Hide"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "2"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "Moedas",
-                                "-",
-                                "ItensCompraveis.PrecoVaso"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "EscolhendoVasoParaSubstituir",
-                                "False",
-                                "0"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "Deletando e Criando Vaso 3"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "IdVaso",
-                                "=",
-                                "3"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "\"\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "IdVaso",
-                                "=",
-                                "3"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "\"\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "3"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Vasos",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoX)",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoY)",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "Resizable",
-                                "201",
-                                "159"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "IdVaso",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "TemFlor",
-                                "False",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "TemSementeFilho",
-                                "False",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringObjectVariable"
-                              },
-                              "parameters": [
-                                "Vasos",
-                                "GenotipoSementeFilho",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso3.Animacao",
-                                "=",
-                                "\"Vaso Vazio\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "EstadoCultivo.Vasos.Vaso3.Entregue",
-                                "False",
-                                "\"Vaso Vazio\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "3"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Planta_Crescimento",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoXCrescimento)",
-                                "GlobalVariable(EstadoCultivo.Vasos.Vaso3.PosicaoYCrescimento)",
-                                "\"Crescimento das Flores\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "Resizable",
-                                "317",
-                                "363"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento",
-                                "IdVaso",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Hide"
-                              },
-                              "parameters": [
-                                "Planta_Crescimento"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "3"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "Moedas",
-                                "-",
-                                "ItensCompraveis.PrecoVaso"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "VasoSelecionadoParaSubstituir",
-                                "=",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "EscolhendoVasoParaSubstituir",
-                                "False",
-                                "0"
-                              ]
-                            }
+                            "Regador",
+                            "Draggable",
+                            ""
                           ]
                         }
                       ]
@@ -16099,6 +15179,16 @@
                         "False",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Regador",
+                        "Draggable",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -16445,6 +15535,16 @@
                         "False",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Regador",
+                        "Draggable",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -16790,6 +15890,16 @@
                         "EscolhendoVasoParaSubstituir",
                         "False",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Regador",
+                        "Draggable",
+                        "yes"
                       ]
                     }
                   ]
@@ -19139,6 +18249,16 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -21112,6 +20232,16 @@
                     "JanelaPedidoAberta",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -24800,43 +23930,6 @@
                     "Vasos",
                     "IdVaso",
                     "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemFlor",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "BotaoVaso1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "IdVaso",
-                    "=",
                     "2"
                   ]
                 },
@@ -24859,80 +23952,6 @@
                   },
                   "parameters": [
                     "BotaoVaso2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "IdVaso",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "BotaoVaso2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "IdVaso",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Vasos",
-                    "TemSementeFilho",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "BotaoVaso3"
                   ]
                 }
               ]
@@ -25766,6 +24785,16 @@
                     "AguardandoEscolhaVaso",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
                   ]
                 }
               ],
