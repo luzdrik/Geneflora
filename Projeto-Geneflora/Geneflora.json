@@ -853,6 +853,14 @@
         "name": "assets/Loja/IconeCompraVaso.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/IU/Balão de fala.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Balão de fala.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1129,10 +1137,34 @@
               "value": ""
             },
             {
+              "name": "PedidoCorreto",
+              "persistentUuid": "e2723ff8-95a2-473f-a18b-b1863f4cce6e",
+              "type": "string",
+              "value": "Ficou linda! Já consigo imaginar as fotos que vou fazer!"
+            },
+            {
+              "name": "PedidoErrado",
+              "persistentUuid": "1ca9e799-f73d-4cb3-9c60-14c0f337ee96",
+              "type": "string",
+              "value": "Hmm... acho que essa cor não vai combinar com o meu cenário. Tenta mais uma vez?"
+            },
+            {
+              "name": "TextoAguardando",
+              "persistentUuid": "be67dabb-e908-433b-b817-a4dcacb8c63e",
+              "type": "string",
+              "value": "Aii, já estou imaginando como essa flor vai ficar nas fotos! Vou ficar por aqui aguardando. Capricha, viu?"
+            },
+            {
+              "name": "TextoEsperando",
+              "persistentUuid": "d5444d58-8ab6-4a82-bbad-0143ca7e0ba1",
+              "type": "string",
+              "value": "Oii! Conseguiu cultivar minha flor lilás? Estou supercuriosa para ver como ela ficou!"
+            },
+            {
               "name": "TextoPedido",
               "persistentUuid": "8424de29-ad10-43d6-b329-e8b0f385e913",
               "type": "string",
-              "value": ""
+              "value": "Oii! Estou preparando um ensaio fotográfico e preciso de uma flor especial. Vi as suas criações e tive uma ideia! Quero uma flor lilás para combinar com meu cenário! Preciso que ela tenha essa cor, mas não precisa seguir nenhuma combinação genética específica."
             }
           ]
         }
@@ -1637,6 +1669,12 @@
       "persistentUuid": "124d48a3-b4f9-4897-90ac-b6cfe3a660ac",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "MensagemAguardando",
+      "persistentUuid": "1ab600b8-9358-4dd6-afc8-b6b35bc8190e",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
@@ -3342,7 +3380,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101674083,
+        "zoomFactor": 0.6244537826600252,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4024,6 +4062,45 @@
           "x": 100,
           "y": 127,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 361,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Pedido",
+          "locked": true,
+          "name": "Balao_Jasmin",
+          "persistentUuid": "9e1258d3-93b6-4513-b085-5254cfd80035",
+          "width": 771,
+          "x": 349,
+          "y": -11,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Pedido",
+          "locked": true,
+          "name": "TextoPedido",
+          "persistentUuid": "1c6be074-d420-40a3-9057-3599d600a861",
+          "width": 554,
+          "x": 458,
+          "y": 85,
+          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5684,6 +5761,67 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Balao_Jasmin",
+          "persistentUuid": "ec476361-5a4f-4e04-a002-c6dac7ba0b3e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Balão de fala.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 135,
+                            "y": 171
+                          },
+                          {
+                            "x": 1506,
+                            "y": 171
+                          },
+                          {
+                            "x": 1506,
+                            "y": 864
+                          },
+                          {
+                            "x": 135,
+                            "y": 864
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5759,16 +5897,19 @@
             "objectName": "TextoPedidoErrado"
           },
           {
-            "objectName": "Balao_DonaRosa"
-          },
-          {
             "objectName": "BotaoAceitar"
           },
           {
             "objectName": "Cliente_DonaRosa"
           },
           {
+            "objectName": "Balao_DonaRosa"
+          },
+          {
             "objectName": "Cliente_Jasmin"
+          },
+          {
+            "objectName": "Balao_Jasmin"
           }
         ]
       },
@@ -5934,7 +6075,36 @@
                     "=",
                     "\"DonaRosa\""
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Carregamento da Dona Rosa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "ClienteAtual",
+                    "=",
+                    "\"DonaRosa\""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -6038,6 +6208,160 @@
                     "Text",
                     "=",
                     "GlobalVariableString(Clientes.DonaRosa.PedidoErrado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "MensagemAguardando",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.TextoAguardando)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Carregamento da Jasmin"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "ClienteAtual",
+                    "=",
+                    "\"Jasmin\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoSolicitado",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.GenotipoSolicitado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "NomeCliente",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.Nome)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CorSolicitada",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.CorSolicitada)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CaracteristicasDesejadas",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.CaracteristicasDesejadas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ObservacoesPedido",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.ObservacoesPedido)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedido",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.TextoPedido)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoAguardando",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.TextoAguardando)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoEspera",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.TextoEsperando)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedidoCorreto",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.PedidoCorreto)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedidoErrado",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.PedidoErrado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "MensagemAguardando",
+                    "=",
+                    "GlobalVariableString(Clientes.Jasmin.TextoAguardando)"
                   ]
                 }
               ]
@@ -6381,7 +6705,7 @@
                     "TextoAguardando",
                     "Text",
                     "=",
-                    "GlobalVariableString(Clientes.DonaRosa.TextoAguardando)"
+                    "GlobalVariableString(MensagemAguardando)"
                   ]
                 },
                 {
@@ -6523,17 +6847,6 @@
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TextoEspera",
-                    "Text",
-                    "=",
-                    "GlobalVariableString(Clientes.DonaRosa.TextoEsperando)"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -6637,17 +6950,6 @@
                   "parameters": [
                     "Cliente_DonaRosa",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TextoPedido",
-                    "Text",
-                    "=",
-                    "GlobalVariableString(Clientes.DonaRosa.TextoPedido)"
                   ]
                 },
                 {
@@ -7872,7 +8174,7 @@
           "isLocked": false,
           "name": "Pedido",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -8255,7 +8557,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9858503011589076,
+        "zoomFactor": 0.5609950051124253,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -18106,7 +18408,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Janela de Consulta do Pedido",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18405,6 +18706,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
