@@ -995,7 +995,7 @@
       "name": "Moedas",
       "persistentUuid": "a8ec3862-7056-457c-a528-ee598cac7b39",
       "type": "number",
-      "value": 100
+      "value": 30
     },
     {
       "name": "ModoFila",
@@ -1464,6 +1464,7 @@
                 },
                 {
                   "name": "QuadroPlanta",
+                  "persistentUuid": "e9ecd777-bc25-4493-941b-a33bdcaa450d",
                   "type": "number",
                   "value": 0
                 },
@@ -1536,6 +1537,7 @@
                 },
                 {
                   "name": "QuadroPlanta",
+                  "persistentUuid": "f2d7d0f9-9f89-4975-9c11-7342e8a15ec2",
                   "type": "number",
                   "value": 0
                 },
@@ -1608,6 +1610,7 @@
                 },
                 {
                   "name": "QuadroPlanta",
+                  "persistentUuid": "00a7b71f-a4f5-48c5-a9a5-cfa1e954db14",
                   "type": "number",
                   "value": 0
                 },
@@ -3339,7 +3342,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104782,
+        "zoomFactor": 0.7876290101674083,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3625,8 +3628,8 @@
           "name": "BuqueDeco",
           "persistentUuid": "0ef9c8e1-9d56-4fb6-8336-390ed04a2efc",
           "width": 324,
-          "x": 667,
-          "y": 380,
+          "x": 665,
+          "y": 373,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -4003,6 +4006,24 @@
           "x": 1083,
           "y": 21,
           "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 437,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Cliente_Jasmin",
+          "persistentUuid": "404a183c-6608-42c3-8f3a-9edc396732e6",
+          "width": 406,
+          "x": 100,
+          "y": 127,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4936,7 +4957,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "default",
+              "name": "Pedido",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6548,6 +6569,117 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    "TipoBalao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pedido\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoPedido",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Clientes.DonaRosa.TextoPedido)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoPedido",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AceitarPedido",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoAceitar",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -6907,7 +7039,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Compara agora a entrega com o pedido de Dona Rosa"
+              "comment": "Compara agora a entrega com o pedido do cliente"
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -6989,7 +7121,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Ela não precisa do genótipo para aceitar, então não precisa colocar a condição abaixo"
+              "comment": "Se precisar do genótipo para aceitar, colocar a condição abaixo"
             },
             {
               "disabled": true,
@@ -7018,7 +7150,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Animação de Dona Rosa Feliz"
+              "comment": "Animação Feliz"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7278,7 +7410,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Animação de Dona Rosa Triste"
+              "comment": "Animação Triste"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7438,7 +7570,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Finalização do Pedido da Dona Rosa",
+              "name": "Finalização do Pedido",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [],
@@ -7489,6 +7621,98 @@
                     "PedidoAtivo",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SaidaCliente\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Moedas",
+                    "+",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SaidaCliente\"",
+                    ">",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Cliente_DonaRosa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Balao_DonaRosa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pedido Correto\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "9"
                   ]
                 }
               ]
@@ -18181,7 +18405,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Minigame: Barra de Hidratação usando o Regador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18960,6 +19183,16 @@
                     "Resizable",
                     "=",
                     "NivelAgua * 5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Moedas",
+                    "+",
+                    "10"
                   ]
                 }
               ],
