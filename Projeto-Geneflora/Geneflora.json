@@ -3380,7 +3380,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600252,
+        "zoomFactor": 0.5468750000000232,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4082,25 +4082,6 @@
           "x": 349,
           "y": -11,
           "zOrder": 75,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "Pedido",
-          "locked": true,
-          "name": "TextoPedido",
-          "persistentUuid": "1c6be074-d420-40a3-9057-3599d600a861",
-          "width": 554,
-          "x": 458,
-          "y": 85,
-          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5769,7 +5750,13 @@
           "persistentUuid": "ec476361-5a4f-4e04-a002-c6dac7ba0b3e",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "TipoBalao",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -6376,7 +6363,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Surgimento e Pedido do cliente"
+              "comment": "Surgimento e Pedido de Dona Rosa"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -6421,6 +6408,16 @@
                     "TipoBalao",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "ClienteAtual",
+                    "=",
+                    "\"DonaRosa\""
                   ]
                 }
               ],
@@ -6512,6 +6509,169 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Surgimento e Pedido de Jasmin"
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EsperaCliente\"",
+                    ">",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PedidoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Balao_Jasmin",
+                    "TipoBalao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "ClienteAtual",
+                    "=",
+                    "\"Jasmin\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Sons/sino-de-mesa.wav",
+                    "",
+                    "25",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Pedido\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EntregaSolicitada",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Cliente_Jasmin",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Balao_Jasmin",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoPedido",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoAceitar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AceitarPedido",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoAtendimento",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8174,7 +8334,7 @@
           "isLocked": false,
           "name": "Pedido",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -8557,7 +8717,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5609950051124253,
+        "zoomFactor": 0.6621772904284282,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -8994,17 +9154,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 306,
+          "depth": 2,
+          "height": 243,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "CaixaTerra",
           "persistentUuid": "76c9ad9e-1ec4-4b0e-9341-bb068a89809a",
-          "sealed": true,
-          "width": 458,
-          "x": 397,
-          "y": 98,
+          "width": 364,
+          "x": 193,
+          "y": 131,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -9020,8 +9178,8 @@
           "name": "Ancestral_AA",
           "persistentUuid": "ff65f12c-d133-45ce-8114-84da6cd829e8",
           "width": 104,
-          "x": 453,
-          "y": 138,
+          "x": 947,
+          "y": 127,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -9036,8 +9194,8 @@
           "name": "Ancestral_Aa",
           "persistentUuid": "4b4073a3-44df-4940-a27c-bb78a5976376",
           "width": 104,
-          "x": 572,
-          "y": 138,
+          "x": 749,
+          "y": 126,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -9205,12 +9363,11 @@
           "depth": 1,
           "height": 113,
           "layer": "Ancestrais",
-          "locked": true,
           "name": "Ancestral_aa",
           "persistentUuid": "b8e26f0d-edeb-478e-bfcf-1721e06d4917",
           "width": 79,
-          "x": 696,
-          "y": 136,
+          "x": 862,
+          "y": 124,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -9220,15 +9377,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 301,
+          "height": 186,
           "keepRatio": true,
           "layer": "Ancestrais",
-          "locked": true,
           "name": "AncestralMae",
           "persistentUuid": "14a11068-8afc-44aa-ae82-f60593b145a0",
-          "width": 328,
-          "x": -46,
-          "y": 341,
+          "width": 203,
+          "x": 269,
+          "y": 71,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -9838,6 +9994,23 @@
           "x": 87,
           "y": 188,
           "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 243,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CaixaTerra",
+          "persistentUuid": "0011e9c4-8840-4692-be38-8a4b2c8b6d4b",
+          "width": 364,
+          "x": 715,
+          "y": 127,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18408,6 +18581,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Janela de Consulta do Pedido",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29865,7 +30039,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "Ancestrais",
           "renderingType": "",
           "visibility": true,
