@@ -1463,6 +1463,11 @@
                   "value": 0
                 },
                 {
+                  "name": "QuadroPlanta",
+                  "type": "number",
+                  "value": 0
+                },
+                {
                   "name": "TemFlor",
                   "persistentUuid": "4cb91ca4-7d59-417d-96b0-7b46e7133fcd",
                   "type": "boolean",
@@ -1530,6 +1535,11 @@
                   "value": 0
                 },
                 {
+                  "name": "QuadroPlanta",
+                  "type": "number",
+                  "value": 0
+                },
+                {
                   "name": "TemFlor",
                   "persistentUuid": "c643fa19-cb4f-473d-a10c-e660b901e41d",
                   "type": "boolean",
@@ -1593,6 +1603,11 @@
                 {
                   "name": "PosicaoYCrescimento",
                   "persistentUuid": "66dd312f-77c1-4738-9587-6f433c9a21d0",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "QuadroPlanta",
                   "type": "number",
                   "value": 0
                 },
@@ -14093,6 +14108,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Compra de Vasos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24908,6 +24924,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -25828,6 +25845,16 @@
                     "Planta_Crescimento",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso1.QuadroPlanta)"
+                  ]
                 }
               ]
             },
@@ -25913,6 +25940,16 @@
                     "Vasos",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso1.QuadroPlanta)"
+                  ]
                 }
               ]
             },
@@ -25997,6 +26034,16 @@
                   "parameters": [
                     "Planta_Crescimento",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.QuadroPlanta)"
                   ]
                 }
               ]
@@ -26083,6 +26130,16 @@
                     "Vasos",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso2.QuadroPlanta)"
+                  ]
                 }
               ]
             },
@@ -26168,6 +26225,16 @@
                     "Planta_Crescimento",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso3.QuadroPlanta)"
+                  ]
                 }
               ]
             },
@@ -26252,6 +26319,16 @@
                   "parameters": [
                     "Vasos",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "=",
+                    "GlobalVariable(EstadoCultivo.Vasos.Vaso3.QuadroPlanta)"
                   ]
                 }
               ]
@@ -27057,6 +27134,16 @@
                     "=",
                     "Planta_Crescimento.AnimationName()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.QuadroPlanta",
+                    "=",
+                    "Planta_Crescimento.Sprite()"
+                  ]
                 }
               ]
             },
@@ -27123,6 +27210,16 @@
                     "=",
                     "Planta_Crescimento.AnimationName()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.QuadroPlanta",
+                    "=",
+                    "Planta_Crescimento.Sprite()"
+                  ]
                 }
               ]
             },
@@ -27188,6 +27285,16 @@
                     "EstadoCultivo.Vasos.Vaso3.AnimacaoPlanta",
                     "=",
                     "Planta_Crescimento.AnimationName()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.QuadroPlanta",
+                    "=",
+                    "Planta_Crescimento.Sprite()"
                   ]
                 }
               ]
@@ -28879,6 +28986,90 @@
                 "textR": 0
               },
               "comment": "Atualizando estado dos vasos antes de sair da cena"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.QuadroPlanta",
+                    "=",
+                    "Planta_Crescimento.Sprite()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.QuadroPlanta",
+                    "=",
+                    "Planta_Crescimento.Sprite()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.QuadroPlanta",
+                    "=",
+                    "Planta_Crescimento.Sprite()"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
