@@ -422,7 +422,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Vasos/Genótipos/Amarela Pronta.png",
+        "file": "Amarela Pronta.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Amarela Pronta.png",
@@ -430,7 +430,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Vasos/Genótipos/Amarela Crescendo.png",
+        "file": "Amarela Crescendo.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Amarela Crescendo.png",
@@ -438,7 +438,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Vasos/Genótipos/Roxa Crescendo.png",
+        "file": "Roxa Crescendo.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Roxa Crescendo.png",
@@ -446,7 +446,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Vasos/Genótipos/Roxa Pronta.png",
+        "file": "Roxa Pronta.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Roxa Pronta.png",
@@ -454,7 +454,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Vasos/Genótipos/Broto1.png",
+        "file": "Broto1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Broto1.png",
@@ -462,7 +462,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Vasos/Genótipos/Broto2.png",
+        "file": "Broto2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Broto2.png",
@@ -672,7 +672,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
+        "file": "Flor Ancestral AA.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
@@ -867,6 +867,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Ancestrais/Fase1/Roxa_pai_aa.png",
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -875,6 +879,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Ancestrais/Fase1/Amarela_pai_AA.png",
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"2.png\",\"extension\":\".png\"}",
+        "name": "2.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -883,6 +891,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Ancestrais/Fase1/Amarela_mae_Aa.png",
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -891,6 +903,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Fase1/Amarela Crescendo.png",
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -899,6 +915,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Fase1/Amarela Pronta.png",
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -907,6 +927,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Fase1/Roxa Crescendo.png",
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -915,6 +939,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Vasos/Genótipos/Fase1/Roxa Pronta.png",
+        "file": "7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -923,6 +951,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Decorações/PlacaAA.png",
+        "file": "8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -931,6 +963,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Decorações/Placa_aa .png",
+        "file": "9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -939,6 +975,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Decorações/Placa_Aa.png",
+        "file": "10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -947,6 +987,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Decorações/Placa Mãe.png",
+        "file": "11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -955,6 +999,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Decorações/Placa Pai.png",
+        "file": "12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "12.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -963,6 +1011,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cultivo/Decorações/Placa Vazia.png",
+        "file": "13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "13.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -971,6 +1023,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/IU/Botão Sim.png",
+        "file": "14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "14.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -979,6 +1035,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/IU/Botão Não.png",
+        "file": "15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "15.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -987,6 +1047,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Clientes/Jasmin/pedido.png",
+        "file": "16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "16.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -995,6 +1059,10 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Clientes/Jasmin/certo.png",
+        "file": "17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "17.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1003,6 +1071,82 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Clientes/Jasmin/errado.png",
+        "file": "18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "roleta (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "roleta (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pin_sem fundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pin_sem fundo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Broto3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Broto3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Moeda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moeda.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "moeda2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moeda2.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -6590,6 +6734,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Sistema de Clientes e Entrega de Flor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12014,6 +12159,7 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.6196809811078228,
+        "zoomFactor": 0.5078667981684217,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -13268,6 +13414,14 @@
           "width": 93,
           "x": 717,
           "y": 261,
+          "depth": 1,
+          "height": 211,
+          "layer": "",
+          "name": "roleta",
+          "persistentUuid": "f6647479-5f01-4e1e-a8b9-a4e86e08053a",
+          "width": 211,
+          "x": 55,
+          "y": 358,
           "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
@@ -13284,6 +13438,15 @@
           "width": 93,
           "x": 929,
           "y": 261,
+          "depth": 1,
+          "height": 185,
+          "keepRatio": true,
+          "layer": "Topo",
+          "name": "pin",
+          "persistentUuid": "84addabc-8de8-4034-a217-9f8e90a9c30d",
+          "width": 177,
+          "x": 66,
+          "y": 263,
           "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
@@ -13300,6 +13463,15 @@
           "width": 93,
           "x": 320,
           "y": 261,
+          "depth": 1,
+          "height": 72,
+          "keepRatio": true,
+          "layer": "",
+          "name": "genotipo_escolhido",
+          "persistentUuid": "b88b73fb-44e7-49dd-add8-e06ee59fa834",
+          "width": 129,
+          "x": 59,
+          "y": 273,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -18423,6 +18595,8 @@
           "assetStoreId": "",
           "name": "Placa_AA",
           "persistentUuid": "c14abae3-8761-4d6e-bebd-d6dac4090335",
+          "name": "roleta",
+          "persistentUuid": "c8934662-3a5e-4354-9abf-4a0b735f3bfb",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18431,6 +18605,7 @@
           "animations": [
             {
               "name": "",
+              "name": "stand AA",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -18440,6 +18615,7 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Cultivo/Decorações/PlacaAA.png",
+                      "image": "1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18781,6 +18957,20 @@
                           {
                             "x": 20,
                             "y": 138
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
                           }
                         ]
                       ]
@@ -18791,15 +18981,18 @@
             },
             {
               "name": "AA",
+              "name": "stand aa",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Cultivo/Decorações/PlacaAA.png",
+                      "image": "2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18829,6 +19022,20 @@
                           {
                             "x": 20,
                             "y": 138
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
                           }
                         ]
                       ]
@@ -18848,6 +19055,16 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Cultivo/Decorações/Placa_Aa.png",
+              "name": "rotação",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.016667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18896,6 +19113,27 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Cultivo/Decorações/Placa_aa .png",
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18925,6 +19163,704 @@
                           {
                             "x": 20,
                             "y": 138
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 0
+                          },
+                          {
+                            "x": 700,
+                            "y": 700
+                          },
+                          {
+                            "x": 0,
+                            "y": 700
                           }
                         ]
                       ]
@@ -18934,6 +19870,111 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "pin",
+          "persistentUuid": "63511561-1e1f-4e08-a803-226de319c013",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pin_sem fundo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207,
+                            "y": 164
+                          },
+                          {
+                            "x": 293,
+                            "y": 164
+                          },
+                          {
+                            "x": 293,
+                            "y": 294
+                          },
+                          {
+                            "x": 207,
+                            "y": 294
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "genotipo_escolhido",
+          "persistentUuid": "4d8b7e41-455b-449c-99a9-830593954f6f",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -19118,16 +20159,87 @@
           },
           {
             "objectName": "ValorVasoNovo"
+          },
+          {
+            "objectName": "roleta"
+          },
+          {
+            "objectName": "pin"
+          },
+          {
+            "objectName": "genotipo_escolhido"
           }
         ]
       },
       "events": [
         {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "roleta"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "pin"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Exibe o preço do vaso"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ValorVasoNovo",
+                    "Text",
+                    "=",
+                    "ToString(ItensCompraveis.PrecoVaso)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Sistema das Moedas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19157,57 +20269,10 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Compra de Vasos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Exibe o preço do vaso"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "ValorVasoNovo",
-                        "Text",
-                        "=",
-                        "ToString(ItensCompraveis.PrecoVaso)"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
@@ -27926,6 +28991,17 @@
                         "=",
                         "\"AA\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "genotipo_escolhido",
+                        "Text",
+                        "=",
+                        "GenotipoFilho"
+                      ]
                     }
                   ]
                 },
@@ -27963,6 +29039,17 @@
                         "=",
                         "\"aa\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "genotipo_escolhido",
+                        "Text",
+                        "=",
+                        "GenotipoFilho"
+                      ]
                     }
                   ]
                 },
@@ -27978,6 +29065,17 @@
                         "GenotipoFilho",
                         "=",
                         "\"Aa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "genotipo_escolhido",
+                        "Text",
+                        "=",
+                        "GenotipoFilho"
                       ]
                     }
                   ]
@@ -34131,6 +35229,235 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "roleta",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoPolinizar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "roleta",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "pin",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "roleta",
+                    "Animation",
+                    "=",
+                    "\"rotação\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoRoleta\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoRoleta\"",
+                    ">",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFilho",
+                    "=",
+                    "\"aa\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "roleta",
+                    "Animation",
+                    "=",
+                    "\"stand aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFilho",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoRoleta\"",
+                    ">",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFilho",
+                    "=",
+                    "\"AA\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "roleta",
+                    "Animation",
+                    "=",
+                    "\"stand AA\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFilho",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoRoleta\"",
+                    ">",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFilho",
+                    "=",
+                    "\"Aa\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "roleta",
+                    "Animation",
+                    "=",
+                    "\"stand AA\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "GenotipoFilho",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -35376,6 +36703,770 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "mini_95game",
+      "name": "mini_game",
+      "r": 247,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "MoedasColetadas",
+          "persistentUuid": "75ca9d75-c06d-46e5-b179-949fda6b0a2e",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 755,
+          "layer": "",
+          "name": "background",
+          "persistentUuid": "ec49d202-b3a7-4e59-96b9-281d7ccce52d",
+          "width": 1280,
+          "x": 0,
+          "y": -34,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 124,
+          "keepRatio": true,
+          "layer": "",
+          "name": "moeda",
+          "persistentUuid": "cc0bcced-d46e-413b-8395-0db07cbd422d",
+          "width": 135,
+          "x": 313,
+          "y": -3,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "moedasColetadas",
+          "persistentUuid": "0271cb61-8fd5-477f-acd4-e5f4d5a29e08",
+          "width": 62,
+          "x": 1137,
+          "y": 14,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "persistentUuid": "7333648d-69f7-4ac8-af51-f4ae8676e79b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 941
+                          },
+                          {
+                            "x": 0,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "brotos",
+          "persistentUuid": "ce9ab1d1-11d8-4854-8e58-ff1c35814a17",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Broto3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 180,
+                            "y": 309
+                          },
+                          {
+                            "x": 475,
+                            "y": 309
+                          },
+                          {
+                            "x": 475,
+                            "y": 600
+                          },
+                          {
+                            "x": 180,
+                            "y": 600
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "moeda",
+          "persistentUuid": "b694865a-3bb9-457b-8ad4-0b9a374ce21d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "moeda2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 73,
+                            "y": 69
+                          },
+                          {
+                            "x": 619,
+                            "y": 69
+                          },
+                          {
+                            "x": 619,
+                            "y": 621
+                          },
+                          {
+                            "x": 73,
+                            "y": 621
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "moedasColetadas",
+          "persistentUuid": "9c5b2118-3747-4a45-a7f9-a7240641fb9d",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]000[/b] ",
+            "opacity": 255,
+            "fontSize": 70,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "brotos"
+          },
+          {
+            "objectName": "moeda"
+          },
+          {
+            "objectName": "moedasColetadas"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnItens\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DuraçaoMiniGame\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "criação dos itens "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnItens\"",
+                ">=",
+                "0.7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnItens\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "RandomFloatInRange(0, 1)",
+                    "<",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "moeda",
+                    "RandomInRange(100, 1150)",
+                    "-60 ",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "moeda",
+                    "Resizable",
+                    "120",
+                    "120"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "brotos",
+                    "RandomInRange(100, 1150)",
+                    "-60 ",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "brotos",
+                    "Resizable",
+                    "165",
+                    "165"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "moeda",
+                "+",
+                "220*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "brotos",
+                "+",
+                "220*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "moedasColetadas",
+                "=",
+                "ToString(MoedasColetadas)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "exclusão dos itens"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "moeda",
+                ">",
+                "760"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "moeda",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "brotos",
+                ">",
+                "760"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "brotos",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "soma das moedas coletadas "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "moeda",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MoedasColetadas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "moeda",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "encerramento do minigame"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"DuraçaoMiniGame\"",
+                ">",
+                "25"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Moedas",
+                "+",
+                "MoedasColetadas"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Cultivo\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "layoutsFolderStructure": {
@@ -35392,6 +37483,9 @@
       },
       {
         "itemName": "Créditos"
+      },
+      {
+        "itemName": "mini_game"
       }
     ]
   },
