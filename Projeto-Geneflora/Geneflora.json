@@ -1205,6 +1205,14 @@
         "name": "assets/IU/21.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/IU/Fundo Preto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Fundo Preto.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1372,12 +1380,6 @@
           "type": "structure",
           "children": [
             {
-              "name": "CaracteristicasDesejadas",
-              "persistentUuid": "2f40e493-5903-46bc-a0f2-88c65e97ef89",
-              "type": "string",
-              "value": ""
-            },
-            {
               "name": "CorSolicitada",
               "persistentUuid": "cb2c472b-aa5c-49fa-8ffb-2a5d00988d7b",
               "type": "string",
@@ -1400,12 +1402,6 @@
               "persistentUuid": "4aba6564-d44c-4fde-a0cc-13425c463121",
               "type": "string",
               "value": "Cliente_DonaRosa"
-            },
-            {
-              "name": "ObservacoesPedido",
-              "persistentUuid": "c9fa2d65-4c7d-4b72-aa52-11938be8c3a2",
-              "type": "string",
-              "value": ""
             },
             {
               "name": "PedidoCorreto",
@@ -1445,12 +1441,6 @@
           "type": "structure",
           "children": [
             {
-              "name": "CaracteristicasDesejadas",
-              "persistentUuid": "a456d2fd-4341-4aac-914a-bf85e8b1fc86",
-              "type": "string",
-              "value": ""
-            },
-            {
               "name": "CorSolicitada",
               "persistentUuid": "fd07f26b-d62b-4224-9b12-09976f7be9f0",
               "type": "string",
@@ -1473,12 +1463,6 @@
               "persistentUuid": "58f1706e-4167-4118-b59d-4fd5e71fe46c",
               "type": "string",
               "value": "Cliente_Jasmin"
-            },
-            {
-              "name": "ObservacoesPedido",
-              "persistentUuid": "13383957-a71a-406b-937e-fb3a7318bfd9",
-              "type": "string",
-              "value": ""
             },
             {
               "name": "PedidoCorreto",
@@ -2019,6 +2003,12 @@
       "persistentUuid": "1ab600b8-9358-4dd6-afc8-b6b35bc8190e",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "BloquearCliqueIcones",
+      "persistentUuid": "13891338-1c12-4f9e-bf52-22f69da664ba",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -3782,6 +3772,7 @@
           "locked": true,
           "name": "Balcao",
           "persistentUuid": "0882d875-0ee6-4a5f-b0f0-f2d57a979a7e",
+          "sealed": true,
           "width": 1654,
           "x": -184,
           "y": 411,
@@ -3797,8 +3788,10 @@
           "height": 308,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Computador",
           "persistentUuid": "254e2251-fea4-4221-a005-0fe0a7534104",
+          "sealed": true,
           "width": 462,
           "x": 776,
           "y": 378,
@@ -3814,8 +3807,10 @@
           "height": 115,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Maquininha",
           "persistentUuid": "d5076b78-3924-4fd9-a247-a8f3810795a7",
+          "sealed": true,
           "width": 172,
           "x": 671,
           "y": 546,
@@ -3834,6 +3829,7 @@
           "locked": true,
           "name": "Deco1",
           "persistentUuid": "7ab97e21-344e-42ee-aa4e-df18a06d00fa",
+          "sealed": true,
           "width": 170,
           "x": 364,
           "y": -42,
@@ -3852,6 +3848,7 @@
           "locked": true,
           "name": "Deco2",
           "persistentUuid": "39abcd45-3718-4120-a244-481623b84b5e",
+          "sealed": true,
           "width": 171,
           "x": 850,
           "y": -42,
@@ -3867,8 +3864,10 @@
           "height": 434,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Prateleira",
           "persistentUuid": "b6e9e78b-1eb2-4a10-bb97-9889dbd72514",
+          "sealed": true,
           "width": 188,
           "x": -40,
           "y": 135,
@@ -3884,8 +3883,10 @@
           "height": 292,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Quadro1",
           "persistentUuid": "c466ccb2-0470-48b9-ba8c-871bf3ac31ba",
+          "sealed": true,
           "width": 157,
           "x": 70,
           "y": -16,
@@ -3901,8 +3902,10 @@
           "height": 152,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "EntradaDeco",
           "persistentUuid": "e415c6fb-0404-4988-9b4b-a6bcb5631061",
+          "sealed": true,
           "width": 101,
           "x": 978,
           "y": 215,
@@ -3919,8 +3922,10 @@
           "height": 152,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "EntradaDeco",
           "persistentUuid": "17a6c640-f723-4ac1-801b-85ed33c50104",
+          "sealed": true,
           "width": 101,
           "x": 259,
           "y": 214,
@@ -3936,8 +3941,10 @@
           "height": 110,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "SuperiorPlanta",
           "persistentUuid": "2bf6ef7d-71ca-4f85-ab6f-62b65e320e5f",
+          "sealed": true,
           "width": 75,
           "x": 228,
           "y": 3,
@@ -3953,8 +3960,10 @@
           "height": 73,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Quadro2",
           "persistentUuid": "8285c2ad-c208-460b-bcce-604318b87ac5",
+          "sealed": true,
           "width": 39,
           "x": 235,
           "y": 80,
@@ -3970,8 +3979,10 @@
           "height": 93,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Regador",
           "persistentUuid": "99c41468-f5b4-4ace-b321-8e83a50d04b6",
+          "sealed": true,
           "width": 72,
           "x": 100,
           "y": 420,
@@ -3987,8 +3998,10 @@
           "height": 87,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "GirassolDeco",
           "persistentUuid": "d3216de9-891b-48d8-801c-891dfd832dde",
+          "sealed": true,
           "width": 70,
           "x": 120,
           "y": 410,
@@ -4004,8 +4017,10 @@
           "height": 243,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "BalcaoDeco",
           "persistentUuid": "49c1fbba-f037-4910-b109-1ed817e07308",
+          "sealed": true,
           "width": 263,
           "x": 55,
           "y": 255,
@@ -4021,8 +4036,10 @@
           "height": 216,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "BuqueDeco",
           "persistentUuid": "0ef9c8e1-9d56-4fb6-8336-390ed04a2efc",
+          "sealed": true,
           "width": 324,
           "x": 665,
           "y": 373,
@@ -4039,8 +4056,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Pedido",
+          "locked": true,
           "name": "TextoPedido",
           "persistentUuid": "9be00161-5fc9-45a9-9dc1-09f86ae7e6aa",
+          "sealed": true,
           "width": 537,
           "x": 459,
           "y": 121,
@@ -4058,8 +4077,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Pedido",
+          "locked": true,
           "name": "Balao_DonaRosa",
           "persistentUuid": "bc20ebeb-6595-4513-86df-a3b33371bae6",
+          "sealed": true,
           "width": 768,
           "x": 350,
           "y": 35,
@@ -4076,8 +4097,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Cliente_DonaRosa",
           "persistentUuid": "0b3c1a55-697d-4f6b-80d9-c014c64fc091",
+          "sealed": true,
           "width": 425,
           "x": 113,
           "y": 138,
@@ -4090,46 +4113,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 136,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "Pedido",
-          "name": "BotaoAceitar",
-          "persistentUuid": "62964271-0996-4412-be95-65664c014e44",
-          "width": 206,
-          "x": 835,
-          "y": 233,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "Pedido",
-          "name": "AceitarPedido",
-          "persistentUuid": "5cf73b76-d0f4-4008-9191-b89f25e231fb",
-          "width": 0,
-          "x": 925,
-          "y": 286,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 110,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "SinoMesa",
           "persistentUuid": "891db2d1-8ecb-476d-8617-2633c9b04a4c",
+          "sealed": true,
           "width": 107,
           "x": 63,
           "y": 525,
@@ -4414,8 +4404,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Cliente_Jasmin",
           "persistentUuid": "404a183c-6608-42c3-8f3a-9edc396732e6",
+          "sealed": true,
           "width": 538,
           "x": 31,
           "y": 137,
@@ -4480,8 +4472,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Nome dos Clientes",
+          "locked": true,
           "name": "TextoNomeCliente",
           "persistentUuid": "49e4a3f7-3fac-4276-9d63-750f8b44638a",
+          "sealed": true,
           "width": 230,
           "x": 182,
           "y": 109,
@@ -4704,6 +4698,26 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 162,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Pedido",
+          "locked": true,
+          "name": "BotaoAceitar",
+          "persistentUuid": "5a9a0480-6909-4997-ba5f-65948539cfba",
+          "sealed": true,
+          "width": 324,
+          "x": 728,
+          "y": 230,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6790,6 +6804,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Sistema de Clientes e Entrega de Flor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6924,36 +6939,6 @@
                     "CorSolicitada",
                     "=",
                     "GlobalVariableString(Clientes.DonaRosa.CorSolicitada)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "CaracteristicasDesejadas",
-                    "=",
-                    "GlobalVariableString(Clientes.DonaRosa.CaracteristicasDesejadas)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "ObservacoesPedido",
-                    "=",
-                    "GlobalVariableString(Clientes.DonaRosa.ObservacoesPedido)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "MensagemAguardando",
-                    "=",
-                    "GlobalVariableString(Clientes.DonaRosa.TextoAguardando)"
                   ]
                 }
               ]
@@ -7284,36 +7269,6 @@
                     "CorSolicitada",
                     "=",
                     "GlobalVariableString(Clientes.Jasmin.CorSolicitada)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "CaracteristicasDesejadas",
-                    "=",
-                    "GlobalVariableString(Clientes.Jasmin.CaracteristicasDesejadas)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "ObservacoesPedido",
-                    "=",
-                    "GlobalVariableString(Clientes.Jasmin.ObservacoesPedido)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "MensagemAguardando",
-                    "=",
-                    "GlobalVariableString(Clientes.Jasmin.TextoAguardando)"
                   ]
                 }
               ]
@@ -7708,15 +7663,6 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "AceitarPedido",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -7885,15 +7831,6 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "AceitarPedido",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -8010,14 +7947,6 @@
                   },
                   "parameters": [
                     "BotaoAceitar"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "AceitarPedido"
                   ]
                 },
                 {
@@ -8322,14 +8251,6 @@
                   },
                   "parameters": [
                     "BotaoAceitar"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "AceitarPedido"
                   ]
                 },
                 {
@@ -8837,15 +8758,6 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "AceitarPedido",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
                     "BotaoAceitar",
                     ""
                   ]
@@ -9129,15 +9041,6 @@
                   },
                   "parameters": [
                     "TextoNomeCliente",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "AceitarPedido",
                     ""
                   ]
                 },
@@ -11773,7 +11676,7 @@
           "isLocked": false,
           "name": "Pedido",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -12213,7 +12116,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6196809811078228,
+        "zoomFactor": 0.6196809811078233,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12240,9 +12143,6 @@
           "objects": [
             {
               "name": "Ancestral_AA"
-            },
-            {
-              "name": "Ancestral_Aa"
             }
           ]
         }
@@ -12416,8 +12316,10 @@
           "height": 106,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Regador",
           "persistentUuid": "2960207d-d9cf-4bc9-ac06-2d0ca8be4980",
+          "sealed": true,
           "width": 122,
           "x": 1109,
           "y": 525,
@@ -12432,8 +12334,10 @@
           "depth": 1,
           "height": 159,
           "layer": "",
+          "locked": true,
           "name": "Vaso",
           "persistentUuid": "005215b0-ffa4-4c12-99f9-b28f9c1f0d23",
+          "sealed": true,
           "width": 201,
           "x": 296,
           "y": 500,
@@ -12455,8 +12359,10 @@
           "depth": 1,
           "height": 159,
           "layer": "",
+          "locked": true,
           "name": "Vaso",
           "persistentUuid": "f4848786-16a5-430f-b31e-65463fd2430d",
+          "sealed": true,
           "width": 201,
           "x": 532,
           "y": 500,
@@ -12478,8 +12384,10 @@
           "depth": 1,
           "height": 159,
           "layer": "",
+          "locked": true,
           "name": "Vaso",
           "persistentUuid": "8777968c-2ed7-4fd6-96b5-6329cd76b1aa",
+          "sealed": true,
           "width": 201,
           "x": 765,
           "y": 500,
@@ -12546,6 +12454,7 @@
           "locked": true,
           "name": "Icone_BarraRegador",
           "persistentUuid": "0bf302b5-29e0-4eaf-8c30-88b1356e0701",
+          "sealed": true,
           "width": 154,
           "x": 352,
           "y": 572,
@@ -12602,8 +12511,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Minigame do Regador",
+          "locked": true,
           "name": "Marcador_Barra",
           "persistentUuid": "bee8c1d2-3cb7-4ae4-b246-7126dabd5b14",
+          "sealed": true,
           "width": 21,
           "x": 705,
           "y": 626,
@@ -12620,8 +12531,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Minigame do Regador",
+          "locked": true,
           "name": "Marcador_Barra",
           "persistentUuid": "b8401239-df3d-4fe7-acb5-25bbc1e74e0c",
+          "sealed": true,
           "width": 21,
           "x": 770,
           "y": 627,
@@ -12637,8 +12550,10 @@
           "height": 98,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "PincelMagico",
           "persistentUuid": "43284207-359f-462d-8606-2a66bc13a9f7",
+          "sealed": true,
           "width": 104,
           "x": 979,
           "y": 533,
@@ -12654,8 +12569,10 @@
           "height": 244,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "CaixaTerra",
           "persistentUuid": "76c9ad9e-1ec4-4b0e-9341-bb068a89809a",
+          "sealed": true,
           "width": 364,
           "x": 193,
           "y": 111,
@@ -12671,8 +12588,10 @@
           "height": 136,
           "keepRatio": true,
           "layer": "Ancestrais",
+          "locked": true,
           "name": "Ancestral_AA",
           "persistentUuid": "ff65f12c-d133-45ce-8114-84da6cd829e8",
+          "sealed": true,
           "width": 125,
           "x": 708,
           "y": 106,
@@ -12767,8 +12686,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Janela de Cruzamento",
+          "locked": true,
           "name": "Texto_Genótipo2",
           "persistentUuid": "adc0212e-0551-460e-99bf-695110e2c143",
+          "sealed": true,
           "width": 0,
           "x": 730,
           "y": 390,
@@ -12818,31 +12739,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 72,
-          "hidden": true,
-          "keepRatio": true,
-          "layer": "Janela de Cruzamento",
-          "locked": true,
-          "name": "BotaoFechar",
-          "persistentUuid": "23f4849a-82ec-496b-9263-46791dca9c20",
-          "sealed": true,
-          "width": 71,
-          "x": 944,
-          "y": 334,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 135,
           "layer": "Ancestrais",
+          "locked": true,
           "name": "Ancestral_aa",
           "persistentUuid": "b8e26f0d-edeb-478e-bfcf-1721e06d4917",
+          "sealed": true,
           "width": 122,
           "x": 912,
           "y": 106,
@@ -12858,8 +12761,10 @@
           "height": 132,
           "keepRatio": true,
           "layer": "Ancestrais",
+          "locked": true,
           "name": "AncestralMae",
           "persistentUuid": "14a11068-8afc-44aa-ae82-f60593b145a0",
+          "sealed": true,
           "width": 140,
           "x": 296,
           "y": 110,
@@ -12875,8 +12780,10 @@
           "height": 62,
           "hidden": true,
           "layer": "Plantar Semente",
+          "locked": true,
           "name": "BotaoVaso1",
           "persistentUuid": "76d9133f-be06-404d-8a6b-3e331cdfdf8e",
+          "sealed": true,
           "width": 229,
           "x": 281,
           "y": 438,
@@ -12893,8 +12800,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Plantar Semente",
+          "locked": true,
           "name": "BotaoVaso2",
           "persistentUuid": "4f87983a-2e9a-4eff-944d-f0673ba4dd75",
+          "sealed": true,
           "width": 227,
           "x": 518,
           "y": 440,
@@ -12910,8 +12819,10 @@
           "height": 60,
           "hidden": true,
           "layer": "Plantar Semente",
+          "locked": true,
           "name": "BotaoVaso3",
           "persistentUuid": "c686ba6e-bfd3-40d1-9b65-176dfcc854cd",
+          "sealed": true,
           "width": 228,
           "x": 752,
           "y": 441,
@@ -12931,6 +12842,7 @@
           "locked": true,
           "name": "Janela_Cruzamento",
           "persistentUuid": "9708bf7d-88a0-4bba-8971-c53dfd3550ca",
+          "sealed": true,
           "width": 786,
           "x": 238,
           "y": 23,
@@ -12956,6 +12868,7 @@
           "locked": true,
           "name": "TextoEscolhaVaso",
           "persistentUuid": "b0f3eac1-06cd-4386-a274-c5a19718d319",
+          "sealed": true,
           "width": 0,
           "x": 392,
           "y": 127,
@@ -12972,8 +12885,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Crescimento das Flores",
+          "locked": true,
           "name": "Planta_Crescimento",
           "persistentUuid": "08a47a1a-ab90-413b-b8e0-8ffef55559bb",
+          "sealed": true,
           "width": 317,
           "x": 327,
           "y": 558,
@@ -12997,8 +12912,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Crescimento das Flores",
+          "locked": true,
           "name": "Planta_Crescimento",
           "persistentUuid": "0eb02377-f287-4e4f-98d2-0ae6cf03a499",
+          "sealed": true,
           "width": 317,
           "x": 796,
           "y": 559,
@@ -13022,8 +12939,10 @@
           "hidden": true,
           "keepRatio": true,
           "layer": "Crescimento das Flores",
+          "locked": true,
           "name": "Planta_Crescimento",
           "persistentUuid": "5aa05444-2ca9-4ce7-9675-d524fc8a6278",
+          "sealed": true,
           "width": 317,
           "x": 563,
           "y": 559,
@@ -13046,6 +12965,7 @@
           "height": 77,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "IconePedido",
           "persistentUuid": "308a714c-739b-4d7b-a24a-ba754299bd66",
           "width": 73,
@@ -13081,60 +13001,17 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 664,
-          "keepRatio": true,
-          "layer": "Consultar Pedido",
-          "locked": true,
-          "name": "DetalhesPedido",
-          "persistentUuid": "7f87626e-8345-4847-9c07-7ab66c576fa3",
-          "sealed": true,
-          "width": 626,
-          "x": 321,
-          "y": 40,
-          "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "keepRatio": true,
-          "layer": "Consultar Pedido",
-          "locked": true,
-          "name": "BotaoFechar",
-          "persistentUuid": "a95a2e24-d3b7-424c-bfae-20f1b40e9b75",
-          "sealed": true,
-          "width": 74,
-          "x": 894,
-          "y": 51,
-          "zOrder": 61,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "TipoJanela",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 24,
+          "height": 47,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Consultar Pedido",
           "locked": true,
           "name": "TextoNomeCliente",
           "persistentUuid": "e8cb99cf-50d6-40a8-a4fb-76c78640ded3",
           "sealed": true,
-          "width": 269,
-          "x": 606,
-          "y": 262,
+          "width": 545,
+          "x": 361,
+          "y": 233,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -13144,16 +13021,17 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 148,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Consultar Pedido",
           "locked": true,
           "name": "TextoPedidoCliente",
           "persistentUuid": "477020e8-3d06-4ab0-afb9-fe5e3ca05b7b",
           "sealed": true,
-          "width": 474,
-          "x": 401,
-          "y": 347,
+          "width": 568,
+          "x": 343,
+          "y": 402,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -13163,41 +13041,8 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 58,
-          "keepRatio": true,
-          "layer": "Consultar Pedido",
-          "name": "TextoCaracteristicas",
-          "persistentUuid": "3c94c6e6-e89c-43ad-95ee-6bff09cf7071",
-          "width": 471,
-          "x": 400,
-          "y": 430,
-          "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "Consultar Pedido",
-          "name": "TextoObservacoes",
-          "persistentUuid": "10c27fc5-a7a4-4a5f-8be8-03bab404cbf6",
-          "width": 294,
-          "x": 478,
-          "y": 557,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 817,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Confirmar Entrega",
           "locked": true,
@@ -13218,6 +13063,7 @@
           "customSize": true,
           "depth": 0,
           "height": 308,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Confirmar Entrega",
           "locked": true,
@@ -13243,6 +13089,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Confirmar Entrega",
           "locked": true,
@@ -13261,7 +13108,8 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 185,
+          "height": 140,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Confirmar Entrega",
           "locked": true,
@@ -13269,8 +13117,8 @@
           "persistentUuid": "9b7feefe-6686-4e7f-88b9-3841a9746131",
           "sealed": true,
           "width": 278,
-          "x": 348,
-          "y": 358,
+          "x": 343,
+          "y": 383,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -13280,16 +13128,17 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 151,
+          "height": 139,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Confirmar Entrega",
           "locked": true,
           "name": "BotaoNao",
           "persistentUuid": "0efdf876-f447-479a-a953-49bb184508bd",
           "sealed": true,
-          "width": 289,
-          "x": 650,
-          "y": 372,
+          "width": 290,
+          "x": 653,
+          "y": 383,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -13342,8 +13191,10 @@
           "height": 34,
           "keepRatio": true,
           "layer": "HUD",
+          "locked": true,
           "name": "TextoMoedas",
           "persistentUuid": "083aff73-1629-40a0-a754-44359df3352a",
+          "sealed": true,
           "width": 120,
           "x": 1083,
           "y": 21,
@@ -13378,8 +13229,10 @@
           "height": 72,
           "keepRatio": true,
           "layer": "HUD",
+          "locked": true,
           "name": "IconeVasoComprar",
           "persistentUuid": "3b501f85-10d6-46a6-81af-e3214a1e3a5d",
+          "sealed": true,
           "width": 78,
           "x": 47,
           "y": 129,
@@ -13395,9 +13248,11 @@
           "height": 28,
           "keepRatio": true,
           "layer": "HUD",
+          "locked": true,
           "name": "FundoVasoComprar",
           "opacity": 102,
           "persistentUuid": "244968ec-756c-4bcd-978b-692267339c2c",
+          "sealed": true,
           "width": 75,
           "x": 49,
           "y": 190,
@@ -13413,8 +13268,10 @@
           "height": 44,
           "keepRatio": true,
           "layer": "HUD",
+          "locked": true,
           "name": "Moeda",
           "persistentUuid": "d9550b7e-05d1-4cae-b8f5-84b5d5916b81",
+          "sealed": true,
           "width": 44,
           "x": 35,
           "y": 183,
@@ -13429,8 +13286,10 @@
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
+          "locked": true,
           "name": "ValorVasoNovo",
           "persistentUuid": "a9526b6b-07e4-4c1b-a178-055e86613885",
+          "sealed": true,
           "width": 0,
           "x": 87,
           "y": 188,
@@ -13446,8 +13305,10 @@
           "height": 245,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "CaixaTerra",
           "persistentUuid": "0011e9c4-8840-4692-be38-8a4b2c8b6d4b",
+          "sealed": true,
           "width": 422,
           "x": 657,
           "y": 111,
@@ -13463,8 +13324,10 @@
           "height": 62,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Placa_AA",
           "persistentUuid": "0217caa8-1276-444d-b28b-0b152ca2b147",
+          "sealed": true,
           "width": 93,
           "x": 717,
           "y": 261,
@@ -13479,8 +13342,10 @@
           "depth": 0,
           "height": 62,
           "layer": "",
+          "locked": true,
           "name": "Placa_aa",
           "persistentUuid": "a0a1cf3a-8f0b-4922-b6e7-a6669fce0737",
+          "sealed": true,
           "width": 93,
           "x": 929,
           "y": 261,
@@ -13495,8 +13360,10 @@
           "depth": 0,
           "height": 62,
           "layer": "",
+          "locked": true,
           "name": "Placa_Aa",
           "persistentUuid": "414b0d00-c27f-49a6-8113-f9ea647b80d4",
+          "sealed": true,
           "width": 93,
           "x": 320,
           "y": 261,
@@ -13512,8 +13379,10 @@
           "height": 79,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Placa_Mae",
           "persistentUuid": "41b5db90-6935-4dd6-8183-856ce678eb78",
+          "sealed": true,
           "width": 118,
           "x": 307,
           "y": 13,
@@ -13528,8 +13397,10 @@
           "depth": 0,
           "height": 79,
           "layer": "",
+          "locked": true,
           "name": "Placa_Pai",
           "persistentUuid": "b4a32f15-05b4-4303-975a-dee681a6b42e",
+          "sealed": true,
           "width": 118,
           "x": 803,
           "y": 12,
@@ -13543,9 +13414,12 @@
           "customSize": true,
           "depth": 1,
           "height": 79,
-          "layer": "Plaquinhas dos Vasos",
+          "hidden": true,
+          "layer": "Plaquinhas do Balcão",
+          "locked": true,
           "name": "Placa_Vazia",
           "persistentUuid": "dd05bc53-0b9b-452a-a647-6e6fe1b65826",
+          "sealed": true,
           "width": 118,
           "x": 335,
           "y": 640,
@@ -13554,7 +13428,7 @@
           "stringProperties": [],
           "initialVariables": [
             {
-              "name": "PlacaNum",
+              "name": "IdVaso",
               "type": "number",
               "value": 1
             }
@@ -13565,9 +13439,12 @@
           "customSize": true,
           "depth": 1,
           "height": 79,
-          "layer": "Plaquinhas dos Vasos",
+          "hidden": true,
+          "layer": "Plaquinhas do Balcão",
+          "locked": true,
           "name": "Placa_Vazia",
           "persistentUuid": "49ccea3b-bf47-44e3-bf72-2d9bd9341886",
+          "sealed": true,
           "width": 118,
           "x": 572,
           "y": 641,
@@ -13576,7 +13453,7 @@
           "stringProperties": [],
           "initialVariables": [
             {
-              "name": "PlacaNum",
+              "name": "IdVaso",
               "type": "number",
               "value": 2
             }
@@ -13587,9 +13464,12 @@
           "customSize": true,
           "depth": 1,
           "height": 79,
-          "layer": "Plaquinhas dos Vasos",
+          "hidden": true,
+          "layer": "Plaquinhas do Balcão",
+          "locked": true,
           "name": "Placa_Vazia",
           "persistentUuid": "9373147a-733b-43df-a0da-15d8f9a53330",
+          "sealed": true,
           "width": 118,
           "x": 808,
           "y": 641,
@@ -13598,7 +13478,7 @@
           "stringProperties": [],
           "initialVariables": [
             {
-              "name": "PlacaNum",
+              "name": "IdVaso",
               "type": "number",
               "value": 3
             }
@@ -13607,15 +13487,56 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 227,
+          "depth": 3,
+          "height": 585,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Roleta",
+          "locked": true,
           "name": "Roleta",
           "persistentUuid": "438dda4b-f2e1-440e-9b5c-a00215ff9c01",
-          "width": 227,
-          "x": 27,
-          "y": 367,
+          "sealed": true,
+          "width": 585,
+          "x": 352,
+          "y": 93,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 616,
+          "keepRatio": true,
+          "layer": "Roleta",
+          "locked": true,
+          "name": "Indicador_Roleta",
+          "persistentUuid": "9b84fe00-c1e4-47bc-a66b-e7b98ff58dc4",
+          "sealed": true,
+          "width": 616,
+          "x": 337,
+          "y": -206,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 834,
+          "keepRatio": true,
+          "layer": "Roleta",
+          "locked": true,
+          "name": "FundoRoleta",
+          "opacity": 0,
+          "persistentUuid": "067479cc-070a-4781-acc7-f7780a32c9bf",
+          "sealed": true,
+          "width": 1426,
+          "x": -83,
+          "y": -61,
           "zOrder": 85,
           "numberProperties": [],
           "stringProperties": [],
@@ -13624,16 +13545,66 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 239,
+          "depth": 1,
+          "height": 593,
+          "hidden": true,
           "keepRatio": true,
-          "layer": "",
-          "name": "Indicador_Roleta",
-          "persistentUuid": "9b84fe00-c1e4-47bc-a66b-e7b98ff58dc4",
-          "width": 239,
-          "x": 21,
-          "y": 251,
-          "zOrder": 86,
+          "layer": "Consultar Pedido",
+          "locked": true,
+          "name": "DetalhesPedido",
+          "persistentUuid": "722bd7c7-7b52-4bd5-8cfc-8e0ab518fe2f",
+          "sealed": true,
+          "width": 889,
+          "x": 186,
+          "y": 68,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 99,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Consultar Pedido",
+          "locked": true,
+          "name": "BotaoFechar",
+          "persistentUuid": "12cefe21-842d-4bfb-bdde-80dbfb44f3ea",
+          "sealed": true,
+          "width": 128,
+          "x": 848,
+          "y": 129,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoJanela",
+              "persistentUuid": "36293418-9d4e-4f30-9ab7-7e5a6d923790",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Janela de Cruzamento",
+          "locked": true,
+          "name": "BotaoFechar",
+          "persistentUuid": "6ebe1893-f070-42a4-ba06-545d7aa82adb",
+          "sealed": true,
+          "width": 98,
+          "x": 932,
+          "y": 323,
+          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16249,189 +16220,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Slot1",
-          "persistentUuid": "80e0695d-abf6-4029-a364-9776b40ea420",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Slot.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 41,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 270
-                          },
-                          {
-                            "x": 41,
-                            "y": 270
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Slot2",
-          "persistentUuid": "46176328-064c-4a96-84b8-e18b1047d457",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "default",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Slot.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 41,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 270
-                          },
-                          {
-                            "x": 41,
-                            "y": 270
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SlotAdubo",
-          "persistentUuid": "09c1cf9b-2e27-4283-a073-339a8f5e45d5",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "default",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Slot.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 41,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 33
-                          },
-                          {
-                            "x": 288,
-                            "y": 270
-                          },
-                          {
-                            "x": 41,
-                            "y": 270
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PincelMagico",
@@ -16825,74 +16613,6 @@
                           {
                             "x": 117,
                             "y": 116
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Ancestral_Aa",
-          "persistentUuid": "342548b6-4c99-438a-a739-cc6d28d2653c",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Selecionado",
-              "persistentUuid": "6bcffaab-f1f5-4821-8848-4feecd43c4f8",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cultivo/Ancestrais/Flor Ancestral AA.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 3
-                          },
-                          {
-                            "x": 325,
-                            "y": 3
-                          },
-                          {
-                            "x": 325,
-                            "y": 298
-                          },
-                          {
-                            "x": 4,
-                            "y": 298
                           }
                         ]
                       ]
@@ -18085,8 +17805,8 @@
           "behaviors": [],
           "string": "Text",
           "font": "Sniglet-Regular.ttf",
-          "textAlignment": "left",
-          "characterSize": 20,
+          "textAlignment": "center",
+          "characterSize": 34,
           "color": {
             "b": 0,
             "g": 0,
@@ -18108,9 +17828,9 @@
             "underlined": false,
             "text": "Text",
             "font": "Sniglet-Regular.ttf",
-            "textAlignment": "left",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 34,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -18130,7 +17850,7 @@
           "string": "Text",
           "font": "Sniglet-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 23,
           "color": {
             "b": 0,
             "g": 0,
@@ -18154,7 +17874,7 @@
             "font": "Sniglet-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 23,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -18966,7 +18686,7 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "PlacaNum",
+              "name": "IdVaso",
               "persistentUuid": "6bf3cadc-41ec-4a2a-9cfe-8120fec071b7",
               "type": "number",
               "value": 0
@@ -20034,6 +19754,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FundoRoleta",
+          "persistentUuid": "9cf49843-b167-48fc-a232-8fbd57f8a12d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Fundo Preto.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -20109,15 +19890,6 @@
             "objectName": "BotaoFechar"
           },
           {
-            "objectName": "Slot1"
-          },
-          {
-            "objectName": "Slot2"
-          },
-          {
-            "objectName": "SlotAdubo"
-          },
-          {
             "objectName": "PincelMagico"
           },
           {
@@ -20125,9 +19897,6 @@
           },
           {
             "objectName": "Ancestral_AA"
-          },
-          {
-            "objectName": "Ancestral_Aa"
           },
           {
             "objectName": "Ancestral_aa"
@@ -20223,6 +19992,9 @@
             "objectName": "Indicador_Roleta"
           },
           {
+            "objectName": "FundoRoleta"
+          },
+          {
             "objectName": "Roleta"
           }
         ]
@@ -20263,7 +20035,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Compra de Vasos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20436,12 +20207,62 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaPolinizacao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "inverted": true,
                     "value": "DraggableBehavior::Dragged"
                   },
                   "parameters": [
                     "Regador",
                     "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -20458,6 +20279,16 @@
                         "IconeVasoComprar",
                         "",
                         "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "AguardandoEscolhaVaso",
+                        "=",
                         ""
                       ]
                     }
@@ -20618,7 +20449,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Depois de verificar se não tem vasos faltantes, saí desse evento e parte para o próximo do n[ivel 2 de profundidade"
+                      "comment": "Depois de verificar se não tem vasos faltantes, saí desse evento e parte para o próximo do nível 2 de profundidade"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -21235,6 +21066,34 @@
                         "\"Vaso Vazio\""
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Placa_Vazia"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
@@ -21591,6 +21450,34 @@
                         "\"Vaso Vazio\""
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Placa_Vazia"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
@@ -21945,6 +21832,34 @@
                         "EstadoCultivo.Vasos.Vaso3.Entregue",
                         "False",
                         "\"Vaso Vazio\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Placa_Vazia"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -23256,6 +23171,30 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "IconeVasoComprar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "IconePedido",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
@@ -23272,6 +23211,45 @@
                     "PedidoAtivo",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Animation"
                   ]
                 }
               ],
@@ -23305,6 +23283,25 @@
                     "DeslocamentoY",
                     "=",
                     "MouseY() - Planta_Crescimento.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "\"Topo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -23783,6 +23780,52 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ArrastandoPlanta",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -23809,7 +23852,7 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextReleased"
+                    "value": "MouseButtonFromTextPressed"
                   },
                   "parameters": [
                     "",
@@ -23834,7 +23877,7 @@
                   "parameters": [
                     "MouseY() - Planta_Crescimento.Variable(DeslocamentoY)",
                     ">=",
-                    "Planta_Crescimento.Variable(PosicaoY) + 120"
+                    "Planta_Crescimento.Variable(PosicaoY) + 100"
                   ]
                 },
                 {
@@ -23880,6 +23923,15 @@
                     "EstadoEntrega",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "\"Crescimento das Flores\""
                   ]
                 },
                 {
@@ -23990,19 +24042,7 @@
                   "parameters": [
                     "MouseY() - Planta_Crescimento.Variable(DeslocamentoY)",
                     "<",
-                    "Planta_Crescimento.Variable(PosicaoY) + 120"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "IsCursorOnObject"
-                  },
-                  "parameters": [
-                    "IconeVasoComprar",
-                    "",
-                    "",
-                    ""
+                    "Planta_Crescimento.Variable(PosicaoY) + 100"
                   ]
                 }
               ],
@@ -24015,6 +24055,15 @@
                     "Planta_Crescimento",
                     "=",
                     "Planta_Crescimento.Variable(PosicaoY)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "\"Crescimento das Flores\""
                   ]
                 },
                 {
@@ -24166,6 +24215,38 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "IconeVasoComprar",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -24223,6 +24304,158 @@
                     "Regador",
                     "Draggable",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Mostra o pedido de cada cliente"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Dona Rosa"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "ClienteAtual",
+                        "=",
+                        "\"DonaRosa\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextoNomeCliente",
+                        "Text",
+                        "=",
+                        "GlobalVariableString(Clientes.DonaRosa.Nome)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextoPedidoCliente",
+                        "Text",
+                        "=",
+                        "GlobalVariableString(Clientes.DonaRosa.TextoPedido)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "TextoNomeCliente",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "TextoPedidoCliente",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Jasmin"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "ClienteAtual",
+                        "=",
+                        "\"Jasmin\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextoNomeCliente",
+                        "Text",
+                        "=",
+                        "GlobalVariableString(Clientes.Jasmin.Nome)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextoPedidoCliente",
+                        "Text",
+                        "=",
+                        "GlobalVariableString(Clientes.Jasmin.TextoPedido)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "TextoNomeCliente",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "TextoPedidoCliente",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -24428,6 +24661,17 @@
                   "parameters": [
                     "EscolhendoVasoParaSubstituir",
                     "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "True",
                     ""
                   ]
                 }
@@ -24739,6 +24983,17 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -24829,6 +25084,17 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -24866,6 +25132,17 @@
                     "Vasos",
                     "TemFlor",
                     "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "True",
                     ""
                   ]
                 }
@@ -25034,6 +25311,28 @@
                   },
                   "parameters": [
                     "MinigameRegadorAtivo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "Vaso_Selecionado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
                     "True",
                     ""
                   ]
@@ -26448,6 +26747,24 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
+          "name": "Minigame: Chuva de Moedas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Seleção e Cruzamento dos Genótipos com Pincel Mágico Polinizador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26573,17 +26890,6 @@
                   },
                   "parameters": [
                     "Ancestral_AA",
-                    "Selecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_Aa",
                     "Selecionado",
                     "=",
                     "0"
@@ -26888,6 +27194,26 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -27077,6 +27403,26 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -27190,6 +27536,26 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -27267,166 +27633,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ativo",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ancestral_AA",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "JanelaPincelAberta",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_AA",
-                    "Selecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "AguardandoEscolhaVaso",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "GenotipoAncestral2",
-                    "=",
-                    "\"AA\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "TipoAncestral2",
-                    "=",
-                    "\"Pai\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_AA",
-                    "Selecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TextoAncestral2",
-                    "Text",
-                    "=",
-                    "GenotipoAncestral2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "TextoAncestral2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "BotaoResetar"
-                  ]
-                }
-              ]
-            },
-            {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -27598,166 +27805,6 @@
                   },
                   "parameters": [
                     "PincelMagico",
-                    "Ancestral_Aa",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "JanelaPincelAberta",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_Aa",
-                    "Selecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "AguardandoEscolhaVaso",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "GenotipoAncestral2",
-                    "=",
-                    "\"Aa\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "TipoAncestral2",
-                    "=",
-                    "\"Pai\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_Aa",
-                    "Selecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TextoAncestral2",
-                    "Text",
-                    "=",
-                    "GenotipoAncestral2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "TextoAncestral2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "BotaoResetar"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ativo",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "PincelMagico",
                     "Ancestral_aa",
                     "",
                     "",
@@ -27813,6 +27860,16 @@
                     "AguardandoEscolhaVaso",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -27886,166 +27943,6 @@
                   "parameters": [
                     "TextoAncestral1",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ativo",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ancestral_aa",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "JanelaPincelAberta",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_aa",
-                    "Selecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "AguardandoEscolhaVaso",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "GenotipoAncestral2",
-                    "=",
-                    "\"aa\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "TipoAncestral2",
-                    "=",
-                    "\"Pai\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_aa",
-                    "Selecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TextoAncestral2",
-                    "Text",
-                    "=",
-                    "GenotipoAncestral2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "TextoAncestral2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "BotaoResetar"
                   ]
                 }
               ]
@@ -28116,7 +28013,7 @@
                   "parameters": [
                     "QuantidadeAncestrais",
                     "=",
-                    "0"
+                    "1"
                   ]
                 },
                 {
@@ -28127,6 +28024,16 @@
                     "MaeSelecionada",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PaiSelecionado",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -28138,147 +28045,15 @@
                     "=",
                     "0"
                   ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "GenotipoAncestral1",
-                    "=",
-                    "GenotipoMaeFase"
-                  ]
                 },
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "TipoAncestral1",
+                    "BloquearCliqueIcones",
                     "=",
-                    "\"Mãe\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "MaeSelecionada",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "AncestralMae",
-                    "Selecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TextoAncestral1",
-                    "Text",
-                    "=",
-                    "GenotipoAncestral1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "TextoAncestral1",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ativo",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "AncestralMae",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "JanelaPincelAberta",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "AncestralMae",
-                    "Selecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "MaeSelecionada",
-                    "=",
-                    "0"
                   ]
                 },
                 {
@@ -28286,9 +28061,9 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "AguardandoEscolhaVaso",
+                    "EscolhendoVasoParaSubstituir",
                     "=",
-                    "0"
+                    ""
                   ]
                 }
               ],
@@ -28699,17 +28474,6 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "Ancestral_Aa",
-                    "Selecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
                     "Ancestral_aa",
                     "Selecionado",
                     "=",
@@ -28872,6 +28636,16 @@
                     "JanelaPedidoAberta",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -29192,17 +28966,6 @@
                       },
                       "parameters": [
                         "Ancestral_AA",
-                        "Selecionado",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Ancestral_Aa",
                         "Selecionado",
                         "=",
                         "0"
@@ -29750,7 +29513,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Minigame: Coleta de Moedas",
+          "folded": true,
+          "name": "Roleta de Visualização do Genótipo Gerado",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -30037,7 +29801,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Plantio: Selecionar um Vaso para Semente Gerada",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30548,6 +30311,16 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -30702,6 +30475,57 @@
                         "GlobalVariableString(GenotipoFilho)"
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "Vasos.IdVaso"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "Animation",
+                            "=",
+                            "GlobalVariableString(GenotipoFilho)"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -30780,6 +30604,16 @@
                     "IdVaso",
                     "=",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -30935,6 +30769,57 @@
                         "GlobalVariableString(GenotipoFilho)"
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "Vasos.IdVaso"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "Animation",
+                            "=",
+                            "GlobalVariableString(GenotipoFilho)"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -31013,6 +30898,16 @@
                     "IdVaso",
                     "=",
                     "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -31168,6 +31063,93 @@
                         "GlobalVariableString(GenotipoFilho)"
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "IdVaso",
+                            "=",
+                            "Vasos.IdVaso"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Placa_Vazia",
+                            "Animation",
+                            "=",
+                            "GlobalVariableString(GenotipoFilho)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Exibição do Genótipo nas Placas de Informações da Mesa",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Placa_Vazia"
                   ]
                 }
               ]
@@ -31950,6 +31932,234 @@
                         ""
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso1.Entregue",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso1.GenotipoSementeFilho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso2.Entregue",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso2.GenotipoSementeFilho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Inicializado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.TemSementeFilho",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EstadoCultivo.Vasos.Vaso3.Entregue",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Placa_Vazia",
+                    "Animation",
+                    "=",
+                    "GlobalVariableString(EstadoCultivo.Vasos.Vaso3.GenotipoSementeFilho)"
                   ]
                 }
               ]
@@ -32874,6 +33084,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.GenotipoSementeFilho",
+                        "=",
+                        "\"\""
+                      ]
                     }
                   ]
                 },
@@ -32901,6 +33121,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.GenotipoSementeFilho",
+                        "=",
+                        "\"\""
+                      ]
                     }
                   ]
                 },
@@ -32927,6 +33157,16 @@
                         "EstadoCultivo.Vasos.Vaso3.Entregue",
                         "True",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.GenotipoSementeFilho",
+                        "=",
+                        "\"\""
                       ]
                     }
                   ]
@@ -35610,9 +35850,9 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Crescimento das Flores",
+          "name": "HUD",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -35667,8 +35907,66 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
-          "name": "Roleta",
+          "isLocked": false,
+          "name": "Plaquinhas do Balcão",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Crescimento das Flores",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -35899,122 +36197,6 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
-          "name": "HUD",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300,
-                "shadowDistance": 2000,
-                "shadowNormalBias": 1
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "shadowRenderingMode": "fittedToCameraView",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "defaultCameraBehavior": "do-nothing",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Plaquinhas dos Vasos",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300,
-                "shadowDistance": 2000,
-                "shadowNormalBias": 1
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "shadowRenderingMode": "fittedToCameraView",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "defaultCameraBehavior": "do-nothing",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
           "isLocked": true,
           "name": "Minigame do Regador",
           "renderingType": "",
@@ -36133,6 +36315,64 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Confirmar Entrega",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Roleta",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -36774,8 +37014,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Minigame_32Coleta_32de_32Moedas",
-      "name": "Minigame Coleta de Moedas",
+      "mangledName": "Minigame_32Chuva_32de_32Moedas",
+      "name": "Minigame Chuva de Moedas",
       "r": 247,
       "renderer3DWorldScale": 100,
       "standardSortMethod": true,
@@ -50883,7 +51123,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Seleção e Cruzamento dos Genótipos com Pincel Mágico Polinizador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -59713,6 +59952,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "roleta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60635,7 +60875,7 @@
         "itemName": "Créditos"
       },
       {
-        "itemName": "Minigame Coleta de Moedas"
+        "itemName": "Minigame Chuva de Moedas"
       },
       {
         "itemName": "Cultivo2"
