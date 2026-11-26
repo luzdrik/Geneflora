@@ -1031,10 +1031,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/IU/Pin Sem fundo.png",
+        "file": "assets/IU/Roleta Floral.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/IU/Pin Sem fundo.png",
+        "name": "assets/IU/Pin",
         "smoothed": true,
         "userAdded": false
       },
@@ -1211,6 +1211,30 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/IU/Fundo Preto.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Roleta2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Roleta2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Roleta1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Roleta1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Roleta3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Roleta3.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -12116,7 +12140,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6196809811078233,
+        "zoomFactor": 0.5249922342394655,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12248,6 +12272,12 @@
         {
           "name": "EscolhendoVasoParaSubstituir",
           "persistentUuid": "1394c36d-6e09-451f-8a4c-d131cda222f5",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "RoletaEmAndamento",
+          "persistentUuid": "c216f1de-2271-435d-bc84-441bc40d8757",
           "type": "boolean",
           "value": false
         }
@@ -13488,36 +13518,18 @@
           "angle": 0,
           "customSize": true,
           "depth": 3,
-          "height": 585,
+          "height": 629,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Roleta",
           "locked": true,
           "name": "Roleta",
           "persistentUuid": "438dda4b-f2e1-440e-9b5c-a00215ff9c01",
           "sealed": true,
-          "width": 585,
-          "x": 352,
-          "y": 93,
+          "width": 629,
+          "x": 311,
+          "y": 49,
           "zOrder": 86,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 616,
-          "keepRatio": true,
-          "layer": "Roleta",
-          "locked": true,
-          "name": "Indicador_Roleta",
-          "persistentUuid": "9b84fe00-c1e4-47bc-a66b-e7b98ff58dc4",
-          "sealed": true,
-          "width": 616,
-          "x": 337,
-          "y": -206,
-          "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13527,11 +13539,12 @@
           "customSize": true,
           "depth": 48,
           "height": 834,
+          "hidden": true,
           "keepRatio": true,
           "layer": "Roleta",
           "locked": true,
           "name": "FundoRoleta",
-          "opacity": 0,
+          "opacity": 102,
           "persistentUuid": "067479cc-070a-4781-acc7-f7780a32c9bf",
           "sealed": true,
           "width": 1426,
@@ -13605,6 +13618,26 @@
           "x": 932,
           "y": 323,
           "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 184,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Roleta",
+          "locked": true,
+          "name": "Indicador_Roleta",
+          "persistentUuid": "55cb9c9b-f962-4f61-ad85-01e88bb87b60",
+          "sealed": true,
+          "width": 145,
+          "x": 570,
+          "y": 17,
+          "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18910,7 +18943,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/IU/Pin Sem fundo.png",
+                      "image": "assets/IU/Pin",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18971,7 +19004,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/IU/1.png",
+                      "image": "assets/IU/Roleta2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18987,20 +19020,68 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Aa",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/IU/Roleta1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18,
+                            "y": 31
+                          },
+                          {
+                            "x": 701,
+                            "y": 31
+                          },
+                          {
+                            "x": 701,
+                            "y": 688
+                          },
+                          {
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19019,7 +19100,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/IU/2.png",
+                      "image": "assets/IU/Roleta3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19035,20 +19116,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19083,20 +19164,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19119,20 +19200,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19155,20 +19236,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19191,20 +19272,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19227,20 +19308,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19263,20 +19344,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19299,20 +19380,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19335,20 +19416,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19371,20 +19452,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19407,20 +19488,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19443,20 +19524,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19479,20 +19560,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19515,20 +19596,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19551,20 +19632,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19587,20 +19668,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19623,20 +19704,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19659,20 +19740,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19695,20 +19776,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -19731,20 +19812,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 18,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 0
+                            "x": 701,
+                            "y": 31
                           },
                           {
-                            "x": 700,
-                            "y": 700
+                            "x": 701,
+                            "y": 688
                           },
                           {
-                            "x": 0,
-                            "y": 700
+                            "x": 18,
+                            "y": 688
                           }
                         ]
                       ]
@@ -20035,6 +20116,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Compra de Vasos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20262,6 +20344,16 @@
                   "parameters": [
                     "AguardandoEscolhaVaso",
                     "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
                     ""
                   ]
                 }
@@ -22072,6 +22164,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [],
@@ -23251,6 +23353,16 @@
                     "Planta_Crescimento",
                     "Animation"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -24247,6 +24359,16 @@
                     "False",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -24674,6 +24796,16 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -24994,6 +25126,16 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -25095,6 +25237,16 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -25143,6 +25295,16 @@
                     "Vasos",
                     "TemSementeFilho",
                     "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
                     ""
                   ]
                 }
@@ -27214,6 +27376,16 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -27423,6 +27595,16 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -27556,6 +27738,16 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -27595,159 +27787,6 @@
                   },
                   "parameters": [
                     "Ancestral_AA",
-                    "Selecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TextoAncestral1",
-                    "Text",
-                    "=",
-                    "GenotipoAncestral1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "TextoAncestral1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ativo",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "PincelMagico",
-                    "Ancestral_Aa",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "JanelaPincelAberta",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_Aa",
-                    "Selecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "QuantidadeAncestrais",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "AguardandoEscolhaVaso",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "GenotipoAncestral1",
-                    "=",
-                    "\"Aa\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "TipoAncestral1",
-                    "=",
-                    "\"Pai\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PaiSelecionado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Ancestral_Aa",
                     "Selecionado",
                     "=",
                     "1"
@@ -27869,6 +27908,16 @@
                   "parameters": [
                     "BloquearCliqueIcones",
                     "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
                     ""
                   ]
                 }
@@ -28063,6 +28112,16 @@
                   "parameters": [
                     "EscolhendoVasoParaSubstituir",
                     "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
                     ""
                   ]
                 }
@@ -28647,6 +28706,16 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [],
@@ -29165,22 +29234,68 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberVariable"
+                        "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "EtapaPolinizacao",
-                        "=",
-                        "1"
+                        "RoletaEmAndamento",
+                        "True",
+                        "\"\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetBooleanVariable"
+                        "value": "ShowLayer"
                       },
                       "parameters": [
-                        "AguardandoEscolhaVaso",
-                        "True",
-                        "1"
+                        "",
+                        "\"Roleta\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "FundoRoleta",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Roleta",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Indicador_Roleta",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Roleta",
+                        "Animation",
+                        "=",
+                        "\"Rotação\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TempoRoleta\""
                       ]
                     }
                   ]
@@ -29198,6 +29313,33 @@
                         "Text",
                         "=",
                         "GenotipoFilho"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EtapaPolinizacao",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "AguardandoEscolhaVaso",
+                        "True",
+                        "1"
                       ]
                     }
                   ]
@@ -29513,7 +29655,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Roleta de Visualização do Genótipo Gerado",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29527,6 +29668,16 @@
                     "value": "SceneJustBegins"
                   },
                   "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
                     ""
                   ]
                 }
@@ -29545,7 +29696,24 @@
                     "value": "Hide"
                   },
                   "parameters": [
+                    "FundoRoleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
                     "Indicador_Roleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Roleta\""
                   ]
                 }
               ],
@@ -29586,120 +29754,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "IsCursorOnObject"
-                  },
-                  "parameters": [
-                    "BotaoPolinizar",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "Roleta",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "Indicador_Roleta",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Roleta",
-                    "Animation",
-                    "=",
-                    "\"Rotação\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"TempoRoleta\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"TempoRoleta\"",
-                    ">",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "GenotipoFilho",
-                    "=",
-                    "\"aa\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Roleta",
-                    "Animation",
-                    "=",
-                    "\"aa\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "GenotipoFilho",
-                    "=",
-                    "\"\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "CompareTimer"
                   },
                   "parameters": [
@@ -29718,6 +29772,16 @@
                     "=",
                     "\"AA\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -29734,12 +29798,65 @@
                 },
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "Hide"
                   },
                   "parameters": [
-                    "GenotipoFilho",
+                    "Roleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "FundoRoleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Indicador_Roleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Roleta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaPolinizacao",
                     "=",
-                    "\"\""
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
                   ]
                 }
               ]
@@ -29767,6 +29884,16 @@
                     "=",
                     "\"Aa\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -29778,17 +29905,182 @@
                     "Roleta",
                     "Animation",
                     "=",
-                    "\"AA\""
+                    "\"Aa\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Roleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "FundoRoleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Indicador_Roleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Roleta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaPolinizacao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TempoRoleta\"",
+                    ">",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
                   },
                   "parameters": [
                     "GenotipoFilho",
                     "=",
-                    "\"\""
+                    "\"aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Roleta",
+                    "Animation",
+                    "=",
+                    "\"aa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Roleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "FundoRoleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Indicador_Roleta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Roleta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaPolinizacao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -29801,6 +30093,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Plantio: Selecionar um Vaso para Semente Gerada",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29849,6 +30142,16 @@
                     "JanelaPincelAberta",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
                   ]
                 }
               ],
@@ -31114,42 +31417,6 @@
                         }
                       ]
                     }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Exibição do Genótipo nas Placas de Informações da Mesa",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Placa_Vazia"
                   ]
                 }
               ]
@@ -35780,7 +36047,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -35849,7 +36116,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "HUD",
           "renderingType": "",
           "visibility": true,
@@ -35907,7 +36174,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Plaquinhas do Balcão",
           "renderingType": "",
           "visibility": true,
@@ -36371,7 +36638,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "Roleta",
           "renderingType": "",
           "visibility": false,
