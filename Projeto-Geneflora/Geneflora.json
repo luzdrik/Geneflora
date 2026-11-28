@@ -1199,14 +1199,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/IU/21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/IU/21.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/IU/Fundo Preto.png",
         "kind": "image",
         "metadata": "",
@@ -1235,6 +1227,30 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/IU/Roleta3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Moeda -Photoroom (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moeda -Photoroom (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cenários/Cultivo/Parede.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Parede.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cenários/Cultivo/Chão.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cenários/Cultivo/Chão.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -1379,7 +1395,7 @@
       "name": "Moedas",
       "persistentUuid": "a8ec3862-7056-457c-a528-ee598cac7b39",
       "type": "number",
-      "value": 30
+      "value": 0
     },
     {
       "name": "ModoFila",
@@ -12140,7 +12156,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5249922342394655,
+        "zoomFactor": 0.7561126652335372,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12280,6 +12296,12 @@
           "persistentUuid": "c216f1de-2271-435d-bc84-441bc40d8757",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "TodosVasosOcupados",
+          "persistentUuid": "1a83e974-1d3b-4304-ade8-a4c93cd21077",
+          "type": "boolean",
+          "value": true
         }
       ],
       "instances": [
@@ -12305,16 +12327,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 631,
+          "height": 644,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "Balcao",
           "persistentUuid": "9a12c15a-cd8a-4e38-a3f5-5030c1f60faa",
-          "sealed": true,
-          "width": 1410,
+          "width": 1439,
           "x": 94,
-          "y": 358,
+          "y": 391,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -12324,16 +12344,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 776,
+          "height": 453,
           "keepRatio": true,
           "layer": "",
           "locked": true,
-          "name": "Fundo",
+          "name": "Chao",
           "persistentUuid": "83aff60f-692b-4efc-be37-3dab4c67c430",
           "sealed": true,
-          "width": 1315,
-          "x": -14,
-          "y": -45,
+          "width": 1329,
+          "x": -24,
+          "y": 278,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12596,16 +12616,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 244,
+          "height": 196,
           "keepRatio": true,
           "layer": "",
           "locked": true,
           "name": "CaixaTerra",
           "persistentUuid": "76c9ad9e-1ec4-4b0e-9341-bb068a89809a",
           "sealed": true,
-          "width": 364,
-          "x": 193,
-          "y": 111,
+          "width": 292,
+          "x": 300,
+          "y": 159,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -12615,16 +12635,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 136,
+          "height": 109,
           "keepRatio": true,
           "layer": "Ancestrais",
           "locked": true,
           "name": "Ancestral_AA",
           "persistentUuid": "ff65f12c-d133-45ce-8114-84da6cd829e8",
           "sealed": true,
-          "width": 125,
-          "x": 708,
-          "y": 106,
+          "width": 100,
+          "x": 713,
+          "y": 155,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -12770,15 +12790,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 135,
+          "height": 108,
           "layer": "Ancestrais",
           "locked": true,
           "name": "Ancestral_aa",
           "persistentUuid": "b8e26f0d-edeb-478e-bfcf-1721e06d4917",
           "sealed": true,
-          "width": 122,
-          "x": 912,
-          "y": 106,
+          "width": 98,
+          "x": 877,
+          "y": 155,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -12788,16 +12808,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 132,
+          "height": 103,
           "keepRatio": true,
           "layer": "Ancestrais",
           "locked": true,
           "name": "AncestralMae",
           "persistentUuid": "14a11068-8afc-44aa-ae82-f60593b145a0",
           "sealed": true,
-          "width": 140,
-          "x": 296,
-          "y": 110,
+          "width": 106,
+          "x": 390,
+          "y": 163,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -13332,16 +13352,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 245,
+          "height": 197,
           "keepRatio": true,
           "layer": "",
           "locked": true,
           "name": "CaixaTerra",
           "persistentUuid": "0011e9c4-8840-4692-be38-8a4b2c8b6d4b",
           "sealed": true,
-          "width": 422,
-          "x": 657,
-          "y": 111,
+          "width": 339,
+          "x": 672,
+          "y": 159,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -13350,17 +13370,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 62,
+          "depth": 1,
+          "height": 40,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "Placa_AA",
           "persistentUuid": "0217caa8-1276-444d-b28b-0b152ca2b147",
-          "sealed": true,
-          "width": 93,
-          "x": 717,
-          "y": 261,
+          "width": 60,
+          "x": 735,
+          "y": 285,
           "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
@@ -13369,16 +13387,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 62,
+          "depth": 1,
+          "height": 40,
           "layer": "",
-          "locked": true,
           "name": "Placa_aa",
           "persistentUuid": "a0a1cf3a-8f0b-4922-b6e7-a6669fce0737",
-          "sealed": true,
-          "width": 93,
-          "x": 929,
-          "y": 261,
+          "width": 60,
+          "x": 899,
+          "y": 285,
           "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
@@ -13387,16 +13403,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 62,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "Placa_Aa",
           "persistentUuid": "414b0d00-c27f-49a6-8113-f9ea647b80d4",
-          "sealed": true,
-          "width": 93,
-          "x": 320,
-          "y": 261,
+          "width": 60,
+          "x": 411,
+          "y": 285,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -13406,16 +13421,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 79,
+          "height": 51,
           "keepRatio": true,
-          "layer": "",
-          "locked": true,
+          "layer": "Placas Pai/Mãe",
           "name": "Placa_Mae",
           "persistentUuid": "41b5db90-6935-4dd6-8183-856ce678eb78",
-          "sealed": true,
-          "width": 118,
-          "x": 307,
-          "y": 13,
+          "width": 77,
+          "x": 403,
+          "y": 248,
           "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
@@ -13424,16 +13437,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 79,
-          "layer": "",
-          "locked": true,
+          "depth": 1,
+          "height": 51,
+          "layer": "Placas Pai/Mãe",
           "name": "Placa_Pai",
           "persistentUuid": "b4a32f15-05b4-4303-975a-dee681a6b42e",
-          "sealed": true,
-          "width": 118,
-          "x": 803,
-          "y": 12,
+          "width": 77,
+          "x": 806,
+          "y": 248,
           "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
@@ -13641,6 +13652,115 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "HUD",
+          "locked": true,
+          "name": "IconeMinigameMoedas",
+          "persistentUuid": "a93b551c-3739-44cf-bc8b-a0f7d78ff393",
+          "sealed": true,
+          "width": 68,
+          "x": 52,
+          "y": 240,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 298,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Janela Compra de Vaso",
+          "locked": true,
+          "name": "Janela_Cruzamento",
+          "persistentUuid": "49cd5bb4-1d40-4fda-b5de-9b37fefb3ee9",
+          "width": 786,
+          "x": 238,
+          "y": 23,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoJanela",
+              "persistentUuid": "fd1ca0eb-56d9-4377-a4de-21f68b821d41",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 83,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Janela Compra de Vaso",
+          "locked": true,
+          "name": "BotaoFechar",
+          "persistentUuid": "b2315554-eebf-4c97-98ef-f951a349eeaf",
+          "width": 107,
+          "x": 891,
+          "y": 48,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TipoJanela",
+              "persistentUuid": "36293418-9d4e-4f30-9ab7-7e5a6d923790",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "Janela Compra de Vaso",
+          "locked": true,
+          "name": "TextoComprarVaso",
+          "persistentUuid": "c25489d0-1755-415d-8537-b3f9f7591d75",
+          "width": 0,
+          "x": 390,
+          "y": 156,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 314,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Parede",
+          "persistentUuid": "0af243f3-aa91-4ab1-b6d6-81221b8bfdaf",
+          "sealed": true,
+          "width": 1330,
+          "x": -24,
+          "y": -28,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -13708,7 +13828,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Fundo",
+          "name": "Chao",
           "persistentUuid": "1d9d87cb-baca-4ab4-825d-90ebea440040",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -13726,7 +13846,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Fundo Cultivo.png",
+                      "image": "assets/Cenários/Cultivo/Chão.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13751,11 +13871,11 @@
                           },
                           {
                             "x": 1672,
-                            "y": 941
+                            "y": 597
                           },
                           {
                             "x": 0,
-                            "y": 941
+                            "y": 597
                           }
                         ]
                       ]
@@ -14848,7 +14968,21 @@
               "value": 0
             }
           ],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Power-up Glow",
+              "doubleParameters": {
+                "distance": 30,
+                "innerStrength": 0,
+                "outerStrength": 10
+              },
+              "stringParameters": {
+                "color": "255;230;166"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -19896,13 +20030,194 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeMinigameMoedas",
+          "persistentUuid": "37003d0c-d31b-46ca-982d-c6b04e4471df",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Moeda -Photoroom (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 21
+                          },
+                          {
+                            "x": 189,
+                            "y": 21
+                          },
+                          {
+                            "x": 189,
+                            "y": 190
+                          },
+                          {
+                            "x": 22,
+                            "y": 190
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "c9406513-ab6e-449b-9875-2b71ea630d44",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoComprarVaso",
+          "persistentUuid": "d62adc32-a3c1-404f-8f65-bbd388d245d9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Escolha um vaso para substituir por um novo!",
+          "font": "Sniglet-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Escolha um vaso para substituir por um novo!",
+            "font": "Sniglet-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 24,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Parede",
+          "persistentUuid": "2fd4e847-9a8e-4398-87d1-3494a5608fbb",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Parede.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2172,
+                            "y": 0
+                          },
+                          {
+                            "x": 2172,
+                            "y": 422
+                          },
+                          {
+                            "x": 0,
+                            "y": 422
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Fundo"
+            "objectName": "Chao"
+          },
+          {
+            "objectName": "Parede"
           },
           {
             "objectName": "Balcao"
@@ -19987,6 +20302,9 @@
           },
           {
             "objectName": "Janela_Cruzamento"
+          },
+          {
+            "objectName": "NewSprite"
           },
           {
             "objectName": "TextoEscolhaVaso"
@@ -20077,6 +20395,12 @@
           },
           {
             "objectName": "Roleta"
+          },
+          {
+            "objectName": "IconeMinigameMoedas"
+          },
+          {
+            "objectName": "TextoComprarVaso"
           }
         ]
       },
@@ -20555,6 +20879,28 @@
                             "=",
                             "0"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Janela_Cruzamento",
+                            "TipoJanela",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "BotaoFechar",
+                            "TipoJanela",
+                            "=",
+                            "2"
+                          ]
                         }
                       ],
                       "actions": [
@@ -20577,9 +20923,146 @@
                             "Draggable",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ShowLayer"
+                          },
+                          "parameters": [
+                            "Janela_Cruzamento",
+                            "\"Janela Compra de Vaso\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Janela_Cruzamento",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "BotaoFechar",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "TextoComprarVaso",
+                            ""
+                          ]
                         }
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BotaoFechar",
+                    "TipoJanela",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Janela Compra de Vaso\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoFechar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoComprarVaso"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "False",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VasoSelecionadoParaSubstituir",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -20691,6 +21174,39 @@
                     "False",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Janela Compra de Vaso\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoFechar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoComprarVaso"
+                  ]
                 }
               ]
             },
@@ -20801,6 +21317,39 @@
                     "False",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Janela Compra de Vaso\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoFechar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoComprarVaso"
+                  ]
                 }
               ]
             },
@@ -20910,6 +21459,39 @@
                     "EscolhendoVasoParaSubstituir",
                     "False",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Janela Compra de Vaso\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Janela_Cruzamento"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoFechar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoComprarVaso"
                   ]
                 }
               ]
@@ -24369,6 +24951,16 @@
                     "False",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "False",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -26916,7 +27508,359 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "TodosVasosOcupados",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "TodosVasosOcupados",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "TodosVasosOcupados",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "IdVaso",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemFlor",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Vasos",
+                    "TemSementeFilho",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "TodosVasosOcupados",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Moedas",
+                    "<",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPincelAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "JanelaPedidoAberta",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaPolinizacao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EscolhendoVasoParaSubstituir",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Regador",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "IconeVasoComprar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BloquearCliqueIcones",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "AguardandoEscolhaVaso",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RoletaEmAndamento",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "TodosVasosOcupados",
+                    "True",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "IconeMinigameMoedas",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "IconeMinigameMoedas",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "AguardandoEscolhaVaso",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Minigame Chuva de Moedas\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconeMinigameMoedas"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -29655,6 +30599,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Roleta de Visualização do Genótipo Gerado",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30760,6 +31705,16 @@
                     },
                     {
                       "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso1.Animacao",
+                        "=",
+                        "\"Vaso com Semente\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
@@ -31054,6 +32009,16 @@
                     },
                     {
                       "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso2.Animacao",
+                        "=",
+                        "\"Vaso com Semente\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
@@ -31342,6 +32307,16 @@
                       "parameters": [
                         "Vasos",
                         "Animation",
+                        "=",
+                        "\"Vaso com Semente\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EstadoCultivo.Vasos.Vaso3.Animacao",
                         "=",
                         "\"Vaso com Semente\""
                       ]
@@ -36032,6 +37007,63 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Planta_Crescimento",
+                "Effect",
+                "\"Power-up Glow\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Planta_Crescimento",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Planta_Crescimento",
+                "Effect",
+                "\"Power-up Glow\"",
+                "yes"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -36047,7 +37079,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -36116,7 +37148,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "HUD",
           "renderingType": "",
           "visibility": true,
@@ -36290,8 +37322,66 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Ancestrais",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Placas Pai/Mãe",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -36640,6 +37730,63 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Roleta",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Janela Compra de Vaso",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -37301,7 +38448,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047023745,
+        "zoomFactor": 0.5290357402156847,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -37316,22 +38463,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 755,
-          "layer": "",
-          "name": "background",
-          "persistentUuid": "ec49d202-b3a7-4e59-96b9-281d7ccce52d",
-          "width": 1280,
-          "x": 0,
-          "y": -34,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -37351,84 +38482,54 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 60,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Moedas_Minigame",
-          "persistentUuid": "0271cb61-8fd5-477f-acd4-e5f4d5a29e08",
-          "width": 118,
-          "x": 1137,
-          "y": 14,
+          "persistentUuid": "2f0b8935-d657-414a-88cd-fe8fa6e0a84c",
+          "width": 0,
+          "x": 1098,
+          "y": 11,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 453,
+          "layer": "",
+          "name": "Chao",
+          "persistentUuid": "9dce78da-b847-4a1e-a218-4e4cead3f400",
+          "width": 1329,
+          "x": -24,
+          "y": 278,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 314,
+          "layer": "",
+          "name": "Parede",
+          "persistentUuid": "4bbbac82-5091-4b1c-9dc4-9e02153d6117",
+          "width": 1330,
+          "x": -24,
+          "y": -28,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "background",
-          "persistentUuid": "7333648d-69f7-4ac8-af51-f4ae8676e79b",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Cenários/Cultivo/4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1672,
-                            "y": 0
-                          },
-                          {
-                            "x": 1672,
-                            "y": 941
-                          },
-                          {
-                            "x": 0,
-                            "y": 941
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
@@ -37553,29 +38654,179 @@
         },
         {
           "assetStoreId": "",
+          "bold": false,
+          "italic": false,
           "name": "Moedas_Minigame",
-          "persistentUuid": "9c5b2118-3747-4a45-a7f9-a7240641fb9d",
-          "type": "BBText::BBText",
+          "persistentUuid": "11d5a4db-56d1-43de-8288-c6f0ac37c5a4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
+          "string": "000",
+          "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
           "content": {
-            "text": "[b]000[/b] ",
-            "opacity": 255,
-            "fontSize": 70,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "Arial",
-            "align": "left",
-            "verticalTextAlignment": "top"
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 8,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "000",
+            "font": "assets/Fontes/Sniglet-ExtraBold.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Chao",
+          "persistentUuid": "d96579fb-e23c-4263-a8f5-c16d61a6e53e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Cenários/Cultivo/Chão.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 597
+                          },
+                          {
+                            "x": 0,
+                            "y": 597
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Parede",
+          "persistentUuid": "15991a42-f849-4320-84e8-2f9a902b7d14",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Parede.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2172,
+                            "y": 0
+                          },
+                          {
+                            "x": 2172,
+                            "y": 422
+                          },
+                          {
+                            "x": 0,
+                            "y": 422
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "background"
+            "objectName": "Chao"
+          },
+          {
+            "objectName": "Parede"
           },
           {
             "objectName": "Brotos"
@@ -37632,7 +38883,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "criação dos itens "
+          "comment": "Criação dos itens "
         },
         {
           "folded": true,
@@ -37744,7 +38995,7 @@
               "parameters": [
                 "Mini_moedas",
                 "+",
-                "220*TimeDelta()"
+                "440*TimeDelta()"
               ]
             },
             {
@@ -37754,15 +39005,16 @@
               "parameters": [
                 "Brotos",
                 "+",
-                "220*TimeDelta()"
+                "440*TimeDelta()"
               ]
             },
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "Moedas_Minigame",
+                "Text",
                 "=",
                 "ToString(MoedasColetadas)"
               ]
@@ -37779,7 +39031,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "exclusão dos itens"
+          "comment": "Exclusão dos itens"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -37843,7 +39095,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "soma das moedas coletadas "
+          "comment": "Soma das moedas coletadas "
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -37892,7 +39144,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "encerramento do minigame"
+          "comment": "Encerramento do minigame"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -37943,6 +39195,7 @@
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
           "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
