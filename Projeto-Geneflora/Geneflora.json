@@ -1231,10 +1231,10 @@
         "userAdded": false
       },
       {
-        "file": "Moeda -Photoroom (1).png",
+        "file": "assets/IU/Ícone moedas.png",
         "kind": "image",
         "metadata": "",
-        "name": "Moeda -Photoroom (1).png",
+        "name": "Ícone Minigame.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1251,6 +1251,14 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Cenários/Cultivo/Chão.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IU/Moeda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IU/Moeda.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -12156,7 +12164,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7561126652335372,
+        "zoomFactor": 0.6621772904284445,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12302,6 +12310,12 @@
           "persistentUuid": "1a83e974-1d3b-4304-ade8-a4c93cd21077",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "EfeitoHoverCompraVaso",
+          "persistentUuid": "546ce49a-50c1-4fe5-a913-2c7dc69dffe9",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -13657,7 +13671,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 68,
+          "height": 87,
           "hidden": true,
           "keepRatio": true,
           "layer": "HUD",
@@ -13665,9 +13679,9 @@
           "name": "IconeMinigameMoedas",
           "persistentUuid": "a93b551c-3739-44cf-bc8b-a0f7d78ff393",
           "sealed": true,
-          "width": 68,
-          "x": 52,
-          "y": 240,
+          "width": 87,
+          "x": 41,
+          "y": 234,
           "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
@@ -13684,6 +13698,7 @@
           "locked": true,
           "name": "Janela_Cruzamento",
           "persistentUuid": "49cd5bb4-1d40-4fda-b5de-9b37fefb3ee9",
+          "sealed": true,
           "width": 786,
           "x": 238,
           "y": 23,
@@ -13710,6 +13725,7 @@
           "locked": true,
           "name": "BotaoFechar",
           "persistentUuid": "b2315554-eebf-4c97-98ef-f951a349eeaf",
+          "sealed": true,
           "width": 107,
           "x": 891,
           "y": 48,
@@ -13729,12 +13745,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "hidden": true,
           "keepRatio": true,
           "layer": "Janela Compra de Vaso",
           "locked": true,
           "name": "TextoComprarVaso",
           "persistentUuid": "c25489d0-1755-415d-8537-b3f9f7591d75",
+          "sealed": true,
           "width": 0,
           "x": 390,
           "y": 156,
@@ -20052,7 +20068,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Moeda -Photoroom (1).png",
+                      "image": "Ícone Minigame.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20501,6 +20517,125 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Efeito Hover"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EfeitoHoverCompraVaso",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Effect",
+                    "\"Power-up Glow\"",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EfeitoHoverCompraVaso",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Effect",
+                    "\"Power-up Glow\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "EfeitoHoverCompraVaso",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Planta_Crescimento",
+                    "Effect",
+                    "\"Power-up Glow\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Verifica saldo se está abaixo do esperado"
             },
             {
@@ -20916,6 +21051,16 @@
                         },
                         {
                           "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EfeitoHoverCompraVaso",
+                            "True",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ActivateBehavior"
                           },
                           "parameters": [
@@ -21057,6 +21202,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EfeitoHoverCompraVaso",
+                    "False",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -21173,6 +21328,16 @@
                     "EscolhendoVasoParaSubstituir",
                     "False",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EfeitoHoverCompraVaso",
+                    "False",
+                    "0"
                   ]
                 },
                 {
@@ -21320,6 +21485,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EfeitoHoverCompraVaso",
+                    "False",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "HideLayer"
                   },
                   "parameters": [
@@ -21459,6 +21634,16 @@
                     "EscolhendoVasoParaSubstituir",
                     "False",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EfeitoHoverCompraVaso",
+                    "False",
+                    "0"
                   ]
                 },
                 {
@@ -37007,63 +37192,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "Planta_Crescimento",
-                "Effect",
-                "\"Power-up Glow\"",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Planta_Crescimento",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "Planta_Crescimento",
-                "Effect",
-                "\"Power-up Glow\"",
-                "yes"
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -38448,7 +38576,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156847,
+        "zoomFactor": 0.6040838749988878,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -38463,23 +38591,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 124,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Mini_moedas",
-          "persistentUuid": "cc0bcced-d46e-413b-8395-0db07cbd422d",
-          "width": 135,
-          "x": 313,
-          "y": -3,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -38612,7 +38723,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/IU/Moeda Minigame.png",
+                      "image": "assets/IU/Moeda.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -38628,20 +38739,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 73,
-                            "y": 69
+                            "x": 22,
+                            "y": 21
                           },
                           {
-                            "x": 619,
-                            "y": 69
+                            "x": 189,
+                            "y": 21
                           },
                           {
-                            "x": 619,
-                            "y": 621
+                            "x": 189,
+                            "y": 190
                           },
                           {
-                            "x": 73,
-                            "y": 621
+                            "x": 22,
+                            "y": 190
                           }
                         ]
                       ]
@@ -38988,6 +39099,28 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Mini_moedas",
+                "Resizable",
+                "101",
+                "103"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Brotos",
+                "Resizable",
+                "163",
+                "166"
+              ]
+            },
             {
               "type": {
                 "value": "SetY"
@@ -45162,7 +45295,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Moeda -Photoroom (1).png",
+                      "image": "Ícone Minigame.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
